@@ -1,2 +1,5 @@
+.DS_Store
 node_modules
-greenit-analysis/node_modules
+/.svelte
+/build
+/functions

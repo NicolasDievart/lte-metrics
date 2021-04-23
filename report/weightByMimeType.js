@@ -1,11 +1,11 @@
 class WeightByMimeType {
-    mimeType;
-    weight;
+  mimeType;
+  weight;
 
-    constructor(mimeType, weight) {
-        this.mimeType = mimeType;
-        this.weight = weight;
-    }
+  constructor(mimeType, weight) {
+    this.mimeType = mimeType;
+    this.weight = weight;
+  }
 }
 
 module.exports = WeightByMimeType;
