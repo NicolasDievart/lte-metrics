@@ -1,0 +1,19 @@
+{
+  "name": "ademe-lte-metrics",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lighthouse": "node -e 'require(\"./lighthouse\")()'",
+    "greenit": "node -e 'require(\"./greenit\")()'",
+    "yellowlabtools": "node -e 'require(\"./yellowlabtools\")()'",
+    "metrics": "node runner.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lighthouse": "^7.3.0",
+    "yaml": "^1.10.2",
+    "yellowlabtools": "^1.13.4"
+  }
+}
