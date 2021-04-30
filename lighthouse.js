@@ -1,15 +1,15 @@
-const fs = require('fs');
-const lighthouse = require('lighthouse');
-const YAML = require('yaml');
-const path = require('path');
-const chromeLauncher = require('chrome-launcher');
+import lighthouse from 'lighthouse';
+import fs from 'fs';
+import path from 'path';
+import yaml from 'yaml';
+import chromeLauncher from 'chrome-launcher';
 
-module.exports = async () => {
+export default async () => {
   const URL_YAML_FILE = path.resolve('urls.yaml');
   //Get list of url
   let urls = [];
   try {
-    urls = YAML.parse(fs.readFileSync(URL_YAML_FILE).toString());
+    urls = yaml.parse(fs.readFileSync(URL_YAML_FILE).toString());
   } catch (error) {
     throw ` yaml_input_file : "${URL_YAML_FILE}" is not a valid YAML file.`;
   }

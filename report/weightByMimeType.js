@@ -8,4 +8,4 @@ class WeightByMimeType {
   }
 }
 
-module.exports = WeightByMimeType;
+export default WeightByMimeType;

@@ -31,5 +31,8 @@
     "yaml": "^1.10.2",
     "yellowlabtools": "^1.13.4"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "chart.js": "^2.7.1"
+  }
 }

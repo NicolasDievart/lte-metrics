@@ -33,4 +33,4 @@ class Report {
   }
 }
 
-module.exports = Report;
+export default Report;

@@ -1,0 +1,1252 @@
+{
+  "params": {
+    "url": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+    "options": {}
+  },
+  "rules": {
+    "DOMelementsCount": {
+      "value": 419,
+      "policy": {
+        "hasOffenders": false,
+        "isAbnormalThreshold": 4500,
+        "isBadThreshold": 3000,
+        "isOkThreshold": 1500,
+        "message": "<p>A high number of DOM elements means a lot of work for the browser to render the page.</p><p>It also slows down JavaScript DOM queries, as there are more elements to search through.</p>",
+        "label": "DOM elements count",
+        "tool": "phantomas"
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "DOMelementMaxDepth": {
+      "value": 9,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 30,
+        "isBadThreshold": 22,
+        "isOkThreshold": 12,
+        "message": "<p>A deep DOM makes the CSS matching with DOM elements difficult.</p><p>It also slows down JavaScript modifications to the DOM because changing the dimensions of an element makes the browser re-calculate the dimensions of it's parents. Same thing for JavaScript events, that bubble up to the document root.</p>",
+        "label": "DOM max depth",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 56,
+        "tree": {
+          "body": {
+            "main#mesure-1.1.1": {
+              "section#actions": {
+                "ul[1]": {
+                  "li.bg-white.p-4.rounded.py-6.my-4": {
+                    "section#action-1.1.1.1": {
+                      "form.lg:col-span-3.lg:col-end-12": {
+                        "fieldset.flex.status": {
+                          "div[0]": {
+                            "input#action-1.1.1.1_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border.rounded-l": 1
+                          },
+                          "div[1]": {
+                            "input#action-1.1.1.1_programmee": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[2]": {
+                            "input#action-1.1.1.1_pas_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[3]": {
+                            "input#action-1.1.1.1_non_concerne": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b.rounded-r": 1
+                          }
+                        }
+                      }
+                    },
+                    "section#action-1.1.1.2": {
+                      "form.lg:col-span-3.lg:col-end-12": {
+                        "fieldset.flex.status": {
+                          "div[0]": {
+                            "input#action-1.1.1.2_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border.rounded-l": 1
+                          },
+                          "div[1]": {
+                            "input#action-1.1.1.2_programmee": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[2]": {
+                            "input#action-1.1.1.2_pas_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[3]": {
+                            "input#action-1.1.1.2_non_concerne": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b.rounded-r": 1
+                          }
+                        }
+                      }
+                    },
+                    "section#action-1.1.1.3": {
+                      "form.lg:col-span-3.lg:col-end-12": {
+                        "fieldset.flex.status": {
+                          "div[0]": {
+                            "input#action-1.1.1.3_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border.rounded-l": 1
+                          },
+                          "div[1]": {
+                            "input#action-1.1.1.3_programmee": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[2]": {
+                            "input#action-1.1.1.3_pas_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[3]": {
+                            "input#action-1.1.1.3_non_concerne": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b.rounded-r": 1
+                          }
+                        }
+                      }
+                    },
+                    "section#action-1.1.1.4": {
+                      "form.lg:col-span-3.lg:col-end-12": {
+                        "fieldset.flex.status": {
+                          "div[0]": {
+                            "input#action-1.1.1.4_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border.rounded-l": 1
+                          },
+                          "div[1]": {
+                            "input#action-1.1.1.4_programmee": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[2]": {
+                            "input#action-1.1.1.4_pas_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[3]": {
+                            "input#action-1.1.1.4_non_concerne": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b.rounded-r": 1
+                          }
+                        }
+                      }
+                    },
+                    "section#action-1.1.1.5": {
+                      "form.lg:col-span-3.lg:col-end-12": {
+                        "fieldset.flex.status": {
+                          "div[0]": {
+                            "input#action-1.1.1.5_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border.rounded-l": 1
+                          },
+                          "div[1]": {
+                            "input#action-1.1.1.5_programmee": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[2]": {
+                            "input#action-1.1.1.5_pas_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[3]": {
+                            "input#action-1.1.1.5_non_concerne": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b.rounded-r": 1
+                          }
+                        }
+                      }
+                    },
+                    "section#action-1.1.1.6": {
+                      "form.lg:col-span-3.lg:col-end-12": {
+                        "fieldset.flex.status": {
+                          "div[0]": {
+                            "input#action-1.1.1.6_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border.rounded-l": 1
+                          },
+                          "div[1]": {
+                            "input#action-1.1.1.6_programmee": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[2]": {
+                            "input#action-1.1.1.6_pas_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[3]": {
+                            "input#action-1.1.1.6_non_concerne": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b.rounded-r": 1
+                          }
+                        }
+                      }
+                    },
+                    "section#action-1.1.1.7": {
+                      "form.lg:col-span-3.lg:col-end-12": {
+                        "fieldset.flex.status": {
+                          "div[0]": {
+                            "input#action-1.1.1.7_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border.rounded-l": 1
+                          },
+                          "div[1]": {
+                            "input#action-1.1.1.7_programmee": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[2]": {
+                            "input#action-1.1.1.7_pas_faite": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b": 1
+                          },
+                          "div[3]": {
+                            "input#action-1.1.1.7_non_concerne": 1,
+                            "label.flex-1.block.whitespace-nowrap.px-2.py-1.cursor-pointer.border-gray-400.border-t.border-r.border-b.rounded-r": 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "iframesCount": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": false,
+        "isAbnormalThreshold": 30,
+        "isBadThreshold": 15,
+        "isOkThreshold": 3,
+        "message": "<p>iFrames are the most complex HTML elements. They are pages, just like the main page, and the browser needs to create a new page context, which has a cost.</p>",
+        "label": "Number of iframes",
+        "tool": "phantomas"
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "DOMidDuplicated": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 50,
+        "isBadThreshold": 5,
+        "isOkThreshold": 0,
+        "message": "<p>IDs of HTML elements must be document-wide unique. This can cause problems with getElementById returning the wrong element.</p>",
+        "label": "IDs duplicated",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "DOMaccesses": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": false,
+        "isAbnormalThreshold": 4000,
+        "isBadThreshold": 2000,
+        "isOkThreshold": 200,
+        "message": "<p>This metric counts the number of calls to DOM related functions (both native DOM functions and jQuery functions) on page load.</p><p>The more your JavaScript code accesses the DOM, the slower the page will load.</p><p>Try, as much as possible, to have an HTML page fully generated by the server instead of making changes with JS.</p><p>Try to reduce the number of queries by refactoring your JavaScript code.</p><p>Binding too many events also has a cost. Try to use <a href=\"https://learn.jquery.com/events/event-delegation/\" target=\"_blank\">event delegation</a> as much as possible.</p>",
+        "label": "DOM access",
+        "tool": "jsExecutionTransformer"
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "queriesWithoutResults": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": false,
+        "isAbnormalThreshold": 250,
+        "isBadThreshold": 150,
+        "isOkThreshold": 0,
+        "message": "<p>Number of queries that return no result. Both native and jQuery DOM requests are counted.</p><p>It suggests the query is not used on the page, probably because it is some dead code.</p><p>Or maybe the code is trying to find an HTML block that is not always here. Look at the JS Timeline to see if the scripts correctly figures out the HTML block is not here and immediatly stops interacting further with the DOM.</p>",
+        "label": "Queries without result",
+        "tool": "jsExecutionTransformer"
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "DOMqueriesAvoidable": {
+      "value": 0,
+      "policy": {
+        "takeOffendersFrom": "DOMqueriesDuplicated",
+        "hasOffenders": true,
+        "isAbnormalThreshold": 600,
+        "isBadThreshold": 300,
+        "isOkThreshold": 0,
+        "message": "<p>This is the number of queries that could be avoided by removing all duplicated queries.</p><p>Simply save the result of a query in a variable. Ok it is not always simple, especially with third-party scripts, but at least do it with your own code.</p>",
+        "label": "Duplicated DOM queries",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "eventsScrollBound": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 15,
+        "isBadThreshold": 8,
+        "isOkThreshold": 1,
+        "message": "<p>Number of 'scroll' event listeners binded to 'window' or 'document'.</p><p>Asking too much work to the browser on scroll hurts the smoothness of the scroll. Merging all your event listeners into an unique listener can help you factorize their code and reduce their footprint on scroll.</p>",
+        "label": "Scroll events bound",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "DOMaccessesOnScroll": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 35,
+        "isBadThreshold": 20,
+        "isOkThreshold": 1,
+        "message": "<p>This rule counts the number of DOM-accessing functions calls on a scroll event, such as queries, readings, writings, bindings and jQuery functions.</p><p>Two scroll events are triggered quickly, one after the other, and only the second one is analyzed so throttled functions are ignored.</p><p>One of the main reasons of a poor scrolling experience is when too much JS is executed on each scroll event. Note that some devices such as smartphones and MacBooks send more scroll events than others.</p><p>Reduce the number of DOM accesses inside scroll listeners. Put DOM queries outside them when possible. Use <a href=\"http://blogorama.nerdworks.in/javascriptfunctionthrottlingan/\" target=\"_blank\">throttling or debouncing</a>.</p>",
+        "label": "DOM access on scroll",
+        "tool": "jsExecutionTransformer"
+      },
+      "offendersObj": {
+        "data": {
+          "type": "main"
+        },
+        "children": [
+          {
+            "data": {
+              "type": "documentScroll",
+              "timestamp": 1460,
+              "loadingStep": "domContentLoadedEnd"
+            },
+            "windowPerformance": true
+          },
+          {
+            "data": {
+              "type": "windowScroll",
+              "timestamp": 1460,
+              "loadingStep": "domContentLoadedEnd"
+            },
+            "windowPerformance": true
+          }
+        ]
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "jsErrors": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 4,
+        "isBadThreshold": 1,
+        "isOkThreshold": 0,
+        "message": "<p>Just to let you know there are some errors on the page.</p><p><b>Please note that some errors only occur in the PhantomJS browser, so you might need to double check on other browsers.</b></p>",
+        "label": "JavaScript errors",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "documentWriteCalls": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 8,
+        "isBadThreshold": 3,
+        "isOkThreshold": 0,
+        "message": "<p>They slow down the page construction, especially if they are used to insert scripts in the page. Remove them ASAP.</p><p>If you cannot remove them because they come from a third-party script (such as ads), have a look at <a href=\"https://github.com/krux/postscribe\" target=\"_blank\">PostScribe</a>.</p>",
+        "label": "document.write calls",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "synchronousXHR": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 1,
+        "isBadThreshold": 1,
+        "isOkThreshold": 0,
+        "message": "<p>Making an XMLHttpRequest with the <i>async</i> option set to <i>false</i> is deprecated due to the negative effect to performances. The browser's main thread needs to stop everything until the response is received.</p>",
+        "label": "Synchronous Ajax requests",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "consoleMessages": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": false,
+        "isAbnormalThreshold": 50,
+        "isBadThreshold": 20,
+        "isOkThreshold": 3,
+        "message": "<p>Try to keep your console clean when in production. Debugging is good for development only.</p><p>Writing in the console has a cost, especially when dumping large object variables.</p><p>There is also a problem with Internet Explorer 8, not knowing the console object.</p>",
+        "label": "Console messages",
+        "tool": "phantomas"
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "globalVariables": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 700,
+        "isBadThreshold": 200,
+        "isOkThreshold": 40,
+        "message": "<p>It is a bad practice because they clutter up the global namespace. If two scripts use the same variable name in the global scope, it can cause conflicts and it is generally hard to debug.</p><p>Global variables also take a (very) little bit longer to be accessed than variables in the local scope of a function.</p>",
+        "label": "Global variables",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "jQueryVersionsLoaded": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 2,
+        "isBadThreshold": 2,
+        "isOkThreshold": 1,
+        "message": "<p>jQuery is a heavy library. You should <b>never</b> load jQuery more than once on the same page.</p>",
+        "label": "Several jQuery loaded",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "cssParsingErrors": {
+      "value": 1,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 20,
+        "isBadThreshold": 1,
+        "isOkThreshold": 0,
+        "message": "<p>Yellow Lab Tools failed to parse a CSS file. I doubt the problem comes from the css parser.</p><p>Maybe a <a href=\"http://jigsaw.w3.org/css-validator\" target=\"_blank\">CSS validator</a> can help you.</p>",
+        "label": "CSS syntax error",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 1,
+        "list": [
+          {
+            "error": "Unknown parsing error. The entire file was ignored. As a result, the other CSS metrics and scores are miscalculated.",
+            "file": "http://staging.territoiresentransitions.fr/styles.css",
+            "line": null,
+            "column": null
+          }
+        ]
+      },
+      "bad": true,
+      "abnormal": false,
+      "score": 0,
+      "abnormalityScore": 0
+    },
+    "similarColors": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 80,
+        "isBadThreshold": 40,
+        "isOkThreshold": 0,
+        "message": "<p>This is the list of colors found in the stylesheets, that are very close to each other. The eye can barely see the difference.</p><p>Use this list to reduce the number of colors in your palette, it will be easier to maintain.</p>",
+        "label": "Similar colors",
+        "tool": "colorDiff"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "cssBreakpoints": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 60,
+        "isBadThreshold": 40,
+        "isOkThreshold": 6,
+        "message": "<p>This is the number of different breakpoints found in the stylesheets' media queries.</p><p>Please note this rule is based on <i>min-width</i>, <i>max-width</i>, <i>min-device-width</i> and <i>max-device-width</i> media queries only.</p><p>Your CSS will be easier to maintain if you keep a reasonable number of breakpoints. Try to make a fluid design - using percents - to avoid the creation of numerous breakpoints.</p>",
+        "label": "Breakpoints count",
+        "tool": "mediaQueriesChecker"
+      },
+      "offendersObj": [],
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "cssMobileFirst": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 1000,
+        "isBadThreshold": 250,
+        "isOkThreshold": 50,
+        "message": "<p>This is the number of CSS rules inside media queries that address small screens.</p><p>The common good practice, when creating a responsive website, is to write it \"mobile-first\". More explanation in <a href=\"http://www.sitepoint.com/introduction-mobile-first-media-queries\" target=\"_blank\">this great article</a>.</p>",
+        "label": "Not mobile-first media queries",
+        "tool": "mediaQueriesChecker"
+      },
+      "offendersObj": {
+        "byFile": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "totalWeight": {
+      "value": 222756,
+      "policy": {
+        "unit": "bytes",
+        "hasOffenders": true,
+        "isAbnormalThreshold": 4194304,
+        "isBadThreshold": 2621440,
+        "isOkThreshold": 1048576,
+        "message": "<p>The weight is of course very important if you want the page to load fast. Try to stay under 1MB, which is already very long to download over a slow connection.</p><p>Please note that Yellow Lab Tools' engine (PhantomJS) is not compatible with image srcset (unless you use a polyfill). This can lead to incorrect page weight.</p>",
+        "label": "Total weight",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "list": {
+          "totalWeight": 222756,
+          "byType": {
+            "html": {
+              "totalWeight": 61962,
+              "requests": [
+                {
+                  "url": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+                  "weight": 61962
+                }
+              ]
+            },
+            "css": {
+              "totalWeight": 18395,
+              "requests": [
+                {
+                  "url": "http://staging.territoiresentransitions.fr/styles.css",
+                  "weight": 18395
+                }
+              ]
+            },
+            "js": {
+              "totalWeight": 142399,
+              "requests": [
+                {
+                  "url": "http://staging.territoiresentransitions.fr/app.js",
+                  "weight": 48015
+                },
+                {
+                  "url": "http://staging.territoiresentransitions.fr/navigation.js",
+                  "weight": 3009
+                },
+                {
+                  "url": "http://staging.territoiresentransitions.fr/ecpi_nav_display.js",
+                  "weight": 91375
+                }
+              ]
+            },
+            "json": {
+              "totalWeight": 0,
+              "requests": []
+            },
+            "image": {
+              "totalWeight": 0,
+              "requests": []
+            },
+            "video": {
+              "totalWeight": 0,
+              "requests": []
+            },
+            "webfont": {
+              "totalWeight": 0,
+              "requests": []
+            },
+            "other": {
+              "totalWeight": 0,
+              "requests": []
+            }
+          }
+        }
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "imageOptimization": {
+      "value": 0,
+      "policy": {
+        "unit": "bytes",
+        "hasOffenders": true,
+        "isAbnormalThreshold": 307200,
+        "isBadThreshold": 204800,
+        "isOkThreshold": 20480,
+        "message": "<p>This metric measures the number of bytes that could be saved by optimizing images.</p><p>Image optimization is generally one of the easiest way to reduce a page weight, and as a result, the page load time. Don't use Photoshop or other image editing tools, they're not very good for optimization. Use specialized tools such as <a href=\"https://kraken.io/\" target=\"_blank\">Kraken.io</a> or the excellent <a href=\"https://imageoptim.com/\" target=\"_blank\">ImageOptim</a> on Mac. For SVG images, you can use <a href=\"https://jakearchibald.github.io/svgomg/\" target=\"_blank\">SVGOMG</a></p><p>The tools in use in YellowLabTools are not set to their maximum optimization power (JPEG quality 85), so you might be able to compress even more!</p><p>Please note that Yellow Lab Tools' engine (PhantomJS) is not compatible with image srcset (unless you use a polyfill). This can lead to incorrect page weight.</p>",
+        "label": "Image optimization",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "list": {
+          "totalGain": 0,
+          "images": []
+        }
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "imagesTooLarge": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 10,
+        "isBadThreshold": 5,
+        "isOkThreshold": 0,
+        "message": "<p>This is the number of images with a width >800px on mobile or >1500px on desktop. Try reducing their size.</p><p>Please ignore if the file is used as a sprite.</p><p>Please note that Yellow Lab Tools' engine (PhantomJS) is not compatible with image srcset (unless you use a polyfill). This can lead to incorrect detection.</p>",
+        "label": "Oversized images",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "gzipCompression": {
+      "value": 165548,
+      "policy": {
+        "unit": "bytes",
+        "hasOffenders": true,
+        "isAbnormalThreshold": 153600,
+        "isBadThreshold": 81920,
+        "isOkThreshold": 5125,
+        "message": "<p>Measures the number of bytes that could be saved by compressing file transfers.</p><p>Gzip is a powerfull weight reducer and should be enabled on text-based assets in your server's configuration. Note that gzipping small files (< 1 KB) is arguable, and that some assets such as images should not be gzipped as they are already compressed. <a href=\"https://gist.github.com/gmetais/971ce13a1fbeebd88445\" target=\"_blank\">Here</a> is a list of Content-Types that should be gzipped.</p>",
+        "label": "Gzip compression",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "list": {
+          "totalGain": 165548,
+          "files": [
+            {
+              "url": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+              "original": 61610,
+              "gzipped": 5863,
+              "gain": 55747
+            },
+            {
+              "url": "http://staging.territoiresentransitions.fr/app.js",
+              "original": 47650,
+              "gzipped": 14329,
+              "gain": 33321
+            },
+            {
+              "url": "http://staging.territoiresentransitions.fr/styles.css",
+              "original": 18044,
+              "gzipped": 4978,
+              "gain": 13066
+            },
+            {
+              "url": "http://staging.territoiresentransitions.fr/navigation.js",
+              "original": 2645,
+              "gzipped": 1564,
+              "gain": 1081
+            },
+            {
+              "url": "http://staging.territoiresentransitions.fr/ecpi_nav_display.js",
+              "original": 91010,
+              "gzipped": 28677,
+              "gain": 62333
+            }
+          ]
+        }
+      },
+      "bad": true,
+      "abnormal": true,
+      "score": 0,
+      "abnormalityScore": -8
+    },
+    "fileMinification": {
+      "value": 2205,
+      "policy": {
+        "unit": "bytes",
+        "hasOffenders": true,
+        "isAbnormalThreshold": 122880,
+        "isBadThreshold": 61440,
+        "isOkThreshold": 5125,
+        "message": "<p>This is the weight that could be saved if all text resources were correctly minified.</p><p>The tools in use here are <b>UglifyJS</b>, <b>clean-css</b> and <b>HTMLMinifier</b>. These tools are so good that some of your minified files can be marked as unminified. Change your tool if this happens :)</p><p>The gains of minification are generally small, but the impact can be high when these text files are loaded on the critical path.</p>",
+        "label": "File minification",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "list": {
+          "totalGain": 2205,
+          "files": [
+            {
+              "url": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+              "original": 61610,
+              "isCompressed": false,
+              "afterCompression": 5863,
+              "afterOptimizationAndCompression": 5619,
+              "optimized": 52072,
+              "gain": 244
+            },
+            {
+              "url": "http://staging.territoiresentransitions.fr/styles.css",
+              "original": 18044,
+              "isCompressed": false,
+              "afterCompression": 4978,
+              "afterOptimizationAndCompression": 3017,
+              "optimized": 11072,
+              "gain": 1961
+            }
+          ]
+        }
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "totalRequests": {
+      "value": 5,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 200,
+        "isBadThreshold": 120,
+        "isOkThreshold": 20,
+        "message": "<p>This is one of the most important performance rule. Every request is slowing down the page loading.</p><p>There are several technics to reduce their number:<ul><li>Concatenate JS files</li><li>Concatenate CSS files</li><li>Embed or inline small JS or CSS files in the HTML</li><li>Create sprites</li><li>Base64 encode small images in HTML or stylesheets</li><li>Use lazyloading for images</li></ul></p>",
+        "label": "Requests number",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "list": {
+          "total": 5,
+          "byType": {
+            "html": [
+              "http://staging.territoiresentransitions.fr/mesure_1.1.1.html"
+            ],
+            "css": [
+              "http://staging.territoiresentransitions.fr/styles.css"
+            ],
+            "js": [
+              "http://staging.territoiresentransitions.fr/app.js",
+              "http://staging.territoiresentransitions.fr/navigation.js",
+              "http://staging.territoiresentransitions.fr/ecpi_nav_display.js"
+            ],
+            "json": [],
+            "image": [],
+            "video": [],
+            "webfont": [],
+            "other": []
+          }
+        }
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "domains": {
+      "value": 1,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 50,
+        "isBadThreshold": 25,
+        "isOkThreshold": 10,
+        "message": "<p>For each domain met, the browser needs to make a DNS look-up, which is slow. Avoid having to many different domains and the page should render faster.</p><p>By the way, domain sharding is not a good practice anymore.</p>",
+        "label": "Different domains",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 1,
+        "list": [
+          {
+            "domain": "staging.territoiresentransitions.fr",
+            "requests": 5
+          }
+        ]
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "notFound": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 1,
+        "isBadThreshold": 1,
+        "isOkThreshold": 0,
+        "message": "<p>404 errors are never cached, so each time a page ask for it, it hits the server. Even if it is behind a CDN or a reverse-proxy cache.</p>",
+        "label": "404 not found",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "closedConnections": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 15,
+        "isBadThreshold": 4,
+        "isOkThreshold": 0,
+        "message": "<p>This counts the number of requests not keeping the connection alive (specifying \"Connection: close\" in the response headers). It is only counting a request if it is followed by another request on the same domain.</p><p>This is slowing down the next request, because the brower needs to open a new connection to the server, which means an additional round-trip.</p><p>Correct the problem by setting a Keep-Alive header on the guilty server.</p>",
+        "label": "Connections closed",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "identicalFiles": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 15,
+        "isBadThreshold": 5,
+        "isOkThreshold": 0,
+        "message": "<p>This is the number of requests that could be avoided, because of downloaded files that have the same content but are loaded from different URLs.</p><p>Try to load them from the same URL.</p>",
+        "label": "Identical content",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "avoidableRequests": 0,
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "emptyRequests": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 5,
+        "isBadThreshold": 1,
+        "isOkThreshold": 0,
+        "message": "<p>List of GET requests that respond with an empty body. These are probably the easiest requests to remove.</p>",
+        "label": "Empty requests",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "smallRequests": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 80,
+        "isBadThreshold": 50,
+        "isOkThreshold": 10,
+        "message": "<p>List of all requests that are less than 2 KB. Try to merge them with other files.</p>",
+        "label": "Small requests",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "list": {
+          "total": 0,
+          "byType": {
+            "css": [],
+            "js": [],
+            "image": []
+          }
+        }
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "lazyLoadableImagesBelowTheFold": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 30,
+        "isBadThreshold": 12,
+        "isOkThreshold": 1,
+        "message": "<p>This is the number of images displayed below the fold that could be lazy-loaded. This is an excellent way to accelerate the loading time of an heavy page.</p><p>I recommend using <a href=\"https://github.com/vvo/lazyload\" target=\"_blank\">this lazyloader</a>.</p>",
+        "label": "Below the fold images",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "hiddenImages": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 30,
+        "isBadThreshold": 12,
+        "isOkThreshold": 1,
+        "message": "<p>List of all images that have a display:none property, or one of their parents. These images are loaded by the browser even if they're not visible. You might be able to find a way to lazy-load them, only when they get visible.</p><p>As images displayed in 1x1 pixels tend to be trackers, they are excluded from this rule.</p>",
+        "label": "Hidden images",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "fontsCount": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 7,
+        "isBadThreshold": 5,
+        "isOkThreshold": 1,
+        "message": "<p>This is the number of custom web fonts loaded on the page.</p><p>Webfonts are beautiful, but heavy. You should keep their number as low as possible.</p>",
+        "label": "Webfonts number",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "heavyFonts": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "unit": "bytes",
+        "isAbnormalThreshold": 204800,
+        "isBadThreshold": 102400,
+        "isOkThreshold": 0,
+        "message": "<p>This metric is the sum of all bytes above 40KB in loaded fonts. Over this size, the font is probably not optimized for the web.</p><p>It can be a compresson issue, a font that contains too many glyphs or a font with complex shapes.</p><p>Sorry, Yellow Lab Tools is not yet compatible with the WOFF2 font format that generates 20-30% smaller fonts. You can proceed to a manual verification on a modern browser.</p>",
+        "label": "Overweighted webfonts",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "count": 0,
+        "fonts": [],
+        "totalGain": 0
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "unusedUnicodeRanges": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 12,
+        "isBadThreshold": 8,
+        "isOkThreshold": 0,
+        "message": "<p>This metric counts the number of unused Unicode ranges inside each font. For example, one font could include Cyrillic glyphs but none of them are used on the page.</p><p>It also reveals the number of ligatures (letters that are represented differently when close to each other) and hidden chars (glyphs not linked to the unicode system that can't be displayed on the web).</p><p>Because of technical limitations, Yellow Lab Tools checks each font against the glyphs of the entire page. As a result, estimated use is >= to reality. For example, if you read that 10 glyphs are \"possibly used\", it means that these 10 glyphs are used on the page but nothing guaranties that they are displayed using this font.</p><p>Tools such as <a href=\"https://www.fontsquirrel.com/tools/webfont-generator\" target=\"_blank\">Font Squirrel</a> can remove some unicode ranges from a font.</p><p>In the case of an icon font, make sure you only keep the icons that are used on the website and to remove the others. Several tools are able to extract SVG images from a font, then some other tools can generate a font from the SVGs you want to keep.</p>",
+        "label": "Unused Unicode ranges",
+        "tool": "redownload"
+      },
+      "offendersObj": {
+        "count": 0,
+        "fonts": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "http2": {
+      "value": "No",
+      "score": 0,
+      "bad": true,
+      "abnormal": false,
+      "abnormalityScore": 0,
+      "policy": {
+        "label": "HTTP/2 or SPDY",
+        "message": "<p>HTTP/2 is the latest version of the HTTP protocol and is designed to optimize load speed. SPDY is deprecated but still very well supported.</p><p>The latest versions of all major browsers are now compatible. The difficulty is on the server side, where technologies are not quite ready yet.</p>"
+      }
+    },
+    "cachingDisabled": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 25,
+        "isBadThreshold": 12,
+        "isOkThreshold": 0,
+        "message": "<p>Counts responses with caching disabled (max-age=0)</p><p>Fix immediatly if on static assets.</p>",
+        "label": "Caching disabled",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "cachingNotSpecified": {
+      "value": 4,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 40,
+        "isBadThreshold": 20,
+        "isOkThreshold": 5,
+        "message": "<p>When no caching is specified, each browser will handle it differently. Most of the time, it will automatically add a cache for you, but a poor one. You'd better handle it yourself.</p>",
+        "label": "Caching not specified",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 4,
+        "list": [
+          "http://staging.territoiresentransitions.fr/app.js",
+          "http://staging.territoiresentransitions.fr/styles.css",
+          "http://staging.territoiresentransitions.fr/navigation.js",
+          "http://staging.territoiresentransitions.fr/ecpi_nav_display.js"
+        ]
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    },
+    "cachingTooShort": {
+      "value": 0,
+      "policy": {
+        "hasOffenders": true,
+        "isAbnormalThreshold": 40,
+        "isBadThreshold": 20,
+        "isOkThreshold": 5,
+        "message": "<p>Responses with too short caching time (less than a week).</p><p>The longer you cache, the better. Add versionning to your static assets, if it's not already done, and set their cache time to one year.</p>",
+        "label": "Caching too short",
+        "tool": "phantomas"
+      },
+      "offendersObj": {
+        "count": 0,
+        "list": []
+      },
+      "bad": false,
+      "abnormal": false,
+      "score": 100,
+      "abnormalityScore": 0
+    }
+  },
+  "scoreProfiles": {
+    "generic": {
+      "categories": {
+        "pageWeight": {
+          "label": "Page weight",
+          "categoryScore": 81,
+          "rules": [
+            "totalWeight",
+            "imageOptimization",
+            "imagesTooLarge",
+            "gzipCompression",
+            "fileMinification"
+          ]
+        },
+        "requests": {
+          "label": "Requests",
+          "categoryScore": 100,
+          "rules": [
+            "totalRequests",
+            "domains",
+            "notFound",
+            "identicalFiles",
+            "emptyRequests",
+            "smallRequests",
+            "lazyLoadableImagesBelowTheFold",
+            "hiddenImages"
+          ]
+        },
+        "domComplexity": {
+          "label": "DOM complexity",
+          "categoryScore": 100,
+          "rules": [
+            "DOMelementsCount",
+            "DOMelementMaxDepth",
+            "iframesCount",
+            "DOMidDuplicated"
+          ]
+        },
+        "domManipulations": {
+          "label": "DOM manipulations",
+          "categoryScore": 100,
+          "rules": [
+            "DOMaccesses",
+            "queriesWithoutResults",
+            "DOMqueriesAvoidable"
+          ]
+        },
+        "scroll": {
+          "label": "Scroll bottlenecks",
+          "categoryScore": 100,
+          "rules": [
+            "eventsScrollBound",
+            "DOMaccessesOnScroll"
+          ]
+        },
+        "badJavascript": {
+          "label": "Bad JavaScript",
+          "categoryScore": 100,
+          "rules": [
+            "jsErrors",
+            "documentWriteCalls",
+            "synchronousXHR",
+            "consoleMessages",
+            "globalVariables"
+          ]
+        },
+        "jQuery": {
+          "label": "jQuery",
+          "categoryScore": 100,
+          "rules": [
+            "jQueryVersion",
+            "jQueryVersionsLoaded",
+            "jQueryCallsOnEmptyObject",
+            "jQueryNotDelegatedEvents"
+          ]
+        },
+        "cssComplexity": {
+          "label": "CSS complexity",
+          "categoryScore": 100,
+          "rules": [
+            "cssRules",
+            "cssComplexSelectors",
+            "cssColors",
+            "similarColors",
+            "cssBreakpoints",
+            "cssMobileFirst"
+          ]
+        },
+        "badCSS": {
+          "label": "Bad CSS",
+          "categoryScore": 0,
+          "rules": [
+            "cssParsingErrors",
+            "cssImports",
+            "cssDuplicatedSelectors",
+            "cssDuplicatedProperties",
+            "cssEmptyRules",
+            "cssExpressions",
+            "cssImportants",
+            "cssOldIEFixes",
+            "cssOldPropertyPrefixes",
+            "cssRedundantBodySelectors",
+            "cssRedundantChildNodesSelectors"
+          ]
+        },
+        "fonts": {
+          "label": "Web fonts",
+          "categoryScore": 100,
+          "rules": [
+            "fontsCount",
+            "heavyFonts",
+            "unusedUnicodeRanges"
+          ]
+        },
+        "serverConfig": {
+          "label": "Server config",
+          "categoryScore": 71,
+          "rules": [
+            "http2",
+            "closedConnections",
+            "cachingNotSpecified",
+            "cachingDisabled",
+            "cachingTooShort"
+          ]
+        }
+      },
+      "globalScore": 90
+    }
+  }
+}

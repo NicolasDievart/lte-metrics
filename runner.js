@@ -1,12 +1,11 @@
-const yellowlabtools = require('./yellowlabtools');
-const lighthouse = require('./lighthouse');
-const greenit = require('./greenit');
-const fs = require('fs');
-const path = require('path');
-const util = require('util');
-const YAML = require('yaml');
-const Report = require('./report/report');
-const WeightByMimeType = require('./report/weightByMimeType');
+import yellowlabtools from './yellowlabtools.js';
+import lighthouse from './lighthouse.js';
+import greenit from './greenit.js';
+import fs from 'fs';
+import path from 'path';
+import YAML from 'yaml';
+import Report from './report/report.js';
+import WeightByMimeType from './report/weightByMimeType.js';
 
 const URL_YAML_FILE = path.resolve('urls.yaml');
 
@@ -36,7 +35,7 @@ function extractLighthouseMetrics() {
 
 function extractGreenITMetrics() {
   // Greenit does not use the same index as the yaml file.
-  let = index = 1;
+  let index = 1;
   for (let url in urls) {
     const reportJson = fs.readFileSync('greenit-analysis/results/' + index + '.json');
     const data = JSON.parse(reportJson);
@@ -115,7 +114,6 @@ function extractYellowLabToolsMetrics() {
 
   try {
     let a = JSON.stringify(data);
-    console.log(a);
 
     fs.writeFileSync('./report.json', a, { encoding: 'utf8', flag: 'w' });
   } catch (err) {

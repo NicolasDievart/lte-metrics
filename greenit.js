@@ -1,7 +1,7 @@
-const analysis = require('./greenit-analysis/commands/analyse');
-const path = require('path');
+import analysis from './greenit-analysis/commands/analyse.js';
+import path from 'path';
 
-module.exports = async () => {
+export default async () => {
   await analysis({
     yaml_input_file: 'urls.yaml',
     timeout: 180000,
