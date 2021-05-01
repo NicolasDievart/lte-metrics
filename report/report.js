@@ -1,36 +1,36 @@
 class Report {
-    url;
-    index;
+  url;
+  index;
 
-    // Lighthouse metrics.
-    firstMeaningfulPaint;
-    timeToInteractive;
+  // Lighthouse metrics.
+  firstMeaningfulPaint;
+  timeToInteractive;
 
-    // Ecoindex metrics.
-    greenhouseGasesEmission;
-    ecoIndex;
-    greentITGrade;
-    waterConsumption;
+  // Ecoindex metrics.
+  greenhouseGasesEmission;
+  ecoIndex;
+  greentITGrade;
+  waterConsumption;
 
-    // Yellowlabtools metrics.
-    totalWeightInBytes;
-    weightByMimeTypes;
-    totalRequest;
-    domElementsCount;
-    domElementsCountScore;
-    cachingNotSpecified;
-    cachingDisabled;
-    cachingTooShort;
+  // Yellowlabtools metrics.
+  totalWeightInBytes;
+  weightByMimeTypes;
+  totalRequest;
+  domElementsCount;
+  domElementsCountScore;
+  cachingNotSpecified;
+  cachingDisabled;
+  cachingTooShort;
 
-    constructor(url, index) {
-        this.url = url;
-        this.index = index;
-        this.weightByMimeTypes = [];
-    }
+  constructor(url, index) {
+    this.url = url;
+    this.index = index;
+    this.weightByMimeTypes = [];
+  }
 
-    addMimeTypeWeight(WeightByMimeType) {
-        this.weightByMimeTypes.push(WeightByMimeType);
-    }
+  addMimeTypeWeight(WeightByMimeType) {
+    this.weightByMimeTypes.push(WeightByMimeType);
+  }
 }
 
-module.exports = Report;
+export default Report;

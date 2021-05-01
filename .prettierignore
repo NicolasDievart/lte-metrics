@@ -1,0 +1,6 @@
+.svelte/**
+static/**
+build/**
+node_modules/**
+greentit-analysis/**
+urls.yaml
