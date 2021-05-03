@@ -198,7 +198,7 @@
           {
             "data": {
               "type": "documentScroll",
-              "timestamp": 1336,
+              "timestamp": 1373,
               "loadingStep": "domContentLoadedEnd"
             },
             "windowPerformance": true
@@ -206,7 +206,7 @@
           {
             "data": {
               "type": "windowScroll",
-              "timestamp": 1337,
+              "timestamp": 1374,
               "loadingStep": "domContentLoadedEnd"
             },
             "windowPerformance": true
@@ -418,7 +418,7 @@
       "abnormalityScore": 0
     },
     "totalWeight": {
-      "value": 124080,
+      "value": 124067,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -431,7 +431,7 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 124080,
+          "totalWeight": 124067,
           "byType": {
             "html": {
               "totalWeight": 3530,
@@ -452,15 +452,15 @@
               ]
             },
             "js": {
-              "totalWeight": 102155,
+              "totalWeight": 102142,
               "requests": [
+                {
+                  "url": "http://staging.territoiresentransitions.fr/ecpi_button_list.js",
+                  "weight": 99133
+                },
                 {
                   "url": "http://staging.territoiresentransitions.fr/navigation.js",
                   "weight": 3009
-                },
-                {
-                  "url": "http://staging.territoiresentransitions.fr/ecpi_button_list.js",
-                  "weight": 99146
                 }
               ]
             },
@@ -536,7 +536,7 @@
       "abnormalityScore": 0
     },
     "gzipCompression": {
-      "value": 83389,
+      "value": 83415,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -549,7 +549,7 @@
       },
       "offendersObj": {
         "list": {
-          "totalGain": 83389,
+          "totalGain": 83415,
           "files": [
             {
               "url": "http://staging.territoiresentransitions.fr/",
@@ -558,10 +558,10 @@
               "gain": 2020
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/navigation.js",
-              "original": 2645,
-              "gzipped": 1564,
-              "gain": 1081
+              "url": "http://staging.territoiresentransitions.fr/ecpi_button_list.js",
+              "original": 98768,
+              "gzipped": 31520,
+              "gain": 67248
             },
             {
               "url": "http://staging.territoiresentransitions.fr/styles.css",
@@ -570,10 +570,10 @@
               "gain": 13066
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/ecpi_button_list.js",
-              "original": 98781,
-              "gzipped": 31559,
-              "gain": 67222
+              "url": "http://staging.territoiresentransitions.fr/navigation.js",
+              "original": 2645,
+              "gzipped": 1564,
+              "gain": 1081
             }
           ]
         }
@@ -638,8 +638,8 @@
               "http://staging.territoiresentransitions.fr/styles.css"
             ],
             "js": [
-              "http://staging.territoiresentransitions.fr/navigation.js",
-              "http://staging.territoiresentransitions.fr/ecpi_button_list.js"
+              "http://staging.territoiresentransitions.fr/ecpi_button_list.js",
+              "http://staging.territoiresentransitions.fr/navigation.js"
             ],
             "json": [],
             "image": [],
@@ -933,9 +933,9 @@
       "offendersObj": {
         "count": 3,
         "list": [
-          "http://staging.territoiresentransitions.fr/navigation.js",
+          "http://staging.territoiresentransitions.fr/ecpi_button_list.js",
           "http://staging.territoiresentransitions.fr/styles.css",
-          "http://staging.territoiresentransitions.fr/ecpi_button_list.js"
+          "http://staging.territoiresentransitions.fr/navigation.js"
         ]
       },
       "bad": false,

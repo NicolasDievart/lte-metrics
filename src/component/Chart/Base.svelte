@@ -24,15 +24,14 @@
       options,
       plugins
     });
+    console.log(chart);
   });
+
   afterUpdate(() => {
     if (!chart) return;
-    chart.data = data;
-    chart.type = type;
-    chart.options = options;
-    chart.plugins = plugins;
     chart.update();
   });
+
   onDestroy(() => {
     chart = null;
   });

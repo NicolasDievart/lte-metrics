@@ -241,7 +241,7 @@
           {
             "data": {
               "type": "documentScroll",
-              "timestamp": 1547,
+              "timestamp": 1478,
               "loadingStep": "domContentLoadedEnd"
             },
             "windowPerformance": true
@@ -249,7 +249,7 @@
           {
             "data": {
               "type": "windowScroll",
-              "timestamp": 1547,
+              "timestamp": 1478,
               "loadingStep": "domContentLoadedEnd"
             },
             "windowPerformance": true
@@ -498,16 +498,16 @@
               "totalWeight": 142399,
               "requests": [
                 {
+                  "url": "http://staging.territoiresentransitions.fr/app.js",
+                  "weight": 48015
+                },
+                {
                   "url": "http://staging.territoiresentransitions.fr/navigation.js",
                   "weight": 3009
                 },
                 {
                   "url": "http://staging.territoiresentransitions.fr/ecpi_nav_display.js",
                   "weight": 91375
-                },
-                {
-                  "url": "http://staging.territoiresentransitions.fr/app.js",
-                  "weight": 48015
                 }
               ]
             },
@@ -599,16 +599,22 @@
           "totalGain": 496947,
           "files": [
             {
+              "url": "http://staging.territoiresentransitions.fr/indicateurs.html",
+              "original": 413089,
+              "gzipped": 25943,
+              "gain": 387146
+            },
+            {
               "url": "http://staging.territoiresentransitions.fr/styles.css",
               "original": 18044,
               "gzipped": 4978,
               "gain": 13066
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/indicateurs.html",
-              "original": 413089,
-              "gzipped": 25943,
-              "gain": 387146
+              "url": "http://staging.territoiresentransitions.fr/app.js",
+              "original": 47650,
+              "gzipped": 14329,
+              "gain": 33321
             },
             {
               "url": "http://staging.territoiresentransitions.fr/navigation.js",
@@ -621,12 +627,6 @@
               "original": 91010,
               "gzipped": 28677,
               "gain": 62333
-            },
-            {
-              "url": "http://staging.territoiresentransitions.fr/app.js",
-              "original": 47650,
-              "gzipped": 14329,
-              "gain": 33321
             }
           ]
         }
@@ -653,15 +653,6 @@
           "totalGain": 3204,
           "files": [
             {
-              "url": "http://staging.territoiresentransitions.fr/styles.css",
-              "original": 18044,
-              "isCompressed": false,
-              "afterCompression": 4978,
-              "afterOptimizationAndCompression": 3017,
-              "optimized": 11072,
-              "gain": 1961
-            },
-            {
               "url": "http://staging.territoiresentransitions.fr/indicateurs.html",
               "original": 413089,
               "isCompressed": false,
@@ -669,6 +660,15 @@
               "afterOptimizationAndCompression": 24700,
               "optimized": 341387,
               "gain": 1243
+            },
+            {
+              "url": "http://staging.territoiresentransitions.fr/styles.css",
+              "original": 18044,
+              "isCompressed": false,
+              "afterCompression": 4978,
+              "afterOptimizationAndCompression": 3017,
+              "optimized": 11072,
+              "gain": 1961
             }
           ]
         }
@@ -700,9 +700,9 @@
               "http://staging.territoiresentransitions.fr/styles.css"
             ],
             "js": [
+              "http://staging.territoiresentransitions.fr/app.js",
               "http://staging.territoiresentransitions.fr/navigation.js",
-              "http://staging.territoiresentransitions.fr/ecpi_nav_display.js",
-              "http://staging.territoiresentransitions.fr/app.js"
+              "http://staging.territoiresentransitions.fr/ecpi_nav_display.js"
             ],
             "json": [],
             "image": [],
@@ -997,9 +997,9 @@
         "count": 4,
         "list": [
           "http://staging.territoiresentransitions.fr/styles.css",
+          "http://staging.territoiresentransitions.fr/app.js",
           "http://staging.territoiresentransitions.fr/navigation.js",
-          "http://staging.territoiresentransitions.fr/ecpi_nav_display.js",
-          "http://staging.territoiresentransitions.fr/app.js"
+          "http://staging.territoiresentransitions.fr/ecpi_nav_display.js"
         ]
       },
       "bad": false,
