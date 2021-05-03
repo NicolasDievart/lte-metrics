@@ -2,4 +2,4 @@
   import Base from './Base.svelte';
 </script>
 
-<Base {...$$props} type="bar" />
+<Base {...$$props} type="line" />

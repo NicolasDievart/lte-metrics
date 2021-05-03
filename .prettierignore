@@ -2,5 +2,6 @@
 static/**
 build/**
 node_modules/**
-greentit-analysis/**
+greenit-analysis/**
+result/**
 urls.yaml
