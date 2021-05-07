@@ -1,8 +1,7 @@
 import analysis from './greenit-analysis/commands/analyse.js';
-import path from 'path';
 
 export default async () => {
-  await analysis({
+  return await analysis({
     yaml_input_file: 'urls.yaml',
     timeout: 180000,
     retry: 2,

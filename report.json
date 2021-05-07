@@ -28,7 +28,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesures.html",
+      "url": "http://staging.territoiresentransitions.fr/fiches/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesures.html",
+      "refactoringDoneAt": 1620376751,
       "index": 2,
       "firstMeaningfulPaint": "2.3 s",
       "timeToInteractive": "2.3 s",
@@ -55,7 +57,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/indicateurs.html",
+      "url": "http://staging.territoiresentransitions.fr/indicateurs/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/indicateurs.html",
+      "refactoringDoneAt": 1620376751,
       "index": 3,
       "firstMeaningfulPaint": "4.4 s",
       "timeToInteractive": "4.4 s",
@@ -82,7 +86,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+      "url": "http://staging.territoiresentransitions.fr/actions_referentiels/citergie__1.1.1/?epci_id=test#citergie__1.1.1",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+      "refactoringDoneAt": 1620376751,
       "index": 4,
       "firstMeaningfulPaint": "2.6 s",
       "timeToInteractive": "2.6 s",
@@ -109,7 +115,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesure_ajout.html",
+      "url": "http://staging.territoiresentransitions.fr/fiches/creation/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesure_ajout.html",
+      "refactoringDoneAt": 1620376751,
       "index": 5,
       "firstMeaningfulPaint": "3.0 s",
       "timeToInteractive": "1.2 s",
@@ -165,7 +173,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesures.html",
+      "url": "http://staging.territoiresentransitions.fr/fiches/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesures.html",
+      "refactoringDoneAt": 1620376751,
       "index": 2,
       "firstMeaningfulPaint": "3.2 s",
       "timeToInteractive": "3.2 s",
@@ -192,7 +202,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/indicateurs.html",
+      "url": "http://staging.territoiresentransitions.fr/indicateurs/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/indicateurs.html",
+      "refactoringDoneAt": 1620376751,
       "index": 3,
       "firstMeaningfulPaint": "4.3 s",
       "timeToInteractive": "4.3 s",
@@ -219,7 +231,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+      "url": "http://staging.territoiresentransitions.fr/actions_referentiels/citergie__1.1.1/?epci_id=test#citergie__1.1.1",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+      "refactoringDoneAt": 1620376751,
       "index": 4,
       "firstMeaningfulPaint": "2.5 s",
       "timeToInteractive": "2.1 s",
@@ -246,7 +260,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesure_ajout.html",
+      "url": "http://staging.territoiresentransitions.fr/fiches/creation/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesure_ajout.html",
+      "refactoringDoneAt": 1620376751,
       "index": 5,
       "firstMeaningfulPaint": "3.6 s",
       "timeToInteractive": "1.5 s",
@@ -302,7 +318,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesures.html",
+      "url": "http://staging.territoiresentransitions.fr/fiches/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesures.html",
+      "refactoringDoneAt": 1620376751,
       "index": 2,
       "firstMeaningfulPaint": "3.4 s",
       "timeToInteractive": "1.4 s",
@@ -329,7 +347,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/indicateurs.html",
+      "url": "http://staging.territoiresentransitions.fr/indicateurs/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/indicateurs.html",
+      "refactoringDoneAt": 1620376751,
       "index": 3,
       "firstMeaningfulPaint": "4.0 s",
       "timeToInteractive": "3.5 s",
@@ -356,7 +376,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+      "url": "http://staging.territoiresentransitions.fr/actions_referentiels/citergie__1.1.1/?epci_id=test#citergie__1.1.1",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+      "refactoringDoneAt": 1620376751,
       "index": 4,
       "firstMeaningfulPaint": "1.9 s",
       "timeToInteractive": "1.9 s",
@@ -383,7 +405,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesure_ajout.html",
+      "url": "http://staging.territoiresentransitions.fr/fiches/creation/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesure_ajout.html",
+      "refactoringDoneAt": 1620376751,
       "index": 5,
       "firstMeaningfulPaint": "2.2 s",
       "timeToInteractive": "1.2 s",
@@ -437,7 +461,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesures.html",
+      "url": "http://staging.territoiresentransitions.fr/fiches/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesures.html",
+      "refactoringDoneAt": 1620376751,
       "index": 2,
       "greenhouseGasesEmission": 1.48,
       "ecoIndex": 76,
@@ -462,7 +488,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/indicateurs.html",
+      "url": "http://staging.territoiresentransitions.fr/indicateurs/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/indicateurs.html",
+      "refactoringDoneAt": 1620376751,
       "index": 3,
       "greenhouseGasesEmission": 2.16,
       "ecoIndex": 42,
@@ -487,7 +515,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+      "url": "http://staging.territoiresentransitions.fr/actions_referentiels/citergie__1.1.1/?epci_id=test#citergie__1.1.1",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesure_1.1.1.html",
+      "refactoringDoneAt": 1620376751,
       "index": 4,
       "greenhouseGasesEmission": 1.54,
       "ecoIndex": 73,
@@ -512,7 +542,9 @@
       "cachingTooShort": 0
     },
     {
-      "url": "http://staging.territoiresentransitions.fr/mesure_ajout.html",
+      "url": "http://staging.territoiresentransitions.fr/fiches/creation/?epci_id=test",
+      "previousUrl": "http://staging.territoiresentransitions.fr/mesure_ajout.html",
+      "refactoringDoneAt": 1620376751,
       "index": 5,
       "greenhouseGasesEmission": 1.2,
       "ecoIndex": 90,
@@ -533,6 +565,182 @@
       "domElementsCount": 13,
       "domElementsCountScore": 100,
       "cachingNotSpecified": 4,
+      "cachingDisabled": 0,
+      "cachingTooShort": 0
+    }
+  ],
+  "1620382551411": [
+    {
+      "url": "http://staging.territoiresentransitions.fr/",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 1,
+      "firstMeaningfulPaint": "1.0 s",
+      "timeToInteractive": "1.0 s",
+      "greenhouseGasesEmission": 1.26,
+      "ecoIndex": 87,
+      "greentITGrade": "A",
+      "waterConsumption": 1.89,
+      "totalWeightInBytes": 148720,
+      "weightByMimeTypes": [
+        { "mimeType": "html", "weight": 17780 },
+        { "mimeType": "css", "weight": 0 },
+        { "mimeType": "js", "weight": 130940 },
+        { "mimeType": "json", "weight": 0 },
+        { "mimeType": "image", "weight": 0 },
+        { "mimeType": "video", "weight": 0 },
+        { "mimeType": "webfont", "weight": 0 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 4,
+      "domElementsCount": 47,
+      "domElementsCountScore": 100,
+      "cachingNotSpecified": 3,
+      "cachingDisabled": 0,
+      "cachingTooShort": 0
+    },
+    {
+      "url": "http://staging.territoiresentransitions.fr/actions_referentiels/?epci_id=test",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 2,
+      "firstMeaningfulPaint": "3.8 s",
+      "timeToInteractive": "1.1 s",
+      "greenhouseGasesEmission": 1.86,
+      "ecoIndex": 57,
+      "greentITGrade": "C",
+      "waterConsumption": 2.79,
+      "totalWeightInBytes": 778556,
+      "weightByMimeTypes": [
+        { "mimeType": "html", "weight": 68004 },
+        { "mimeType": "css", "weight": 0 },
+        { "mimeType": "js", "weight": 710552 },
+        { "mimeType": "json", "weight": 0 },
+        { "mimeType": "image", "weight": 0 },
+        { "mimeType": "video", "weight": 0 },
+        { "mimeType": "webfont", "weight": 0 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 6,
+      "domElementsCount": 756,
+      "domElementsCountScore": 100,
+      "cachingNotSpecified": 5,
+      "cachingDisabled": 0,
+      "cachingTooShort": 0
+    },
+    {
+      "url": "http://staging.territoiresentransitions.fr/actions_referentiels/citergie__1.1.1/?epci_id=test#citergie__1.1.1",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 3,
+      "firstMeaningfulPaint": "5.9 s",
+      "timeToInteractive": "2.1 s",
+      "greenhouseGasesEmission": 1.92,
+      "ecoIndex": 54,
+      "greentITGrade": "C",
+      "waterConsumption": 2.88,
+      "totalWeightInBytes": 926278,
+      "weightByMimeTypes": [
+        { "mimeType": "html", "weight": 89072 },
+        { "mimeType": "css", "weight": 0 },
+        { "mimeType": "js", "weight": 833350 },
+        { "mimeType": "json", "weight": 3856 },
+        { "mimeType": "image", "weight": 0 },
+        { "mimeType": "video", "weight": 0 },
+        { "mimeType": "webfont", "weight": 0 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 12,
+      "domElementsCount": 878,
+      "domElementsCountScore": 100,
+      "cachingNotSpecified": 9,
+      "cachingDisabled": 0,
+      "cachingTooShort": 0
+    },
+    {
+      "url": "http://staging.territoiresentransitions.fr/indicateurs/?epci_id=test",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 4,
+      "firstMeaningfulPaint": "7.7 s",
+      "timeToInteractive": "2.0 s",
+      "greenhouseGasesEmission": 2.14,
+      "ecoIndex": 43,
+      "greentITGrade": "D",
+      "waterConsumption": 3.21,
+      "totalWeightInBytes": 826911,
+      "weightByMimeTypes": [
+        { "mimeType": "html", "weight": 16584 },
+        { "mimeType": "css", "weight": 0 },
+        { "mimeType": "js", "weight": 808773 },
+        { "mimeType": "json", "weight": 1554 },
+        { "mimeType": "image", "weight": 0 },
+        { "mimeType": "video", "weight": 0 },
+        { "mimeType": "webfont", "weight": 0 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 9,
+      "domElementsCount": 5656,
+      "domElementsCountScore": 0,
+      "cachingNotSpecified": 7,
+      "cachingDisabled": 0,
+      "cachingTooShort": 0
+    },
+    {
+      "url": "http://staging.territoiresentransitions.fr/fiches/?epci_id=test",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 5,
+      "firstMeaningfulPaint": "2.8 s",
+      "timeToInteractive": "1.0 s",
+      "greenhouseGasesEmission": 1.22,
+      "ecoIndex": 89,
+      "greentITGrade": "A",
+      "waterConsumption": 1.83,
+      "totalWeightInBytes": 158009,
+      "weightByMimeTypes": [
+        { "mimeType": "html", "weight": 16593 },
+        { "mimeType": "css", "weight": 0 },
+        { "mimeType": "js", "weight": 138917 },
+        { "mimeType": "json", "weight": 2499 },
+        { "mimeType": "image", "weight": 0 },
+        { "mimeType": "video", "weight": 0 },
+        { "mimeType": "webfont", "weight": 0 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 7,
+      "domElementsCount": 19,
+      "domElementsCountScore": 100,
+      "cachingNotSpecified": 4,
+      "cachingDisabled": 0,
+      "cachingTooShort": 0
+    },
+    {
+      "url": "http://staging.territoiresentransitions.fr/fiches/creation/?epci_id=test",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 6,
+      "firstMeaningfulPaint": "6.9 s",
+      "timeToInteractive": "1.1 s",
+      "greenhouseGasesEmission": 1.46,
+      "ecoIndex": 77,
+      "greentITGrade": "A",
+      "waterConsumption": 2.19,
+      "totalWeightInBytes": 878064,
+      "weightByMimeTypes": [
+        { "mimeType": "html", "weight": 21180 },
+        { "mimeType": "css", "weight": 0 },
+        { "mimeType": "js", "weight": 855685 },
+        { "mimeType": "json", "weight": 1199 },
+        { "mimeType": "image", "weight": 0 },
+        { "mimeType": "video", "weight": 0 },
+        { "mimeType": "webfont", "weight": 0 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 11,
+      "domElementsCount": 219,
+      "domElementsCountScore": 100,
+      "cachingNotSpecified": 9,
       "cachingDisabled": 0,
       "cachingTooShort": 0
     }

@@ -84,6 +84,8 @@ function extractYellowLabToolsMetrics() {
 
   try {
     await yellowlabtools();
+  } catch (err) {
+    console.error(err);
   } finally {
     extractYellowLabToolsMetrics();
   }

@@ -24,7 +24,6 @@
       options,
       plugins
     });
-    console.log(chart);
   });
 
   afterUpdate(() => {

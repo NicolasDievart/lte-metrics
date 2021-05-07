@@ -17,6 +17,10 @@
               time: new Date(parseInt(timestamp, 10)),
               url: url,
               ecoIndex: report['ecoIndex'],
+              domElementsCount: report['domElementsCount'],
+              greenhouseGasesEmission: report['greenhouseGasesEmission'],
+              waterConsumption: report['waterConsumption'],
+              weightByMimeTypes: report['weightByMimeTypes'],
               greenITGrade: report['greentITGrade'],
               totalWeightInBytes: report['totalWeightInBytes']
             }
@@ -30,6 +34,10 @@
         time: new Date(parseInt(timestamp, 10)),
         url: report['url'],
         ecoIndex: report['ecoIndex'],
+        domElementsCount: report['domElementsCount'],
+        greenhouseGasesEmission: report['greenhouseGasesEmission'],
+        waterConsumption: report['waterConsumption'],
+        weightByMimeTypes: report['weightByMimeTypes'],
         greenITGrade: report['greentITGrade'],
         totalWeightInBytes: report['totalWeightInBytes']
       });

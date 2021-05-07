@@ -1,5 +1,7 @@
 class Report {
   url;
+  previousUrl = null;
+  refactoringDoneAt = null;
   index;
 
   // Lighthouse metrics.

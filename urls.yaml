@@ -1,5 +1,6 @@
 - http://staging.territoiresentransitions.fr/
-- http://staging.territoiresentransitions.fr/mesures.html
-- http://staging.territoiresentransitions.fr/indicateurs.html
-- http://staging.territoiresentransitions.fr/mesure_1.1.1.html
-- http://staging.territoiresentransitions.fr/mesure_ajout.html
+- http://staging.territoiresentransitions.fr/actions_referentiels/?epci_id=test
+- http://staging.territoiresentransitions.fr/actions_referentiels/citergie__1.1.1/?epci_id=test#citergie__1.1.1
+- http://staging.territoiresentransitions.fr/indicateurs/?epci_id=test
+- http://staging.territoiresentransitions.fr/fiches/?epci_id=test
+- http://staging.territoiresentransitions.fr/fiches/creation/?epci_id=test

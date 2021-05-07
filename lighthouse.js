@@ -39,4 +39,6 @@ export default async () => {
   }
 
   await chrome.kill();
+
+  return index;
 };
