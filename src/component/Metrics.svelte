@@ -65,7 +65,7 @@
   }
 </script>
 
-<div style="float: left;">
+<div>
   {#if performanceReport}
   <Base
     type="line"
