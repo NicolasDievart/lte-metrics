@@ -30,7 +30,7 @@
     "typescript": "^4.0.0",
     "vite": "^2.1.0",
     "yaml": "^1.10.2",
-    "yellowlabtools": "^1.13.4"
+    "yellowlabtools": "^2.1.0"
   },
   "type": "module",
   "dependencies": {
