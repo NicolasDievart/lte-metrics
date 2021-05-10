@@ -28,9 +28,13 @@ function extractLighthouseMetrics() {
   reports.forEach((report) => {
     const reportJson = fs.readFileSync('result/lighthouse-report-' + report.index + '.json');
     const data = JSON.parse(reportJson);
-    report.timeToInteractive = data['audits']['first-meaningful-paint']['displayValue'];
-    report.firstMeaningfulPaint = data['audits']['interactive']['displayValue'];
+    report.firstMeaningfulPaint = parseMilliseconds(data['audits']['first-meaningful-paint']['numericValue']);
+    report.timeToInteractive = parseMilliseconds(data['audits']['interactive']['numericValue']);
   });
+}
+
+function parseMilliseconds(number) {
+  return parseFloat(((number % 60000) / 1000).toFixed(2));
 }
 
 function extractGreenITMetrics() {
