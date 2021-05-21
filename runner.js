@@ -28,7 +28,9 @@ function extractLighthouseMetrics() {
   reports.forEach((report) => {
     const reportJson = fs.readFileSync('result/lighthouse-report-' + report.index + '.json');
     const data = JSON.parse(reportJson);
-    report.firstMeaningfulPaint = parseMilliseconds(data['audits']['first-meaningful-paint']['numericValue']);
+    report.firstMeaningfulPaint = parseMilliseconds(
+      data['audits']['first-meaningful-paint']['numericValue']
+    );
     report.timeToInteractive = parseMilliseconds(data['audits']['interactive']['numericValue']);
   });
 }

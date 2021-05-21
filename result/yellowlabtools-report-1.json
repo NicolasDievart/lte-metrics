@@ -113,7 +113,7 @@
       "globalScoreIfFixed": 98
     },
     "scriptDuration": {
-      "value": 23,
+      "value": 44,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -150,7 +150,7 @@
                 "node": "#document"
               },
               {
-                "id": "svelte-1vb3iqu-style",
+                "id": "svelte-atkss7-style",
                 "node": "#document"
               }
             ],
@@ -176,7 +176,7 @@
                 "node": "head"
               },
               {
-                "append": "head > style#svelte-1vb3iqu-style",
+                "append": "head > style#svelte-atkss7-style",
                 "node": "head"
               },
               {
@@ -1784,7 +1784,7 @@
       "globalScoreIfFixed": 98
     },
     "cssRules": {
-      "value": 237,
+      "value": 241,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 8000,
@@ -1799,7 +1799,7 @@
         "list": [
           {
             "url": "[inline CSS]",
-            "value": 237
+            "value": 241
           }
         ]
       },
@@ -2215,7 +2215,7 @@
       "globalScoreIfFixed": 98
     },
     "totalWeight": {
-      "value": 148720,
+      "value": 149963,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -2228,14 +2228,14 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 148720,
+          "totalWeight": 149963,
           "byType": {
             "html": {
-              "totalWeight": 17780,
+              "totalWeight": 17909,
               "requests": [
                 {
                   "url": "http://staging.territoiresentransitions.fr/",
-                  "weight": 17780
+                  "weight": 17909
                 }
               ]
             },
@@ -2244,19 +2244,19 @@
               "requests": []
             },
             "js": {
-              "totalWeight": 130940,
+              "totalWeight": 132054,
               "requests": [
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-                  "weight": 57214
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/index.16.js",
+                  "weight": 16510
                 },
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-                  "weight": 57214
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+                  "weight": 57772
                 },
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/index.12.js",
-                  "weight": 16512
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+                  "weight": 57772
                 }
               ]
             },
@@ -2335,7 +2335,7 @@
       "globalScoreIfFixed": 98
     },
     "compression": {
-      "value": 105777,
+      "value": 106624,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -2348,46 +2348,46 @@
       },
       "offendersObj": {
         "list": {
-          "totalGain": 105777,
+          "totalGain": 106624,
           "files": [
             {
               "url": "http://staging.territoiresentransitions.fr/",
               "wasCompressed": false,
-              "brotlified": 4577,
-              "originalSize": 17428,
-              "gzipped": 4945,
-              "gain": 12851
+              "brotlified": 4617,
+              "originalSize": 17557,
+              "gzipped": 4986,
+              "gain": 12940
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/index.16.js",
               "wasCompressed": false,
-              "brotlified": 16451,
-              "originalSize": 56849,
-              "gzipped": 17445,
-              "gain": 40398
+              "brotlified": 4011,
+              "originalSize": 16145,
+              "gzipped": 4414,
+              "gain": 12134
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
               "wasCompressed": false,
-              "brotlified": 16451,
-              "originalSize": 56849,
-              "gzipped": 17445,
-              "gain": 40398
+              "brotlified": 16632,
+              "originalSize": 57407,
+              "gzipped": 17623,
+              "gain": 40775
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/index.12.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
               "wasCompressed": false,
-              "brotlified": 4017,
-              "originalSize": 16147,
-              "gzipped": 4402,
-              "gain": 12130
+              "brotlified": 16632,
+              "originalSize": 57407,
+              "gzipped": 17623,
+              "gain": 40775
             }
           ]
         }
       },
       "bad": true,
       "abnormal": false,
-      "score": 54,
+      "score": 53,
       "abnormalityScore": 0,
       "globalScoreIfFixed": 100
     },
@@ -2435,9 +2435,9 @@
             ],
             "css": [],
             "js": [
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/index.12.js"
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/index.16.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js"
             ],
             "json": [],
             "image": [],
@@ -2753,9 +2753,9 @@
       "offendersObj": {
         "count": 3,
         "list": [
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/index.12.js"
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/index.16.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js"
         ]
       },
       "bad": false,

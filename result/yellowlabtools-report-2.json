@@ -5,7 +5,7 @@
   },
   "rules": {
     "DOMelementsCount": {
-      "value": 756,
+      "value": 783,
       "policy": {
         "hasOffenders": false,
         "isAbnormalThreshold": 4500,
@@ -19,7 +19,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "DOMelementMaxDepth": {
       "value": 9,
@@ -33,7 +33,7 @@
         "tool": "phantomas"
       },
       "offendersObj": {
-        "count": 240,
+        "count": 249,
         "tree": {
           "body": {
             "div#sapper": {
@@ -1157,6 +1157,48 @@
                       }
                     }
                   }
+                },
+                "div#economie_circulaire__5.1": {
+                  "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl": {
+                    "div.flex.items-center.flex-grow": {
+                      "div.flex.items-center.flex-grow.statusBar": {
+                        "a.flex.flex-grow": {
+                          "h3.flex.flex-grow": {
+                            "span.mr-1": 1,
+                            "span.mr-4": 2
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "div#economie_circulaire__5.2": {
+                  "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl": {
+                    "div.flex.items-center.flex-grow": {
+                      "div.flex.items-center.flex-grow.statusBar": {
+                        "a.flex.flex-grow": {
+                          "h3.flex.flex-grow": {
+                            "span.mr-1": 1,
+                            "span.mr-4": 2
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "div#economie_circulaire__5.3": {
+                  "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl": {
+                    "div.flex.items-center.flex-grow": {
+                      "div.flex.items-center.flex-grow.statusBar": {
+                        "a.flex.flex-grow": {
+                          "h3.flex.flex-grow": {
+                            "span.mr-1": 1,
+                            "span.mr-4": 2
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -1167,7 +1209,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "iframesCount": {
       "value": 0,
@@ -1188,7 +1230,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "DOMidDuplicated": {
       "value": 0,
@@ -1209,10 +1251,10 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "scriptDuration": {
-      "value": 195,
+      "value": 176,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -1227,10 +1269,10 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "DOMaccesses": {
-      "value": 6268,
+      "value": 6490,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 5000,
@@ -1249,7 +1291,7 @@
                 "node": "#document"
               },
               {
-                "id": "svelte-1vb3iqu-style",
+                "id": "svelte-atkss7-style",
                 "node": "#document"
               }
             ],
@@ -1279,7 +1321,7 @@
                 "node": "head"
               },
               {
-                "append": "head > style#svelte-1vb3iqu-style",
+                "append": "head > style#svelte-atkss7-style",
                 "node": "head"
               },
               {
@@ -9361,6 +9403,294 @@
               {
                 "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__4.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > #text[0]",
                 "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__4.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-1",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-1 > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-1"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4 > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4 > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-1",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-1 > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-1"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4 > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4 > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-1",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-1 > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-1"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4 > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4 > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow > span.mr-4"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
               },
               {
                 "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
@@ -17493,6 +17823,294 @@
                 "target": "main.svelte-1m7xc"
               },
               {
+                "node": "div#economie_circulaire__5.1",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl",
+                "target": "div#economie_circulaire__5.1"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow.statusBar",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "a.flex.flex-grow",
+                "target": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "node": "h3.flex.flex-grow",
+                "target": "a.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-1",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-1"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div#economie_circulaire__5.2",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl",
+                "target": "div#economie_circulaire__5.2"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow.statusBar",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "a.flex.flex-grow",
+                "target": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "node": "h3.flex.flex-grow",
+                "target": "a.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-1",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-1"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div#economie_circulaire__5.3",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl",
+                "target": "div#economie_circulaire__5.3"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow.statusBar",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "a.flex.flex-grow",
+                "target": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "node": "h3.flex.flex-grow",
+                "target": "a.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-1",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-1"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
                 "node": "#text[0]",
                 "target": "main.svelte-1m7xc"
               },
@@ -21347,12 +21965,24 @@
                 "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-md.hover:shadow-md"
               },
               {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
                 "node": "h2.text-2xl.mt-10.mb-2",
                 "target": "main.svelte-1m7xc"
               },
               {
                 "node": "#text[0]",
                 "target": "h2.text-2xl.mt-10.mb-2"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
               },
               {
                 "node": "div#citergie__2.3.2",
@@ -23929,6 +24559,222 @@
               {
                 "node": "#text[0]",
                 "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "div#economie_circulaire__5.1",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl",
+                "target": "div#economie_circulaire__5.1"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow.statusBar",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "a.flex.flex-grow",
+                "target": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "node": "h3.flex.flex-grow",
+                "target": "a.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-1",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-1"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "div#economie_circulaire__5.2",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl",
+                "target": "div#economie_circulaire__5.2"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow.statusBar",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "a.flex.flex-grow",
+                "target": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "node": "h3.flex.flex-grow",
+                "target": "a.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-1",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-1"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "div#economie_circulaire__5.3",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl",
+                "target": "div#economie_circulaire__5.3"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "div.flex.items-center.flex-grow.statusBar",
+                "target": "div.flex.items-center.flex-grow"
+              },
+              {
+                "node": "a.flex.flex-grow",
+                "target": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "node": "h3.flex.flex-grow",
+                "target": "a.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-1",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-1"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "span.mr-4",
+                "target": "h3.flex.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "span.mr-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
               }
             ],
             "DOMmutationsAttributes": [
@@ -25630,6 +26476,66 @@
               },
               {
                 "attribute": "class",
+                "node": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "attribute": "class",
+                "node": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "attribute": "class",
+                "node": "div.flex.items-center.flex-grow"
+              },
+              {
+                "attribute": "class",
+                "node": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "attribute": "class",
+                "node": "div#economie_circulaire__5.1"
+              },
+              {
+                "attribute": "class",
+                "node": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "attribute": "class",
+                "node": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "attribute": "class",
+                "node": "div.flex.items-center.flex-grow"
+              },
+              {
+                "attribute": "class",
+                "node": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "attribute": "class",
+                "node": "div#economie_circulaire__5.2"
+              },
+              {
+                "attribute": "class",
+                "node": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "attribute": "class",
+                "node": "div.flex.items-center.flex-grow.statusBar"
+              },
+              {
+                "attribute": "class",
+                "node": "div.flex.items-center.flex-grow"
+              },
+              {
+                "attribute": "class",
+                "node": "div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl"
+              },
+              {
+                "attribute": "class",
+                "node": "div#economie_circulaire__5.3"
+              },
+              {
+                "attribute": "class",
                 "node": "h2.text-2xl.mt-10.mb-2"
               },
               {
@@ -25655,6 +26561,18 @@
               {
                 "attribute": "href",
                 "node": "a.p-1.rounded.hover:bg-gray-100.hover:text-gray-700.focus:bg-gray-100.focus:text-gray-700.active:text-gray-900.active:shadow-inner.active:bg-white"
+              },
+              {
+                "attribute": "href",
+                "node": "a.flex.flex-grow"
+              },
+              {
+                "attribute": "href",
+                "node": "a.flex.flex-grow"
+              },
+              {
+                "attribute": "href",
+                "node": "a.flex.flex-grow"
               },
               {
                 "attribute": "href",
@@ -26329,6 +27247,18 @@
               {
                 "eventType": "click",
                 "path": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__4.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "eventType": "click",
+                "path": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.1 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "eventType": "click",
+                "path": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.2 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
+              },
+              {
+                "eventType": "click",
+                "path": "body > div#sapper > main.svelte-1m7xc > div#economie_circulaire__5.3 > div.flex.flex-row.items-center.px-4.pt-5.pb-4.bg-white.transform.translate-y-0.5.hover:translate-y-0.shadow-xl.hover:shadow-xl > div.flex.items-center.flex-grow > div.flex.items-center.flex-grow.statusBar > a.flex.flex-grow > h3.flex.flex-grow"
               }
             ]
           }
@@ -26337,7 +27267,7 @@
       "bad": true,
       "abnormal": true,
       "score": 0,
-      "abnormalityScore": -28,
+      "abnormalityScore": -33,
       "globalScoreIfFixed": 93
     },
     "eventsScrollBound": {
@@ -26359,7 +27289,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "jsErrors": {
       "value": 0,
@@ -26380,7 +27310,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "documentWriteCalls": {
       "value": 0,
@@ -26401,7 +27331,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "synchronousXHR": {
       "value": 0,
@@ -26422,7 +27352,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "globalVariables": {
       "value": 2,
@@ -26446,7 +27376,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "jQueryVersionsLoaded": {
       "value": 0,
@@ -26467,7 +27397,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssParsingErrors": {
       "value": 0,
@@ -26488,10 +27418,10 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssRules": {
-      "value": 237,
+      "value": 241,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 8000,
@@ -26506,7 +27436,7 @@
         "list": [
           {
             "url": "[inline CSS]",
-            "value": 237
+            "value": 241
           }
         ]
       },
@@ -26514,7 +27444,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssComplexSelectors": {
       "value": 1,
@@ -26546,7 +27476,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssColors": {
       "value": 8,
@@ -26600,7 +27530,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "similarColors": {
       "value": 0,
@@ -26621,7 +27551,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssBreakpoints": {
       "value": 5,
@@ -26665,7 +27595,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssMobileFirst": {
       "value": 0,
@@ -26685,7 +27615,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssImports": {
       "value": 0,
@@ -26706,7 +27636,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssDuplicatedSelectors": {
       "value": 8,
@@ -26765,7 +27695,7 @@
       "abnormal": false,
       "score": 92,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssDuplicatedProperties": {
       "value": 1,
@@ -26798,7 +27728,7 @@
       "abnormal": false,
       "score": 99,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssEmptyRules": {
       "value": 0,
@@ -26818,7 +27748,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssImportants": {
       "value": 0,
@@ -26838,7 +27768,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssOldIEFixes": {
       "value": 0,
@@ -26858,7 +27788,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssOldPropertyPrefixes": {
       "value": 0,
@@ -26879,7 +27809,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssRedundantBodySelectors": {
       "value": 0,
@@ -26899,7 +27829,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cssRedundantChildNodesSelectors": {
       "value": 0,
@@ -26919,10 +27849,10 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "totalWeight": {
-      "value": 778556,
+      "value": 795944,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -26935,14 +27865,14 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 778556,
+          "totalWeight": 795944,
           "byType": {
             "html": {
-              "totalWeight": 68004,
+              "totalWeight": 70191,
               "requests": [
                 {
                   "url": "http://staging.territoiresentransitions.fr/actions_referentiels/?epci_id=test",
-                  "weight": 68004
+                  "weight": 70191
                 }
               ]
             },
@@ -26951,27 +27881,27 @@
               "requests": []
             },
             "js": {
-              "totalWeight": 710552,
+              "totalWeight": 725753,
               "requests": [
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/actions_referentiels.6.js",
-                  "weight": 8729
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels.10.js",
+                  "weight": 8732
                 },
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-                  "weight": 57214
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+                  "weight": 57772
                 },
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-                  "weight": 57214
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+                  "weight": 57772
                 },
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
-                  "weight": 36718
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
+                  "weight": 36685
                 },
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/0.0.js",
-                  "weight": 550677
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/0.0.js",
+                  "weight": 564792
                 }
               ]
             },
@@ -27002,7 +27932,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "imageOptimization": {
       "value": 0,
@@ -27026,7 +27956,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "imagesTooLarge": {
       "value": 0,
@@ -27047,10 +27977,10 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "compression": {
-      "value": 620899,
+      "value": 635918,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -27063,55 +27993,55 @@
       },
       "offendersObj": {
         "list": {
-          "totalGain": 620899,
+          "totalGain": 635918,
           "files": [
             {
               "url": "http://staging.territoiresentransitions.fr/actions_referentiels/?epci_id=test",
               "wasCompressed": false,
-              "brotlified": 7710,
-              "originalSize": 67652,
-              "gzipped": 8769,
-              "gain": 59942
+              "brotlified": 7927,
+              "originalSize": 69839,
+              "gzipped": 9023,
+              "gain": 61912
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/actions_referentiels.6.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels.10.js",
               "wasCompressed": false,
-              "brotlified": 2736,
-              "originalSize": 8365,
-              "gzipped": 2925,
+              "brotlified": 2739,
+              "originalSize": 8368,
+              "gzipped": 2927,
               "gain": 5629
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
               "wasCompressed": false,
-              "brotlified": 16451,
-              "originalSize": 56849,
-              "gzipped": 17445,
-              "gain": 40398
+              "brotlified": 16632,
+              "originalSize": 57407,
+              "gzipped": 17623,
+              "gain": 40775
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
               "wasCompressed": false,
-              "brotlified": 16451,
-              "originalSize": 56849,
-              "gzipped": 17445,
-              "gain": 40398
+              "brotlified": 16632,
+              "originalSize": 57407,
+              "gzipped": 17623,
+              "gain": 40775
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
               "wasCompressed": false,
-              "brotlified": 8719,
-              "originalSize": 36353,
-              "gzipped": 9341,
-              "gain": 27634
+              "brotlified": 8724,
+              "originalSize": 36320,
+              "gzipped": 9339,
+              "gain": 27596
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/0.0.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/0.0.js",
               "wasCompressed": false,
-              "brotlified": 103413,
-              "originalSize": 550311,
-              "gzipped": 121480,
-              "gain": 446898
+              "brotlified": 105195,
+              "originalSize": 564426,
+              "gzipped": 123795,
+              "gain": 459231
             }
           ]
         }
@@ -27119,7 +28049,7 @@
       "bad": true,
       "abnormal": true,
       "score": 0,
-      "abnormalityScore": -54,
+      "abnormalityScore": -58,
       "globalScoreIfFixed": 94
     },
     "fileMinification": {
@@ -27144,7 +28074,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "totalRequests": {
       "value": 6,
@@ -27166,11 +28096,11 @@
             ],
             "css": [],
             "js": [
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/actions_referentiels.6.js",
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/0.0.js"
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels.10.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/0.0.js"
             ],
             "json": [],
             "image": [],
@@ -27184,7 +28114,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "domains": {
       "value": 1,
@@ -27210,7 +28140,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "notFound": {
       "value": 0,
@@ -27231,7 +28161,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "closedConnections": {
       "value": 0,
@@ -27252,7 +28182,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "identicalFiles": {
       "value": 0,
@@ -27274,7 +28204,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "emptyRequests": {
       "value": 0,
@@ -27295,7 +28225,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "lazyLoadableImagesBelowTheFold": {
       "value": 0,
@@ -27316,7 +28246,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "hiddenImages": {
       "value": 0,
@@ -27337,7 +28267,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "fontsCount": {
       "value": 0,
@@ -27358,7 +28288,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "heavyFonts": {
       "value": 0,
@@ -27381,7 +28311,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "nonWoff2Fonts": {
       "value": 0,
@@ -27405,7 +28335,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "oldHttpProtocol": {
       "value": 2,
@@ -27428,7 +28358,7 @@
         "message": "<p>HTTP/2 is the latest version of the HTTP protocol. It is designed to optimize load speed. HTTP/3 will come soon and should be even faster!</p><p>When a domain sends more than 4 requests over HTTP/1, this metric counts one point for each new request. Below 5 requests, the benefits of HTTP/2 are generally less significant.</p>",
         "hasOffenders": true
       },
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "oldTlsProtocol": {
       "value": 0,
@@ -27449,7 +28379,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cachingDisabled": {
       "value": 0,
@@ -27470,7 +28400,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cachingNotSpecified": {
       "value": 5,
@@ -27486,18 +28416,18 @@
       "offendersObj": {
         "count": 5,
         "list": [
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/actions_referentiels.6.js",
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/0.0.js"
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels.10.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/0.0.js"
         ]
       },
       "bad": false,
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     },
     "cachingTooShort": {
       "value": 0,
@@ -27518,7 +28448,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 87
+      "globalScoreIfFixed": 86
     }
   },
   "scoreProfiles": {
@@ -27526,7 +28456,7 @@
       "categories": {
         "pageWeight": {
           "label": "Page weight",
-          "categoryScore": 65,
+          "categoryScore": 64,
           "rules": [
             "totalWeight",
             "imageOptimization",
@@ -27560,7 +28490,7 @@
         },
         "javascriptComplexity": {
           "label": "JS complexity",
-          "categoryScore": 55,
+          "categoryScore": 53,
           "rules": [
             "scriptDuration",
             "DOMaccesses",
@@ -27636,7 +28566,7 @@
           ]
         }
       },
-      "globalScore": 87
+      "globalScore": 86
     }
   }
 }

@@ -1,13 +1,13 @@
 {
-  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/90.0.4430.93 Safari/537.36",
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/90.0.4430.212 Safari/537.36",
   "environment": {
     "networkUserAgent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4420.0 Mobile Safari/537.36 Chrome-Lighthouse",
-    "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/90.0.4430.93 Safari/537.36",
-    "benchmarkIndex": 815.5,
+    "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/90.0.4430.212 Safari/537.36",
+    "benchmarkIndex": 733,
     "credits": {}
   },
-  "lighthouseVersion": "7.3.0",
-  "fetchTime": "2021-05-07T10:15:06.871Z",
+  "lighthouseVersion": "7.4.0",
+  "fetchTime": "2021-05-21T09:06:10.586Z",
   "requestedUrl": "http://staging.territoiresentransitions.fr/fiches/creation/?epci_id=test",
   "finalUrl": "http://staging.territoiresentransitions.fr/fiches/creation/?epci_id=test",
   "runWarnings": [],
@@ -18,9 +18,9 @@
       "description": "First Meaningful Paint measures when the primary content of a page is visible. [Learn more](https://web.dev/first-meaningful-paint/).",
       "score": 1,
       "scoreDisplayMode": "numeric",
-      "numericValue": 1057.7259,
+      "numericValue": 1036.9968,
       "numericUnit": "millisecond",
-      "displayValue": "1.1 s"
+      "displayValue": "1.0 s"
     },
     "speed-index": {
       "id": "speed-index",
@@ -28,19 +28,19 @@
       "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more](https://web.dev/speed-index/).",
       "score": 1,
       "scoreDisplayMode": "numeric",
-      "numericValue": 1057.7259,
+      "numericValue": 1157.5622676041667,
       "numericUnit": "millisecond",
-      "displayValue": "1.1 s"
+      "displayValue": "1.2 s"
     },
     "first-cpu-idle": {
       "id": "first-cpu-idle",
       "title": "First CPU Idle",
       "description": "First CPU Idle marks the first time at which the page's main thread is quiet enough to handle input.  [Learn more](https://web.dev/first-cpu-idle/).",
-      "score": 0.98,
+      "score": 0.72,
       "scoreDisplayMode": "numeric",
-      "numericValue": 2509.1776999999997,
+      "numericValue": 4921.984,
       "numericUnit": "millisecond",
-      "displayValue": "2.5 s"
+      "displayValue": "4.9 s"
     },
     "interactive": {
       "id": "interactive",
@@ -48,7 +48,7 @@
       "description": "Time to interactive is the amount of time it takes for the page to become fully interactive. [Learn more](https://web.dev/interactive/).",
       "score": 0.54,
       "scoreDisplayMode": "numeric",
-      "numericValue": 6913.9036,
+      "numericValue": 6942.9872000000005,
       "numericUnit": "millisecond",
       "displayValue": "6.9 s"
     }
@@ -203,271 +203,271 @@
   "timing": {
     "entries": [
       {
-        "startTime": 22320.33,
+        "startTime": 28017.73,
         "name": "lh:init:config",
-        "duration": 114.53,
+        "duration": 159.84,
         "entryType": "measure"
       },
       {
-        "startTime": 22320.79,
+        "startTime": 28020.24,
         "name": "lh:config:requireGatherers",
-        "duration": 0.35,
+        "duration": 1.43,
         "entryType": "measure"
       },
       {
-        "startTime": 22321.14,
+        "startTime": 28021.69,
         "name": "lh:config:requireAudits",
-        "duration": 97.22,
+        "duration": 136.84,
         "entryType": "measure"
       },
       {
-        "startTime": 22434.88,
+        "startTime": 28177.61,
         "name": "lh:runner:run",
-        "duration": 4418.31,
+        "duration": 5747.55,
         "entryType": "measure"
       },
       {
-        "startTime": 22435.02,
+        "startTime": 28177.76,
         "name": "lh:init:connect",
-        "duration": 4.16,
+        "duration": 4.58,
         "entryType": "measure"
       },
       {
-        "startTime": 22439.2,
+        "startTime": 28182.36,
         "name": "lh:gather:loadBlank",
-        "duration": 29.68,
+        "duration": 29.44,
         "entryType": "measure"
       },
       {
-        "startTime": 22468.9,
+        "startTime": 28211.83,
         "name": "lh:gather:getVersion",
-        "duration": 0.26,
+        "duration": 0.5,
         "entryType": "measure"
       },
       {
-        "startTime": 22469.22,
+        "startTime": 28212.42,
         "name": "lh:gather:getBenchmarkIndex",
-        "duration": 1008.39,
+        "duration": 1009.08,
         "entryType": "measure"
       },
       {
-        "startTime": 23477.62,
+        "startTime": 29221.51,
         "name": "lh:gather:setupDriver",
-        "duration": 9,
+        "duration": 9.29,
         "entryType": "measure"
       },
       {
-        "startTime": 23486.65,
+        "startTime": 29230.82,
         "name": "lh:gather:runPass-defaultPass",
-        "duration": 2717.58,
+        "duration": 4107.97,
         "entryType": "measure"
       },
       {
-        "startTime": 23486.74,
+        "startTime": 29230.9,
         "name": "lh:gather:loadBlank",
-        "duration": 8.83,
+        "duration": 9.36,
         "entryType": "measure"
       },
       {
-        "startTime": 23495.59,
+        "startTime": 29240.29,
         "name": "lh:gather:setupPassNetwork",
-        "duration": 1.26,
+        "duration": 1.51,
         "entryType": "measure"
       },
       {
-        "startTime": 23496.87,
-        "name": "lh:driver:cleanBrowserCaches",
-        "duration": 2.56,
+        "startTime": 29241.83,
+        "name": "lh:storage:cleanBrowserCaches",
+        "duration": 4.23,
         "entryType": "measure"
       },
       {
-        "startTime": 23499.44,
+        "startTime": 29246.08,
         "name": "lh:gather:beforePass",
         "duration": 0.01,
         "entryType": "measure"
       },
       {
-        "startTime": 23499.46,
+        "startTime": 29246.1,
         "name": "lh:gather:beginRecording",
-        "duration": 1.98,
+        "duration": 2.49,
         "entryType": "measure"
       },
       {
-        "startTime": 23501.46,
+        "startTime": 29248.62,
         "name": "lh:gather:loadPage-defaultPass",
-        "duration": 2485.16,
+        "duration": 3875.88,
         "entryType": "measure"
       },
       {
-        "startTime": 25986.71,
+        "startTime": 33124.55,
         "name": "lh:gather:pass",
-        "duration": 0.07,
+        "duration": 0.03,
         "entryType": "measure"
       },
       {
-        "startTime": 25986.85,
+        "startTime": 33124.62,
         "name": "lh:gather:getTrace",
-        "duration": 211.04,
+        "duration": 207.49,
         "entryType": "measure"
       },
       {
-        "startTime": 26197.9,
+        "startTime": 33332.15,
         "name": "lh:gather:getDevtoolsLog",
-        "duration": 0.57,
+        "duration": 1.03,
         "entryType": "measure"
       },
       {
-        "startTime": 26199.12,
+        "startTime": 33334.06,
         "name": "lh:gather:afterPass",
-        "duration": 5.09,
+        "duration": 4.72,
         "entryType": "measure"
       },
       {
-        "startTime": 26204.24,
+        "startTime": 33338.81,
         "name": "lh:gather:populateBaseArtifacts",
-        "duration": 510.77,
+        "duration": 403.33,
         "entryType": "measure"
       },
       {
-        "startTime": 26694.56,
+        "startTime": 33669.08,
         "name": "lh:gather:collectStacks",
-        "duration": 20.42,
+        "duration": 73.01,
         "entryType": "measure"
       },
       {
-        "startTime": 26715.03,
+        "startTime": 33742.17,
         "name": "lh:gather:disconnect",
-        "duration": 2.87,
+        "duration": 4.67,
         "entryType": "measure"
       },
       {
-        "startTime": 26717.93,
+        "startTime": 33746.9,
         "name": "lh:runner:auditing",
-        "duration": 135.09,
+        "duration": 178.01,
         "entryType": "measure"
       },
       {
-        "startTime": 26718.95,
+        "startTime": 33748.12,
         "name": "lh:audit:first-meaningful-paint",
-        "duration": 13.58,
+        "duration": 19.4,
         "entryType": "measure"
       },
       {
-        "startTime": 26719.79,
+        "startTime": 33748.95,
         "name": "lh:computed:FirstMeaningfulPaint",
-        "duration": 11.76,
+        "duration": 17.72,
         "entryType": "measure"
       },
       {
-        "startTime": 26719.82,
+        "startTime": 33748.99,
         "name": "lh:computed:NetworkRecords",
-        "duration": 0.51,
+        "duration": 2.31,
         "entryType": "measure"
       },
       {
-        "startTime": 26720.35,
+        "startTime": 33751.34,
         "name": "lh:computed:TraceOfTab",
-        "duration": 4.93,
+        "duration": 8.38,
         "entryType": "measure"
       },
       {
-        "startTime": 26725.33,
+        "startTime": 33759.77,
         "name": "lh:computed:LanternFirstMeaningfulPaint",
-        "duration": 6.2,
+        "duration": 6.89,
         "entryType": "measure"
       },
       {
-        "startTime": 26725.35,
+        "startTime": 33759.8,
         "name": "lh:computed:LanternFirstContentfulPaint",
-        "duration": 4.81,
+        "duration": 5.89,
         "entryType": "measure"
       },
       {
-        "startTime": 26725.37,
+        "startTime": 33759.81,
         "name": "lh:computed:PageDependencyGraph",
-        "duration": 3.67,
+        "duration": 4.2,
         "entryType": "measure"
       },
       {
-        "startTime": 26729.07,
+        "startTime": 33764.04,
         "name": "lh:computed:LoadSimulator",
-        "duration": 0.34,
+        "duration": 0.42,
         "entryType": "measure"
       },
       {
-        "startTime": 26729.09,
+        "startTime": 33764.06,
         "name": "lh:computed:NetworkAnalysis",
-        "duration": 0.29,
+        "duration": 0.36,
         "entryType": "measure"
       },
       {
-        "startTime": 26732.82,
+        "startTime": 33767.83,
         "name": "lh:audit:speed-index",
-        "duration": 111.09,
+        "duration": 145.51,
         "entryType": "measure"
       },
       {
-        "startTime": 26733.18,
+        "startTime": 33768.21,
         "name": "lh:computed:SpeedIndex",
-        "duration": 110.08,
+        "duration": 144.48,
         "entryType": "measure"
       },
       {
-        "startTime": 26733.21,
+        "startTime": 33768.24,
         "name": "lh:computed:LanternSpeedIndex",
-        "duration": 110.04,
+        "duration": 144.43,
         "entryType": "measure"
       },
       {
-        "startTime": 26733.22,
+        "startTime": 33768.25,
         "name": "lh:computed:Speedline",
-        "duration": 106.13,
+        "duration": 141.73,
         "entryType": "measure"
       },
       {
-        "startTime": 26844.17,
+        "startTime": 33913.62,
         "name": "lh:audit:first-cpu-idle",
-        "duration": 3.63,
+        "duration": 6.44,
         "entryType": "measure"
       },
       {
-        "startTime": 26844.47,
+        "startTime": 33913.96,
         "name": "lh:computed:FirstCPUIdle",
-        "duration": 2.62,
+        "duration": 5.37,
         "entryType": "measure"
       },
       {
-        "startTime": 26844.49,
+        "startTime": 33913.99,
         "name": "lh:computed:LanternFirstCPUIdle",
-        "duration": 2.59,
+        "duration": 5.33,
         "entryType": "measure"
       },
       {
-        "startTime": 26848.04,
+        "startTime": 33920.33,
         "name": "lh:audit:interactive",
-        "duration": 4.96,
+        "duration": 4.56,
         "entryType": "measure"
       },
       {
-        "startTime": 26848.37,
+        "startTime": 33920.65,
         "name": "lh:computed:Interactive",
-        "duration": 3.58,
+        "duration": 3.46,
         "entryType": "measure"
       },
       {
-        "startTime": 26848.4,
+        "startTime": 33920.68,
         "name": "lh:computed:LanternInteractive",
-        "duration": 3.53,
+        "duration": 3.42,
         "entryType": "measure"
       },
       {
-        "startTime": 26853.03,
+        "startTime": 33924.92,
         "name": "lh:runner:generate",
-        "duration": 0.16,
+        "duration": 0.23,
         "entryType": "measure"
       }
     ],
-    "total": 4418.31
+    "total": 5747.55
   },
   "i18n": {
     "rendererFormattedStrings": {
@@ -526,25 +526,25 @@
       "lighthouse-core/lib/i18n/i18n.js | seconds": [
         {
           "values": {
-            "timeInMs": 1057.7259
+            "timeInMs": 1036.9968
           },
           "path": "audits[first-meaningful-paint].displayValue"
         },
         {
           "values": {
-            "timeInMs": 1057.7259
+            "timeInMs": 1157.5622676041667
           },
           "path": "audits[speed-index].displayValue"
         },
         {
           "values": {
-            "timeInMs": 2509.1776999999997
+            "timeInMs": 4921.984
           },
           "path": "audits[first-cpu-idle].displayValue"
         },
         {
           "values": {
-            "timeInMs": 6913.9036
+            "timeInMs": 6942.9872000000005
           },
           "path": "audits.interactive.displayValue"
         }

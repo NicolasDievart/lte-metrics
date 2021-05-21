@@ -28,18 +28,18 @@
   function createAggregateFromReport(report, timestamp) {
     return {
       time: new Date(parseInt(timestamp, 10)),
-        url: report['url'],
+      url: report['url'],
       ecoIndex: report['ecoIndex'],
       domElementsCount: report['domElementsCount'],
       weightByMimeTypes: report['weightByMimeTypes'],
       totalWeightInBytes: report['totalWeightInBytes'],
       timeToInteractive: report['timeToInteractive'],
       firstMeaningfulPaint: report['firstMeaningfulPaint'],
-      totalRequest: report['totalRequest'],
-    }
+      totalRequest: report['totalRequest']
+    };
   }
 
-   function switchPerformanceReport() {
+  function switchPerformanceReport() {
     performanceReport = !performanceReport;
   }
   function switchDomRequestReport() {
@@ -52,23 +52,22 @@
 
 <h1>Metrics du projet LTE</h1>
 
-<hr>
+<hr />
 <h2>Sélectionner les indicateurs :</h2>
-<button id="indicator-performance" on:click={switchPerformanceReport}>La performance au chargement</button>
-<button id="indicator-weight" on:click={switchWeightReport}>La décomposition du poids des éléments</button>
+<button id="indicator-performance" on:click={switchPerformanceReport}
+  >La performance au chargement</button
+>
+<button id="indicator-weight" on:click={switchWeightReport}
+  >La décomposition du poids des éléments</button
+>
 <button id="indicator-dom-request" on:click={switchDomRequestReport}>Le DOM et les requêtes</button>
-<hr>
+<hr />
 
 <ul>
   {#each Array.from(map.values()) as reportAggregate}
     <li>
       <h2>{reportAggregate.url}</h2>
-      <Metrics
-        {reportAggregate}
-        {performanceReport}
-        {domRequestReport}
-        {weightReport}
-      />
+      <Metrics {reportAggregate} {performanceReport} {domRequestReport} {weightReport} />
     </li>
   {/each}
 </ul>

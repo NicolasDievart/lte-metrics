@@ -100,7 +100,7 @@
       "globalScoreIfFixed": 98
     },
     "scriptDuration": {
-      "value": 44,
+      "value": 72,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -118,7 +118,7 @@
       "globalScoreIfFixed": 98
     },
     "DOMaccesses": {
-      "value": 332,
+      "value": 438,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 5000,
@@ -137,7 +137,7 @@
                 "node": "#document"
               },
               {
-                "id": "svelte-1vb3iqu-style",
+                "id": "svelte-atkss7-style",
                 "node": "#document"
               }
             ],
@@ -163,7 +163,7 @@
                 "node": "head"
               },
               {
-                "append": "head > style#svelte-1vb3iqu-style",
+                "append": "head > style#svelte-atkss7-style",
                 "node": "head"
               },
               {
@@ -689,6 +689,214 @@
               {
                 "append": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[0] > #text[0]",
                 "node": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[0]"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[12]"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > a.block.bg-white.rounded.my-4.p-4",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1]"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > a.block.bg-white.rounded.my-4.p-4"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1] > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[12] > li[1]"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.p-5",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > h3.text-2xl.flex-grow",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > h3.text-2xl.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > h3.text-2xl.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[15]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[15]"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > a.block.bg-white.rounded.my-4.p-4",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0]"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > a.block.bg-white.rounded.my-4.p-4"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0] > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[15] > li[0]"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.p-5",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > h3.text-2xl.flex-grow",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > h3.text-2xl.flex-grow > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > h3.text-2xl.flex-grow"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[18]",
+                "node": "body > div#sapper > main.svelte-1m7xc"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[18]"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > a.block.bg-white.rounded.my-4.p-4",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0]"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > a.block.bg-white.rounded.my-4.p-4"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > a.block.bg-white.rounded.my-4.p-4 > h3.text-lg"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0] > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > ul[18] > li[0]"
               },
               {
                 "append": "body > div#sapper > main.svelte-1m7xc > #text[0]",
@@ -1221,6 +1429,214 @@
                 "target": "li[0]"
               },
               {
+                "node": "li[1]",
+                "target": "ul[12]"
+              },
+              {
+                "node": "a.block.bg-white.rounded.my-4.p-4",
+                "target": "li[1]"
+              },
+              {
+                "node": "h3.text-lg",
+                "target": "a.block.bg-white.rounded.my-4.p-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "li[1]"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div.p-5",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div.flex.flex-row",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "h3.text-2xl.flex-grow",
+                "target": "div.flex.flex-row"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-2xl.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row"
+              },
+              {
+                "node": "button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end",
+                "target": "div.flex.flex-row"
+              },
+              {
+                "node": "#text[0]",
+                "target": "button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end"
+              },
+              {
+                "node": "#text[0]",
+                "target": "button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "ul[15]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "li[0]",
+                "target": "ul[15]"
+              },
+              {
+                "node": "a.block.bg-white.rounded.my-4.p-4",
+                "target": "li[0]"
+              },
+              {
+                "node": "h3.text-lg",
+                "target": "a.block.bg-white.rounded.my-4.p-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "li[0]"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div.p-5",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "div.flex.flex-row",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "h3.text-2xl.flex-grow",
+                "target": "div.flex.flex-row"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-2xl.flex-grow"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row"
+              },
+              {
+                "node": "button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end",
+                "target": "div.flex.flex-row"
+              },
+              {
+                "node": "#text[0]",
+                "target": "button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end"
+              },
+              {
+                "node": "#text[0]",
+                "target": "button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end"
+              },
+              {
+                "node": "#text[0]",
+                "target": "div.flex.flex-row"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "#text[0]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "ul[18]",
+                "target": "main.svelte-1m7xc"
+              },
+              {
+                "node": "li[0]",
+                "target": "ul[18]"
+              },
+              {
+                "node": "a.block.bg-white.rounded.my-4.p-4",
+                "target": "li[0]"
+              },
+              {
+                "node": "h3.text-lg",
+                "target": "a.block.bg-white.rounded.my-4.p-4"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "h3.text-lg"
+              },
+              {
+                "node": "#text[0]",
+                "target": "li[0]"
+              },
+              {
                 "node": "#text[0]",
                 "target": "main.svelte-1m7xc"
               },
@@ -1473,6 +1889,14 @@
               {
                 "eventType": "click",
                 "path": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end"
+              },
+              {
+                "eventType": "click",
+                "path": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end"
+              },
+              {
+                "eventType": "click",
+                "path": "body > div#sapper > main.svelte-1m7xc > div.flex.flex-row > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.self-end"
               }
             ]
           }
@@ -1635,7 +2059,7 @@
       "globalScoreIfFixed": 98
     },
     "cssRules": {
-      "value": 237,
+      "value": 241,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 8000,
@@ -1650,7 +2074,7 @@
         "list": [
           {
             "url": "[inline CSS]",
-            "value": 237
+            "value": 241
           }
         ]
       },
@@ -2066,7 +2490,7 @@
       "globalScoreIfFixed": 98
     },
     "totalWeight": {
-      "value": 158009,
+      "value": 163046,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -2079,14 +2503,14 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 158009,
+          "totalWeight": 163046,
           "byType": {
             "html": {
-              "totalWeight": 16593,
+              "totalWeight": 16723,
               "requests": [
                 {
                   "url": "http://staging.territoiresentransitions.fr/fiches/?epci_id=test",
-                  "weight": 16593
+                  "weight": 16723
                 }
               ]
             },
@@ -2095,36 +2519,36 @@
               "requests": []
             },
             "js": {
-              "totalWeight": 138917,
+              "totalWeight": 141258,
               "requests": [
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/fiches.9.js",
-                  "weight": 21066
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches.13.js",
+                  "weight": 21263
                 },
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-                  "weight": 57214
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+                  "weight": 57772
                 },
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-                  "weight": 57214
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+                  "weight": 57772
                 },
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/5.5.js",
-                  "weight": 3423
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/8.8.js",
+                  "weight": 4451
                 }
               ]
             },
             "json": {
-              "totalWeight": 2499,
+              "totalWeight": 5065,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/fiche_action_categorie/test/all",
-                  "weight": 1199
+                  "weight": 1450
                 },
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/fiche_action/test/all",
-                  "weight": 1300
+                  "weight": 3615
                 }
               ]
             },
@@ -2199,7 +2623,7 @@
       "globalScoreIfFixed": 98
     },
     "compression": {
-      "value": 110572,
+      "value": 112555,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -2212,54 +2636,54 @@
       },
       "offendersObj": {
         "list": {
-          "totalGain": 110572,
+          "totalGain": 112555,
           "files": [
             {
               "url": "http://staging.territoiresentransitions.fr/fiches/?epci_id=test",
               "wasCompressed": false,
-              "brotlified": 4005,
-              "originalSize": 16241,
-              "gzipped": 4360,
-              "gain": 12236
+              "brotlified": 4044,
+              "originalSize": 16371,
+              "gzipped": 4404,
+              "gain": 12327
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/fiches.9.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches.13.js",
               "wasCompressed": false,
-              "brotlified": 5433,
-              "originalSize": 20701,
-              "gzipped": 5774,
-              "gain": 15268
+              "brotlified": 5478,
+              "originalSize": 20898,
+              "gzipped": 5858,
+              "gain": 15420
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
               "wasCompressed": false,
-              "brotlified": 16451,
-              "originalSize": 56849,
-              "gzipped": 17445,
-              "gain": 40398
+              "brotlified": 16632,
+              "originalSize": 57407,
+              "gzipped": 17623,
+              "gain": 40775
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
               "wasCompressed": false,
-              "brotlified": 16451,
-              "originalSize": 56849,
-              "gzipped": 17445,
-              "gain": 40398
+              "brotlified": 16632,
+              "originalSize": 57407,
+              "gzipped": 17623,
+              "gain": 40775
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/5.5.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/8.8.js",
               "wasCompressed": false,
-              "brotlified": 787,
-              "originalSize": 3059,
-              "gzipped": 871,
-              "gain": 2272
+              "brotlified": 829,
+              "originalSize": 4087,
+              "gzipped": 912,
+              "gain": 3258
             }
           ]
         }
       },
       "bad": true,
       "abnormal": false,
-      "score": 51,
+      "score": 50,
       "abnormalityScore": 0,
       "globalScoreIfFixed": 100
     },
@@ -2307,10 +2731,10 @@
             ],
             "css": [],
             "js": [
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/fiches.9.js",
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-              "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/5.5.js"
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches.13.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/8.8.js"
             ],
             "json": [
               "https://territoiresentransitions.osc-fr1.scalingo.io/v1/fiche_action_categorie/test/all",
@@ -2633,10 +3057,10 @@
       "offendersObj": {
         "count": 4,
         "list": [
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/fiches.9.js",
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/main.js",
-          "http://staging.territoiresentransitions.fr/client/8d7ac3e0726c14da8431/5.5.js"
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches.13.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/8.8.js"
         ]
       },
       "bad": false,
