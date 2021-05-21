@@ -18,7 +18,13 @@ export default async () => {
   const options = {
     logLevel: 'info',
     output: 'json',
-    onlyAudits: ['first-meaningful-paint', 'speed-index', 'first-cpu-idle', 'interactive'],
+    onlyAudits: [
+      'first-meaningful-paint',
+      'speed-index',
+      'first-cpu-idle',
+      'interactive',
+      'dom-size'
+    ],
     port: chrome.port
   };
 

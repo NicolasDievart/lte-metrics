@@ -54,13 +54,29 @@
 
 <hr />
 <h2>Sélectionner les indicateurs :</h2>
-<input type="checkbox" name="indicator-performance" id="indicator-performance" on:change={switchPerformanceReport} checked/>
+<input
+  type="checkbox"
+  name="indicator-performance"
+  id="indicator-performance"
+  on:change={switchPerformanceReport}
+  checked
+/>
 <label for="indicator-performance">La performance au chargement</label>
 
-<input type="checkbox" name="indicator-weight" id="indicator-weight" on:change={switchWeightReport}>
+<input
+  type="checkbox"
+  name="indicator-weight"
+  id="indicator-weight"
+  on:change={switchWeightReport}
+/>
 <label for="indicator-weight">La décomposition du poids des éléments</label>
 
-<input type="checkbox" name="indicator-dom-request" id="indicator-dom-request" on:change={switchDomRequestReport}/>
+<input
+  type="checkbox"
+  name="indicator-dom-request"
+  id="indicator-dom-request"
+  on:change={switchDomRequestReport}
+/>
 <label for="indicator-dom-request">Le DOM et les requêtes</label>
 
 <hr />
@@ -68,7 +84,7 @@
 <ul>
   {#each Array.from(map.values()) as reportAggregate}
     <li>
-      <h2><a href="{reportAggregate.url}" target="_blank">{reportAggregate.url}</a></h2>
+      <h2><a href={reportAggregate.url} target="_blank">{reportAggregate.url}</a></h2>
       <Metrics {reportAggregate} {performanceReport} {domRequestReport} {weightReport} />
     </li>
   {/each}

@@ -32,6 +32,8 @@ function extractLighthouseMetrics() {
       data['audits']['first-meaningful-paint']['numericValue']
     );
     report.timeToInteractive = parseMilliseconds(data['audits']['interactive']['numericValue']);
+    report.domElementsCount = data['audits']['dom-size']['numericValue'];
+    report.domElementsCountScore = data['audits']['dom-size']['score'] * 100;
   });
 }
 
@@ -71,7 +73,6 @@ function extractYellowLabToolsMetrics() {
       );
     }
 
-    report.domElementsCount = data['rules']['DOMelementsCount']['value'];
     report.domElementsCountScore = data['rules']['DOMelementsCount']['score'];
     report.cachingNotSpecified = data['rules']['cachingNotSpecified']['value'];
     report.cachingDisabled = data['rules']['cachingDisabled']['value'];

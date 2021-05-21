@@ -277,7 +277,7 @@
       "globalScoreIfFixed": 84
     },
     "scriptDuration": {
-      "value": 174,
+      "value": 160,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -27303,7 +27303,7 @@
       "globalScoreIfFixed": 82
     },
     "totalWeight": {
-      "value": 948986,
+      "value": 939211,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -27316,7 +27316,7 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 948986,
+          "totalWeight": 939211,
           "byType": {
             "html": {
               "totalWeight": 95396,
@@ -27332,23 +27332,19 @@
               "requests": []
             },
             "js": {
-              "totalWeight": 847731,
+              "totalWeight": 837984,
               "requests": [
                 {
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
+                  "weight": 9747
+                },
+                {
                   "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
                   "weight": 57772
                 },
                 {
                   "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
                   "weight": 57772
-                },
-                {
-                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
-                  "weight": 9747
-                },
-                {
-                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
-                  "weight": 9747
                 },
                 {
                   "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
@@ -27377,19 +27373,19 @@
               ]
             },
             "json": {
-              "totalWeight": 5859,
+              "totalWeight": 5831,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_value/test/all",
-                  "weight": 2653
+                  "weight": 2660
+                },
+                {
+                  "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all",
+                  "weight": 2810
                 },
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_referentiel_commentaire/test/all",
                   "weight": 361
-                },
-                {
-                  "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all",
-                  "weight": 2845
                 }
               ]
             },
@@ -27464,7 +27460,7 @@
       "globalScoreIfFixed": 82
     },
     "compression": {
-      "value": 757537,
+      "value": 750960,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -27477,7 +27473,7 @@
       },
       "offendersObj": {
         "list": {
-          "totalGain": 757537,
+          "totalGain": 750960,
           "files": [
             {
               "url": "http://staging.territoiresentransitions.fr/actions_referentiels/citergie__1.1.1/?epci_id=test",
@@ -27488,6 +27484,14 @@
               "gain": 86801
             },
             {
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
+              "wasCompressed": false,
+              "brotlified": 2834,
+              "originalSize": 9383,
+              "gzipped": 3024,
+              "gain": 6549
+            },
+            {
               "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
               "wasCompressed": false,
               "brotlified": 16632,
@@ -27502,22 +27506,6 @@
               "originalSize": 57407,
               "gzipped": 17623,
               "gain": 40775
-            },
-            {
-              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
-              "wasCompressed": false,
-              "brotlified": 2834,
-              "originalSize": 9383,
-              "gzipped": 3024,
-              "gain": 6549
-            },
-            {
-              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
-              "wasCompressed": false,
-              "brotlified": 2834,
-              "originalSize": 9383,
-              "gzipped": 3024,
-              "gain": 6549
             },
             {
               "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
@@ -27571,15 +27559,15 @@
               "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_value/test/all",
               "wasCompressed": true,
               "brotlified": 1712,
-              "originalSize": 2418,
-              "gain": 706
+              "originalSize": 2425,
+              "gain": 713
             },
             {
               "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all",
               "wasCompressed": true,
               "brotlified": 1940,
-              "originalSize": 2610,
-              "gain": 670
+              "originalSize": 2575,
+              "gain": 635
             }
           ]
         }
@@ -27587,7 +27575,7 @@
       "bad": true,
       "abnormal": true,
       "score": 0,
-      "abnormalityScore": -89,
+      "abnormalityScore": -88,
       "globalScoreIfFixed": 91
     },
     "fileMinification": {
@@ -27615,7 +27603,7 @@
       "globalScoreIfFixed": 82
     },
     "totalRequests": {
-      "value": 14,
+      "value": 13,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 320,
@@ -27627,17 +27615,16 @@
       },
       "offendersObj": {
         "list": {
-          "total": 14,
+          "total": 13,
           "byType": {
             "html": [
               "http://staging.territoiresentransitions.fr/actions_referentiels/citergie__1.1.1/?epci_id=test"
             ],
             "css": [],
             "js": [
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
-              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
-              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/6.6.js",
@@ -27647,8 +27634,8 @@
             ],
             "json": [
               "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_value/test/all",
-              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_referentiel_commentaire/test/all",
-              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all"
+              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all",
+              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_referentiel_commentaire/test/all"
             ],
             "image": [],
             "video": [],
@@ -27679,7 +27666,7 @@
         "list": [
           {
             "domain": "staging.territoiresentransitions.fr",
-            "requests": 11
+            "requests": 10
           },
           {
             "domain": "territoiresentransitions.osc-fr1.scalingo.io",
@@ -27889,8 +27876,8 @@
       "globalScoreIfFixed": 82
     },
     "oldHttpProtocol": {
-      "value": 7,
-      "score": 72,
+      "value": 6,
+      "score": 76,
       "bad": false,
       "abnormal": false,
       "abnormalityScore": 0,
@@ -27900,7 +27887,7 @@
           {
             "domain": "http://staging.territoiresentransitions.fr",
             "httpVersion": "http/1.1",
-            "requests": 11
+            "requests": 10
           }
         ]
       },
@@ -27954,7 +27941,7 @@
       "globalScoreIfFixed": 82
     },
     "cachingNotSpecified": {
-      "value": 10,
+      "value": 9,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 40,
@@ -27965,12 +27952,11 @@
         "tool": "phantomas"
       },
       "offendersObj": {
-        "count": 10,
+        "count": 9,
         "list": [
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
-          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
-          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id.11.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/6.6.js",
@@ -27981,7 +27967,7 @@
       },
       "bad": true,
       "abnormal": false,
-      "score": 67,
+      "score": 73,
       "abnormalityScore": 0,
       "globalScoreIfFixed": 82
     },
@@ -28111,7 +28097,7 @@
         },
         "serverConfig": {
           "label": "Server config",
-          "categoryScore": 90,
+          "categoryScore": 92,
           "rules": [
             "oldHttpProtocol",
             "oldTlsProtocol",

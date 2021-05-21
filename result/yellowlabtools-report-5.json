@@ -100,7 +100,7 @@
       "globalScoreIfFixed": 98
     },
     "scriptDuration": {
-      "value": 72,
+      "value": 32,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -2544,11 +2544,11 @@
               "requests": [
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/fiche_action_categorie/test/all",
-                  "weight": 1450
+                  "weight": 1445
                 },
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/fiche_action/test/all",
-                  "weight": 3615
+                  "weight": 3620
                 }
               ]
             },

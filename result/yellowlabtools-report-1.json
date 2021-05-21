@@ -113,7 +113,7 @@
       "globalScoreIfFixed": 98
     },
     "scriptDuration": {
-      "value": 44,
+      "value": 35,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -2247,16 +2247,16 @@
               "totalWeight": 132054,
               "requests": [
                 {
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+                  "weight": 57772
+                },
+                {
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+                  "weight": 57772
+                },
+                {
                   "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/index.16.js",
                   "weight": 16510
-                },
-                {
-                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
-                  "weight": 57772
-                },
-                {
-                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
-                  "weight": 57772
                 }
               ]
             },
@@ -2359,28 +2359,28 @@
               "gain": 12940
             },
             {
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+              "wasCompressed": false,
+              "brotlified": 16632,
+              "originalSize": 57407,
+              "gzipped": 17623,
+              "gain": 40775
+            },
+            {
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+              "wasCompressed": false,
+              "brotlified": 16632,
+              "originalSize": 57407,
+              "gzipped": 17623,
+              "gain": 40775
+            },
+            {
               "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/index.16.js",
               "wasCompressed": false,
               "brotlified": 4011,
               "originalSize": 16145,
               "gzipped": 4414,
               "gain": 12134
-            },
-            {
-              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
-              "wasCompressed": false,
-              "brotlified": 16632,
-              "originalSize": 57407,
-              "gzipped": 17623,
-              "gain": 40775
-            },
-            {
-              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
-              "wasCompressed": false,
-              "brotlified": 16632,
-              "originalSize": 57407,
-              "gzipped": 17623,
-              "gain": 40775
             }
           ]
         }
@@ -2435,9 +2435,9 @@
             ],
             "css": [],
             "js": [
-              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/index.16.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
-              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js"
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/index.16.js"
             ],
             "json": [],
             "image": [],
@@ -2753,9 +2753,9 @@
       "offendersObj": {
         "count": 3,
         "list": [
-          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/index.16.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
-          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js"
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/index.16.js"
         ]
       },
       "bad": false,

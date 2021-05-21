@@ -109,7 +109,7 @@
       "globalScoreIfFixed": 87
     },
     "scriptDuration": {
-      "value": 79,
+      "value": 59,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -127,7 +127,7 @@
       "globalScoreIfFixed": 87
     },
     "DOMaccesses": {
-      "value": 2028,
+      "value": 2032,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 5000,
@@ -528,7 +528,7 @@
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status"
               },
               {
-                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[0] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_non_concernee",
+                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[0] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_non_concernee",
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[0]"
               },
               {
@@ -552,7 +552,7 @@
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status"
               },
               {
-                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[1] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_pas_faite",
+                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[1] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_pas_faite",
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[1]"
               },
               {
@@ -576,7 +576,7 @@
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status"
               },
               {
-                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[2] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_programmee",
+                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[2] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_programmee",
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[2]"
               },
               {
@@ -600,7 +600,7 @@
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status"
               },
               {
-                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[3] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_en_cours",
+                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[3] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_en_cours",
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[3]"
               },
               {
@@ -624,7 +624,7 @@
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status"
               },
               {
-                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[4] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_faite",
+                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[4] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_faite",
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[4]"
               },
               {
@@ -3884,6 +3884,14 @@
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > div.my-2.p-2 > div.multiselect.svelte-177ps0u > select.hidden.svelte-177ps0u > option[1]"
               },
               {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > div.my-2.p-2 > div.multiselect.svelte-177ps0u > select.hidden.svelte-177ps0u > option[2]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > div.my-2.p-2 > div.multiselect.svelte-177ps0u > select.hidden.svelte-177ps0u"
+              },
+              {
+                "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > div.my-2.p-2 > div.multiselect.svelte-177ps0u > select.hidden.svelte-177ps0u > option[2] > #text[0]",
+                "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > div.my-2.p-2 > div.multiselect.svelte-177ps0u > select.hidden.svelte-177ps0u > option[2]"
+              },
+              {
                 "append": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > div.my-2.p-2 > div.multiselect.svelte-177ps0u > select.hidden.svelte-177ps0u > #text[0]",
                 "node": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > div.my-2.p-2 > div.multiselect.svelte-177ps0u > select.hidden.svelte-177ps0u"
               },
@@ -4202,7 +4210,7 @@
                 "target": "fieldset.flex.status"
               },
               {
-                "node": "input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_non_concernee",
+                "node": "input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_non_concernee",
                 "target": "div[0]"
               },
               {
@@ -4226,7 +4234,7 @@
                 "target": "fieldset.flex.status"
               },
               {
-                "node": "input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_pas_faite",
+                "node": "input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_pas_faite",
                 "target": "div[1]"
               },
               {
@@ -4250,7 +4258,7 @@
                 "target": "fieldset.flex.status"
               },
               {
-                "node": "input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_programmee",
+                "node": "input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_programmee",
                 "target": "div[2]"
               },
               {
@@ -4274,7 +4282,7 @@
                 "target": "fieldset.flex.status"
               },
               {
-                "node": "input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_en_cours",
+                "node": "input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_en_cours",
                 "target": "div[3]"
               },
               {
@@ -4298,7 +4306,7 @@
                 "target": "fieldset.flex.status"
               },
               {
-                "node": "input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_faite",
+                "node": "input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_faite",
                 "target": "div[4]"
               },
               {
@@ -7546,6 +7554,14 @@
                 "target": "option[1]"
               },
               {
+                "node": "option[2]",
+                "target": "select.hidden.svelte-177ps0u"
+              },
+              {
+                "node": "#text[0]",
+                "target": "option[2]"
+              },
+              {
                 "node": "#text[0]",
                 "target": "select.hidden.svelte-177ps0u"
               },
@@ -8141,43 +8157,43 @@
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[0] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_non_concernee"
+                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[0] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_non_concernee"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[0] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_non_concernee"
+                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[0] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_non_concernee"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[1] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_pas_faite"
+                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[1] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_pas_faite"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[1] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_pas_faite"
+                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[1] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_pas_faite"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[2] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_programmee"
+                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[2] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_programmee"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[2] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_programmee"
+                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[2] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_programmee"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[3] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_en_cours"
+                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[3] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_en_cours"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[3] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_en_cours"
+                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[3] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_en_cours"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[4] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_faite"
+                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[4] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_faite"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[4] > input#action-4dde335e-fa92-4c6c-ad26-e918dcc5d70f_faite"
+                "path": "body > div#sapper > main.svelte-1m7xc > div.bg-white.p-4 > section.flex.flex-col > form.flex.flex-col.w-full.md:w-3/4.pb-10 > form.lg:col-span-3.lg:col-end-12 > fieldset.flex.status > div[4] > input#action-faaf2591-0a85-48c7-a932-97fa7afaa122_faite"
               },
               {
                 "eventType": "input",
@@ -8273,7 +8289,7 @@
       },
       "bad": true,
       "abnormal": false,
-      "score": 24,
+      "score": 23,
       "abnormalityScore": 0,
       "globalScoreIfFixed": 90
     },
@@ -8859,7 +8875,7 @@
       "globalScoreIfFixed": 87
     },
     "totalWeight": {
-      "value": 932024,
+      "value": 929479,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -8872,7 +8888,7 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 932024,
+          "totalWeight": 929479,
           "byType": {
             "html": {
               "totalWeight": 22350,
@@ -8888,9 +8904,13 @@
               "requests": []
             },
             "js": {
-              "totalWeight": 907505,
+              "totalWeight": 904713,
               "requests": [
                 {
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
+                  "weight": 2792
+                },
+                {
                   "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
                   "weight": 57772
                 },
@@ -8899,24 +8919,16 @@
                   "weight": 57772
                 },
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
-                  "weight": 2792
-                },
-                {
-                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
-                  "weight": 2792
-                },
-                {
-                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
-                  "weight": 36685
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation~fiches_edition~indicateurs.4.js",
+                  "weight": 19382
                 },
                 {
                   "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
                   "weight": 15234
                 },
                 {
-                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation~fiches_edition~indicateurs.4.js",
-                  "weight": 19382
+                  "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
+                  "weight": 36685
                 },
                 {
                   "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation~fiches_edition.7.js",
@@ -8941,15 +8953,15 @@
               ]
             },
             "json": {
-              "totalWeight": 2169,
+              "totalWeight": 2416,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/fiche_action_categorie/test/all",
-                  "weight": 1450
+                  "weight": 1445
                 },
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_personnalise/test/all",
-                  "weight": 719
+                  "weight": 971
                 }
               ]
             },
@@ -9024,7 +9036,7 @@
       "globalScoreIfFixed": 87
     },
     "compression": {
-      "value": 731927,
+      "value": 730816,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -9037,7 +9049,7 @@
       },
       "offendersObj": {
         "list": {
-          "totalGain": 731927,
+          "totalGain": 730816,
           "files": [
             {
               "url": "http://staging.territoiresentransitions.fr/fiches/creation/?epci_id=test",
@@ -9048,6 +9060,14 @@
               "gain": 17129
             },
             {
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
+              "wasCompressed": false,
+              "brotlified": 1138,
+              "originalSize": 2428,
+              "gzipped": 1193,
+              "gain": 1290
+            },
+            {
               "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
               "wasCompressed": false,
               "brotlified": 16632,
@@ -9064,28 +9084,12 @@
               "gain": 40775
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation~fiches_edition~indicateurs.4.js",
               "wasCompressed": false,
-              "brotlified": 1138,
-              "originalSize": 2428,
-              "gzipped": 1193,
-              "gain": 1290
-            },
-            {
-              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
-              "wasCompressed": false,
-              "brotlified": 1138,
-              "originalSize": 2428,
-              "gzipped": 1193,
-              "gain": 1290
-            },
-            {
-              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
-              "wasCompressed": false,
-              "brotlified": 8724,
-              "originalSize": 36320,
-              "gzipped": 9339,
-              "gain": 27596
+              "brotlified": 5014,
+              "originalSize": 19017,
+              "gzipped": 5421,
+              "gain": 14003
             },
             {
               "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
@@ -9096,12 +9100,12 @@
               "gain": 10969
             },
             {
-              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation~fiches_edition~indicateurs.4.js",
+              "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
               "wasCompressed": false,
-              "brotlified": 5014,
-              "originalSize": 19017,
-              "gzipped": 5421,
-              "gain": 14003
+              "brotlified": 8724,
+              "originalSize": 36320,
+              "gzipped": 9339,
+              "gain": 27596
             },
             {
               "url": "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation~fiches_edition.7.js",
@@ -9146,10 +9150,10 @@
             {
               "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_personnalise/test/all",
               "wasCompressed": false,
-              "brotlified": 263,
-              "originalSize": 515,
-              "gzipped": 280,
-              "gain": 252
+              "brotlified": 336,
+              "originalSize": 767,
+              "gzipped": 355,
+              "gain": 431
             }
           ]
         }
@@ -9185,7 +9189,7 @@
       "globalScoreIfFixed": 87
     },
     "totalRequests": {
-      "value": 15,
+      "value": 14,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 320,
@@ -9197,20 +9201,19 @@
       },
       "offendersObj": {
         "list": {
-          "total": 15,
+          "total": 14,
           "byType": {
             "html": [
               "http://staging.territoiresentransitions.fr/fiches/creation/?epci_id=test"
             ],
             "css": [],
             "js": [
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
-              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
-              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
-              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
-              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation~fiches_edition~indicateurs.4.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
+              "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation~fiches_edition.7.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/22.22.js",
               "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/3.3.js",
@@ -9250,7 +9253,7 @@
         "list": [
           {
             "domain": "staging.territoiresentransitions.fr",
-            "requests": 13
+            "requests": 12
           },
           {
             "domain": "territoiresentransitions.osc-fr1.scalingo.io",
@@ -9460,8 +9463,8 @@
       "globalScoreIfFixed": 87
     },
     "oldHttpProtocol": {
-      "value": 9,
-      "score": 64,
+      "value": 8,
+      "score": 68,
       "bad": false,
       "abnormal": false,
       "abnormalityScore": 0,
@@ -9471,7 +9474,7 @@
           {
             "domain": "http://staging.territoiresentransitions.fr",
             "httpVersion": "http/1.1",
-            "requests": 13
+            "requests": 12
           }
         ]
       },
@@ -9525,7 +9528,7 @@
       "globalScoreIfFixed": 87
     },
     "cachingNotSpecified": {
-      "value": 12,
+      "value": 11,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 40,
@@ -9536,15 +9539,14 @@
         "tool": "phantomas"
       },
       "offendersObj": {
-        "count": 12,
+        "count": 11,
         "list": [
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/main.js",
-          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
-          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation.14.js",
-          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
-          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation~fiches_edition~indicateurs.4.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
+          "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/fiches_creation~fiches_edition.7.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/22.22.js",
           "http://staging.territoiresentransitions.fr/client/f4c929d26f848a49b5c9/3.3.js",
@@ -9554,7 +9556,7 @@
       },
       "bad": true,
       "abnormal": false,
-      "score": 53,
+      "score": 60,
       "abnormalityScore": 0,
       "globalScoreIfFixed": 88
     },
@@ -9684,7 +9686,7 @@
         },
         "serverConfig": {
           "label": "Server config",
-          "categoryScore": 87,
+          "categoryScore": 88,
           "rules": [
             "oldHttpProtocol",
             "oldTlsProtocol",
