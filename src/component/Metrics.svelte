@@ -68,7 +68,7 @@
   }
 </script>
 
-<div>
+<div style="display: flex; flex-direction: row; justify-content: flex-start; flex-wrap: wrap;">
   {#if performanceReport}
     <Base
       type="line"
@@ -95,6 +95,10 @@
       width={500}
       height={250}
       options={{
+        title: {
+          display: true,
+          text: 'La performance au chargement'
+        },
         responsive: false,
         maintainAspectRatio: true,
         scales: {
@@ -104,6 +108,41 @@
               name: 'performance',
               type: 'linear',
               position: 'left',
+              scalePositionLeft: true,
+              ticks: {
+                beginAtZero: true
+              }
+            }
+          ]
+        }
+      }}
+    />
+  {/if}
+
+  {#if weightReport}
+    <Base
+      type="line"
+      data={{
+        labels: labels,
+        datasets: [...weightByTypesReport.values()]
+      }}
+      width={500}
+      height={250}
+      options={{
+        title: {
+          display: true,
+          text: 'La décomposition du poids des éléments'
+        },
+        responsive: false,
+        maintainAspectRatio: true,
+        scales: {
+          yAxes: [
+            {
+              id: 'weight',
+              name: 'weight',
+              type: 'linear',
+              position: 'left',
+              stacked: true,
               scalePositionLeft: true,
               ticks: {
                 beginAtZero: true
@@ -140,6 +179,10 @@
       width={500}
       height={250}
       options={{
+        title: {
+          display: true,
+          text: 'Le DOM et les requêtes'
+        },
         responsive: false,
         maintainAspectRatio: true,
         scales: {
@@ -159,37 +202,6 @@
               name: 'request',
               type: 'linear',
               position: 'right',
-              scalePositionLeft: true,
-              ticks: {
-                beginAtZero: true
-              }
-            }
-          ]
-        }
-      }}
-    />
-  {/if}
-
-  {#if weightReport}
-    <Base
-      type="line"
-      data={{
-        labels: labels,
-        datasets: [...weightByTypesReport.values()]
-      }}
-      width={500}
-      height={250}
-      options={{
-        responsive: false,
-        maintainAspectRatio: true,
-        scales: {
-          yAxes: [
-            {
-              id: 'weight',
-              name: 'weight',
-              type: 'linear',
-              position: 'left',
-              stacked: true,
               scalePositionLeft: true,
               ticks: {
                 beginAtZero: true
