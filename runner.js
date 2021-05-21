@@ -73,7 +73,6 @@ function extractYellowLabToolsMetrics() {
       );
     }
 
-    report.domElementsCountScore = data['rules']['DOMelementsCount']['score'];
     report.cachingNotSpecified = data['rules']['cachingNotSpecified']['value'];
     report.cachingDisabled = data['rules']['cachingDisabled']['value'];
     report.cachingTooShort = data['rules']['cachingTooShort']['value'];
