@@ -34,6 +34,9 @@
   },
   "type": "module",
   "dependencies": {
-    "chart.js": "^2.7.1"
+    "@carbon/charts": "^0.41.65",
+    "@carbon/charts-svelte": "^0.41.65",
+    "chart.js": "^2.7.1",
+    "d3": "^5.14.2"
   }
 }

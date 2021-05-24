@@ -15,6 +15,8 @@ export default {
 
     // hydrate the <div id="svelte"> element in src/app.html
     target: '#svelte',
-    vite: {}
+    vite: {
+      optimizeDeps: { include: ["@carbon/charts"] },
+    }
   }
 };
