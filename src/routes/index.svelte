@@ -50,6 +50,10 @@
   }
 </script>
 
+<svelte:head>
+  <title>Indicateurs du projet LTE</title>
+</svelte:head>
+
 <h1>Metrics du projet LTE</h1>
 
 <hr />
@@ -89,3 +93,16 @@
     </li>
   {/each}
 </ul>
+
+<style>
+  a,
+  a:visited,
+  a:hover,
+  a:active,
+  a:focus,
+  a:active:hover {
+    cursor: pointer;
+    font-style: inherit;
+    color: inherit;
+  }
+</style>
