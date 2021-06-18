@@ -5,7 +5,7 @@
   },
   "rules": {
     "DOMelementsCount": {
-      "value": 47,
+      "value": 46,
       "policy": {
         "hasOffenders": false,
         "isAbnormalThreshold": 4500,
@@ -113,7 +113,7 @@
       "globalScoreIfFixed": 100
     },
     "scriptDuration": {
-      "value": 25,
+      "value": 26,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -200,8 +200,8 @@
                 "node": "body > div#sapper"
               },
               {
-                "append": "body > div#sapper > #text[0]",
-                "node": "body > div#sapper"
+                "append": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl > #text[0]",
+                "node": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl"
               },
               {
                 "append": "body > div#sapper > #text[0]",
@@ -247,7 +247,7 @@
               },
               {
                 "node": "#text[0]",
-                "target": "div#sapper"
+                "target": "ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl"
               },
               {
                 "node": "#text[0]",
@@ -380,6 +380,10 @@
                 "path": "window"
               },
               {
+                "eventType": "click",
+                "path": "body > div#sapper > main.svelte-1m7xc > main.container.mx-auto.lg:px-20.px-4.max-w-4xl.m-auto.bg-white > div.p-10 > div.pb-10.flex.justify-evenly.max-w-2xl.m-auto > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.bg-seagreen-400"
+              },
+              {
                 "eventType": "beforeunload",
                 "path": "window"
               },
@@ -389,23 +393,19 @@
               },
               {
                 "eventType": "click",
-                "path": "body > div#sapper > main.svelte-1m7xc > main.container.mx-auto.lg:px-20.px-4.max-w-4xl.m-auto.bg-white > div.p-10 > div.pb-10.flex.justify-evenly.max-w-2xl.m-auto > button.border-seagreen-700.border-2.hover:bg-seagreen-100.active:bg-seagreen-400.px-6.py-3.bg-seagreen-400"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl > li.mr-4 > a.p-1.rounded.hover:bg-gray-100.hover:text-gray-700.focus:bg-gray-100.focus:text-gray-700.active:text-gray-900.active:shadow-inner.active:bg-white"
+                "path": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl > li.mr-4.flex-grow > a.p-1.rounded.hover:bg-gray-100.hover:text-gray-700.focus:bg-gray-100.focus:text-gray-700.active:text-gray-900.active:shadow-inner.active:bg-white"
               },
               {
                 "eventType": "mouseup",
-                "path": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl > li.mr-4 > a.p-1.rounded.hover:bg-gray-100.hover:text-gray-700.focus:bg-gray-100.focus:text-gray-700.active:text-gray-900.active:shadow-inner.active:bg-white"
+                "path": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl > li.mr-4.flex-grow > a.p-1.rounded.hover:bg-gray-100.hover:text-gray-700.focus:bg-gray-100.focus:text-gray-700.active:text-gray-900.active:shadow-inner.active:bg-white"
               },
               {
                 "eventType": "mousedown",
-                "path": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl > li.mr-4 > a.p-1.rounded.hover:bg-gray-100.hover:text-gray-700.focus:bg-gray-100.focus:text-gray-700.active:text-gray-900.active:shadow-inner.active:bg-white"
+                "path": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl > li.mr-4.flex-grow > a.p-1.rounded.hover:bg-gray-100.hover:text-gray-700.focus:bg-gray-100.focus:text-gray-700.active:text-gray-900.active:shadow-inner.active:bg-white"
               },
               {
                 "eventType": "contextmenu",
-                "path": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl > li.mr-4 > a.p-1.rounded.hover:bg-gray-100.hover:text-gray-700.focus:bg-gray-100.focus:text-gray-700.active:text-gray-900.active:shadow-inner.active:bg-white"
+                "path": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl > li.mr-4.flex-grow > a.p-1.rounded.hover:bg-gray-100.hover:text-gray-700.focus:bg-gray-100.focus:text-gray-700.active:text-gray-900.active:shadow-inner.active:bg-white"
               },
               {
                 "eventType": "click",
@@ -1149,7 +1149,7 @@
       "globalScoreIfFixed": 100
     },
     "totalWeight": {
-      "value": 73893,
+      "value": 74133,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -1162,14 +1162,14 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 73893,
+          "totalWeight": 74133,
           "byType": {
             "html": {
-              "totalWeight": 5963,
+              "totalWeight": 6003,
               "requests": [
                 {
                   "url": "https://app.territoiresentransitions.fr/",
-                  "weight": 5963
+                  "weight": 6003
                 }
               ]
             },
@@ -1178,23 +1178,23 @@
               "requests": []
             },
             "js": {
-              "totalWeight": 67521,
+              "totalWeight": 67721,
               "requests": [
                 {
                   "url": "https://app.territoiresentransitions.fr/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
-                  "weight": 1576
+                  "weight": 1578
                 },
                 {
-                  "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/index.16.js",
-                  "weight": 5144
+                  "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/index.16.js",
+                  "weight": 5140
                 },
                 {
-                  "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
-                  "weight": 18508
+                  "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
+                  "weight": 18609
                 },
                 {
-                  "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
-                  "weight": 18510
+                  "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
+                  "weight": 18611
                 },
                 {
                   "url": "https://stats.data.gouv.fr//piwik.js",
@@ -1210,7 +1210,7 @@
               "totalWeight": 409,
               "requests": [
                 {
-                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=571101&h=11&m=44&s=47&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=b78ca66433ac3464&_idts=1622799887&_idvc=1&_idn=0&_refts=0&_viewts=1622799887&send_image=1&cookie=1&res=800x600&gt_ms=207&pv_id=QPP1Vg",
+                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=317610&h=12&m=36&s=24&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=871d366cf58af8ff&_idts=1624012584&_idvc=1&_idn=0&_refts=0&_viewts=1624012584&send_image=1&cookie=1&res=800x600&gt_ms=273&pv_id=e8JJfc",
                   "weight": 409
                 }
               ]
@@ -1369,14 +1369,14 @@
             "css": [],
             "js": [
               "https://app.territoiresentransitions.fr/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
-              "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/index.16.js",
-              "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
-              "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
+              "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/index.16.js",
+              "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
+              "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
               "https://stats.data.gouv.fr//piwik.js"
             ],
             "json": [],
             "image": [
-              "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=571101&h=11&m=44&s=47&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=b78ca66433ac3464&_idts=1622799887&_idvc=1&_idn=0&_refts=0&_viewts=1622799887&send_image=1&cookie=1&res=800x600&gt_ms=207&pv_id=QPP1Vg"
+              "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=317610&h=12&m=36&s=24&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=871d366cf58af8ff&_idts=1624012584&_idvc=1&_idn=0&_refts=0&_viewts=1624012584&send_image=1&cookie=1&res=800x600&gt_ms=273&pv_id=e8JJfc"
             ],
             "video": [],
             "webfont": [],
@@ -1694,7 +1694,7 @@
       "offendersObj": {
         "count": 1,
         "list": [
-          "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=571101&h=11&m=44&s=47&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=b78ca66433ac3464&_idts=1622799887&_idvc=1&_idn=0&_refts=0&_viewts=1622799887&send_image=1&cookie=1&res=800x600&gt_ms=207&pv_id=QPP1Vg"
+          "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=317610&h=12&m=36&s=24&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=871d366cf58af8ff&_idts=1624012584&_idvc=1&_idn=0&_refts=0&_viewts=1624012584&send_image=1&cookie=1&res=800x600&gt_ms=273&pv_id=e8JJfc"
         ]
       },
       "bad": false,
@@ -1724,19 +1724,19 @@
             "unit": "days"
           },
           {
-            "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/index.16.js",
+            "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/index.16.js",
             "ttl": 14400,
             "ttlWithUnit": 4,
             "unit": "hours"
           },
           {
-            "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
+            "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
             "ttl": 14400,
             "ttlWithUnit": 4,
             "unit": "hours"
           },
           {
-            "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
+            "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
             "ttl": 14400,
             "ttlWithUnit": 4,
             "unit": "hours"

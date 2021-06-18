@@ -1254,7 +1254,7 @@
       "globalScoreIfFixed": 97
     },
     "scriptDuration": {
-      "value": 78,
+      "value": 77,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -1272,7 +1272,7 @@
       "globalScoreIfFixed": 97
     },
     "DOMaccesses": {
-      "value": 1789,
+      "value": 1787,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 5000,
@@ -1331,10 +1331,6 @@
               {
                 "append": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl > li.mr-4.flex-grow.text-center > #text[0]",
                 "node": "body > div#sapper > nav.bg-seagreen-400 > ul.container.mx-auto.lg:px-20.px-4.p-4.flex.text-xl > li.mr-4.flex-grow.text-center"
-              },
-              {
-                "append": "body > div#sapper > #text[0]",
-                "node": "body > div#sapper"
               },
               {
                 "append": "body > div#sapper > #text[0]",
@@ -3104,10 +3100,6 @@
               },
               {
                 "node": "#text[0]",
-                "target": "div#sapper"
-              },
-              {
-                "node": "#text[0]",
                 "target": "label.flex.flex-col.w-full"
               },
               {
@@ -4859,11 +4851,11 @@
             "DOMmutationsAttributes": [
               {
                 "attribute": "class",
-                "node": "a.p-1.rounded.hover:bg-gray-100.hover:text-gray-700.focus:bg-gray-100.focus:text-gray-700.active:text-gray-900.active:shadow-inner.active:bg-white"
+                "node": "li.mr-4.flex-grow.text-center"
               },
               {
                 "attribute": "class",
-                "node": "li.mr-4.flex-grow.text-center"
+                "node": "a.p-1.rounded.hover:bg-gray-100.hover:text-gray-700.focus:bg-gray-100.focus:text-gray-700.active:text-gray-900.active:shadow-inner.active:bg-white"
               },
               {
                 "attribute": "class",
@@ -9053,7 +9045,7 @@
       "globalScoreIfFixed": 97
     },
     "totalWeight": {
-      "value": 204650,
+      "value": 204987,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -9066,14 +9058,14 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 204650,
+          "totalWeight": 204987,
           "byType": {
             "html": {
-              "totalWeight": 9145,
+              "totalWeight": 9239,
               "requests": [
                 {
                   "url": "https://app.territoiresentransitions.fr/actions_referentiels/?epci_id=test",
-                  "weight": 9145
+                  "weight": 9239
                 }
               ]
             },
@@ -9082,27 +9074,27 @@
               "requests": []
             },
             "js": {
-              "totalWeight": 194687,
+              "totalWeight": 194930,
               "requests": [
                 {
-                  "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
-                  "weight": 18502
+                  "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
+                  "weight": 18615
                 },
                 {
-                  "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
-                  "weight": 18502
+                  "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
+                  "weight": 18609
+                },
+                {
+                  "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/actions_referentiels.10.js",
+                  "weight": 123965
                 },
                 {
                   "url": "https://stats.data.gouv.fr//piwik.js",
                   "weight": 23783
                 },
                 {
-                  "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/actions_referentiels.10.js",
-                  "weight": 123961
-                },
-                {
-                  "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.0.js",
-                  "weight": 9939
+                  "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.0.js",
+                  "weight": 9958
                 }
               ]
             },
@@ -9114,11 +9106,11 @@
               "totalWeight": 818,
               "requests": [
                 {
-                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=961148&h=11&m=44&s=50&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=13ad6a4a4d4a4280&_idts=1622799891&_idvc=1&_idn=0&_refts=0&_viewts=1622799891&send_image=1&cookie=1&res=800x600&gt_ms=278&pv_id=08gqhZ",
+                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=907743&h=12&m=36&s=27&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=86400ab59ff6330f&_idts=1624012588&_idvc=1&_idn=0&_refts=0&_viewts=1624012588&send_image=1&cookie=1&res=800x600&gt_ms=179&pv_id=s47nrB",
                   "weight": 409
                 },
                 {
-                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=482369&h=11&m=44&s=51&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=13ad6a4a4d4a4280&_idts=1622799891&_idvc=1&_idn=0&_refts=0&_viewts=1622799891&send_image=1&cookie=1&res=800x600&gt_ms=278&pv_id=vE6L5B",
+                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=671734&h=12&m=36&s=27&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=86400ab59ff6330f&_idts=1624012588&_idvc=1&_idn=0&_refts=0&_viewts=1624012588&send_image=1&cookie=1&res=800x600&gt_ms=179&pv_id=Kfgv0F",
                   "weight": 409
                 }
               ]
@@ -9276,16 +9268,16 @@
             ],
             "css": [],
             "js": [
-              "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
-              "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
+              "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
+              "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
+              "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/actions_referentiels.10.js",
               "https://stats.data.gouv.fr//piwik.js",
-              "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/actions_referentiels.10.js",
-              "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.0.js"
+              "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.0.js"
             ],
             "json": [],
             "image": [
-              "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=961148&h=11&m=44&s=50&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=13ad6a4a4d4a4280&_idts=1622799891&_idvc=1&_idn=0&_refts=0&_viewts=1622799891&send_image=1&cookie=1&res=800x600&gt_ms=278&pv_id=08gqhZ",
-              "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=482369&h=11&m=44&s=51&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=13ad6a4a4d4a4280&_idts=1622799891&_idvc=1&_idn=0&_refts=0&_viewts=1622799891&send_image=1&cookie=1&res=800x600&gt_ms=278&pv_id=vE6L5B"
+              "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=907743&h=12&m=36&s=27&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=86400ab59ff6330f&_idts=1624012588&_idvc=1&_idn=0&_refts=0&_viewts=1624012588&send_image=1&cookie=1&res=800x600&gt_ms=179&pv_id=s47nrB",
+              "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=671734&h=12&m=36&s=27&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=86400ab59ff6330f&_idts=1624012588&_idvc=1&_idn=0&_refts=0&_viewts=1624012588&send_image=1&cookie=1&res=800x600&gt_ms=179&pv_id=Kfgv0F"
             ],
             "video": [],
             "webfont": [],
@@ -9603,8 +9595,8 @@
       "offendersObj": {
         "count": 2,
         "list": [
-          "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=961148&h=11&m=44&s=50&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=13ad6a4a4d4a4280&_idts=1622799891&_idvc=1&_idn=0&_refts=0&_viewts=1622799891&send_image=1&cookie=1&res=800x600&gt_ms=278&pv_id=08gqhZ",
-          "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=482369&h=11&m=44&s=51&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=13ad6a4a4d4a4280&_idts=1622799891&_idvc=1&_idn=0&_refts=0&_viewts=1622799891&send_image=1&cookie=1&res=800x600&gt_ms=278&pv_id=vE6L5B"
+          "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=907743&h=12&m=36&s=27&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=86400ab59ff6330f&_idts=1624012588&_idvc=1&_idn=0&_refts=0&_viewts=1624012588&send_image=1&cookie=1&res=800x600&gt_ms=179&pv_id=s47nrB",
+          "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=671734&h=12&m=36&s=27&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2F%3Fepci_id%3Dtest&_id=86400ab59ff6330f&_idts=1624012588&_idvc=1&_idn=0&_refts=0&_viewts=1624012588&send_image=1&cookie=1&res=800x600&gt_ms=179&pv_id=Kfgv0F"
         ]
       },
       "bad": false,
@@ -9634,25 +9626,25 @@
             "unit": "days"
           },
           {
-            "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
+            "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
             "ttl": 14400,
             "ttlWithUnit": 4,
             "unit": "hours"
           },
           {
-            "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/main.js",
+            "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/main.js",
             "ttl": 14400,
             "ttlWithUnit": 4,
             "unit": "hours"
           },
           {
-            "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/actions_referentiels.10.js",
+            "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/actions_referentiels.10.js",
             "ttl": 14400,
             "ttlWithUnit": 4,
             "unit": "hours"
           },
           {
-            "url": "https://app.territoiresentransitions.fr/client/1b383524c97811a5d219/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.0.js",
+            "url": "https://app.territoiresentransitions.fr/client/2da9e9fba8473bd21030/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.0.js",
             "ttl": 14400,
             "ttlWithUnit": 4,
             "unit": "hours"
