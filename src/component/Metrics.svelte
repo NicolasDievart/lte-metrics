@@ -44,7 +44,7 @@
       }
 
       let weightByTypeReport = weightByTypesReport.get(weightByMimeType.mimeType);
-      weightByTypeReport.data.push(weightByMimeType.weight);
+      weightByTypeReport.data.push(weightByMimeType.weight ? (weightByMimeType.weight / 1024).toFixed(2) : 0);
     }
   }
 
