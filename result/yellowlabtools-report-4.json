@@ -19,7 +19,7 @@
       "abnormal": false,
       "score": 86,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 90
+      "globalScoreIfFixed": 81
     },
     "DOMelementMaxDepth": {
       "value": 10,
@@ -448,7 +448,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "iframesCount": {
       "value": 0,
@@ -469,7 +469,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "DOMidDuplicated": {
       "value": 0,
@@ -490,10 +490,10 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "scriptDuration": {
-      "value": 128,
+      "value": 153,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -508,7 +508,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "DOMaccesses": {
       "value": 2840,
@@ -11907,7 +11907,7 @@
       "abnormal": false,
       "score": 0,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 93
+      "globalScoreIfFixed": 84
     },
     "eventsScrollBound": {
       "value": 0,
@@ -11928,7 +11928,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "jsErrors": {
       "value": 0,
@@ -11949,7 +11949,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "documentWriteCalls": {
       "value": 0,
@@ -11970,7 +11970,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "synchronousXHR": {
       "value": 0,
@@ -11991,7 +11991,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "globalVariables": {
       "value": 8,
@@ -12021,7 +12021,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "jQueryVersionsLoaded": {
       "value": 0,
@@ -12042,7 +12042,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssParsingErrors": {
       "value": 0,
@@ -12063,7 +12063,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssRules": {
       "value": 1846,
@@ -12089,7 +12089,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssComplexSelectors": {
       "value": 30,
@@ -12266,7 +12266,7 @@
       "abnormal": false,
       "score": 97,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssColors": {
       "value": 57,
@@ -12516,7 +12516,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "similarColors": {
       "value": 0,
@@ -12537,7 +12537,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssBreakpoints": {
       "value": 5,
@@ -12581,7 +12581,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssMobileFirst": {
       "value": 0,
@@ -12601,7 +12601,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssImports": {
       "value": 0,
@@ -12622,7 +12622,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssDuplicatedSelectors": {
       "value": 622,
@@ -15137,7 +15137,7 @@
       "abnormal": true,
       "score": 0,
       "abnormalityScore": -211,
-      "globalScoreIfFixed": 93
+      "globalScoreIfFixed": 84
     },
     "cssDuplicatedProperties": {
       "value": 5,
@@ -15194,7 +15194,7 @@
       "abnormal": false,
       "score": 95,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssEmptyRules": {
       "value": 0,
@@ -15214,7 +15214,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssImportants": {
       "value": 776,
@@ -20673,7 +20673,7 @@
       "abnormal": false,
       "score": 0,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 90
+      "globalScoreIfFixed": 81
     },
     "cssOldIEFixes": {
       "value": 0,
@@ -20693,7 +20693,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssOldPropertyPrefixes": {
       "value": 0,
@@ -20714,7 +20714,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssRedundantBodySelectors": {
       "value": 10,
@@ -20801,7 +20801,7 @@
       "abnormal": false,
       "score": 92,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cssRedundantChildNodesSelectors": {
       "value": 40,
@@ -21068,10 +21068,10 @@
       "abnormal": false,
       "score": 67,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "totalWeight": {
-      "value": 242764,
+      "value": 375152,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -21084,14 +21084,14 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 242764,
+          "totalWeight": 375152,
           "byType": {
             "html": {
-              "totalWeight": 30880,
+              "totalWeight": 33530,
               "requests": [
                 {
                   "url": "https://app.territoiresentransitions.fr/actions_referentiels/citergie__1.1.1/?epci_id=test",
-                  "weight": 30880
+                  "weight": 33530
                 }
               ]
             },
@@ -21100,19 +21100,19 @@
               "requests": []
             },
             "js": {
-              "totalWeight": 154147,
+              "totalWeight": 301103,
               "requests": [
                 {
                   "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/actions_referentiels_$id.13.js",
-                  "weight": 4827
+                  "weight": 5126
                 },
                 {
                   "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/main.js",
-                  "weight": 43841
+                  "weight": 47369
                 },
                 {
                   "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/main.js",
-                  "weight": 43847
+                  "weight": 47377
                 },
                 {
                   "url": "https://stats.data.gouv.fr//piwik.js",
@@ -21120,64 +21120,51 @@
                 },
                 {
                   "url": "https://app.territoiresentransitions.fr/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
-                  "weight": 1580
-                },
-                {
-                  "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
-                  "weight": 4958
-                },
-                {
-                  "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.0.js",
-                  "weight": 10226
+                  "weight": 1570
                 },
                 {
                   "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/7.7.js",
-                  "weight": 21085
+                  "weight": 22148
+                },
+                {
+                  "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
+                  "weight": 5249
+                },
+                {
+                  "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.0.js",
+                  "weight": 10996
+                },
+                {
+                  "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/1.1.js",
+                  "weight": 129626
+                },
+                {
+                  "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/28.28.js",
+                  "weight": 3963
+                },
+                {
+                  "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/10.10.js",
+                  "weight": 3896
                 }
               ]
             },
             "json": {
-              "totalWeight": 17244,
-              "requests": [
-                {
-                  "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all",
-                  "weight": 4693
-                },
-                {
-                  "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_value/test/all",
-                  "weight": 3588
-                },
-                {
-                  "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_referentiel_commentaire/test/all",
-                  "weight": 361
-                },
-                {
-                  "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_value/test/all",
-                  "weight": 3584
-                },
-                {
-                  "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_referentiel_commentaire/test/all",
-                  "weight": 361
-                },
-                {
-                  "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all",
-                  "weight": 4657
-                }
-              ]
+              "totalWeight": 0,
+              "requests": []
             },
             "image": {
-              "totalWeight": 13457,
+              "totalWeight": 13465,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.fr/img/ademe.jpg",
-                  "weight": 12639
+                  "weight": 12647
                 },
                 {
-                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=969647&h=11&m=2&s=39&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=20efc2b747ff5c97&_idts=1625216559&_idvc=1&_idn=0&_refts=0&_viewts=1625216559&send_image=1&cookie=1&res=800x600&gt_ms=177&pv_id=PgDEpK",
+                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=514474&h=11&m=59&s=22&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=dd60386ac80de253&_idts=1626429563&_idvc=1&_idn=0&_refts=0&_viewts=1626429563&send_image=1&cookie=1&res=800x600&gt_ms=301&pv_id=b9OSHZ",
                   "weight": 409
                 },
                 {
-                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=356980&h=11&m=2&s=39&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=20efc2b747ff5c97&_idts=1625216559&_idvc=1&_idn=0&_refts=0&_viewts=1625216559&send_image=1&cookie=1&res=800x600&gt_ms=177&pv_id=lqyR3q",
+                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=299607&h=11&m=59&s=22&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=dd60386ac80de253&_idts=1626429563&_idvc=1&_idn=0&_refts=0&_viewts=1626429563&send_image=1&cookie=1&res=800x600&gt_ms=301&pv_id=KiGChR",
                   "weight": 409
                 }
               ]
@@ -21187,15 +21174,15 @@
               "requests": []
             },
             "webfont": {
-              "totalWeight": 27036,
+              "totalWeight": 27054,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2",
-                  "weight": 13434
+                  "weight": 13447
                 },
                 {
                   "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2",
-                  "weight": 13602
+                  "weight": 13607
                 }
               ]
             },
@@ -21210,7 +21197,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "imageOptimization": {
       "value": 6499,
@@ -21245,7 +21232,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "imagesTooLarge": {
       "value": 0,
@@ -21266,10 +21253,10 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "compression": {
-      "value": 5389,
+      "value": 1055,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -21282,7 +21269,7 @@
       },
       "offendersObj": {
         "list": {
-          "totalGain": 5389,
+          "totalGain": 1055,
           "files": [
             {
               "url": "https://stats.data.gouv.fr//piwik.js",
@@ -21290,34 +21277,6 @@
               "brotlified": 22353,
               "originalSize": 23408,
               "gain": 1055
-            },
-            {
-              "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all",
-              "wasCompressed": true,
-              "brotlified": 3263,
-              "originalSize": 4458,
-              "gain": 1195
-            },
-            {
-              "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_value/test/all",
-              "wasCompressed": true,
-              "brotlified": 2361,
-              "originalSize": 3353,
-              "gain": 992
-            },
-            {
-              "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_value/test/all",
-              "wasCompressed": true,
-              "brotlified": 2361,
-              "originalSize": 3349,
-              "gain": 988
-            },
-            {
-              "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all",
-              "wasCompressed": true,
-              "brotlified": 3263,
-              "originalSize": 4422,
-              "gain": 1159
             }
           ]
         }
@@ -21326,7 +21285,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "fileMinification": {
       "value": 3113,
@@ -21361,10 +21320,10 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "totalRequests": {
-      "value": 20,
+      "value": 23,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 320,
@@ -21376,7 +21335,7 @@
       },
       "offendersObj": {
         "list": {
-          "total": 20,
+          "total": 23,
           "byType": {
             "html": [
               "https://app.territoiresentransitions.fr/actions_referentiels/citergie__1.1.1/?epci_id=test"
@@ -21388,29 +21347,33 @@
               "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/main.js",
               "https://stats.data.gouv.fr//piwik.js",
               "https://app.territoiresentransitions.fr/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+              "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/7.7.js",
               "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
               "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.0.js",
-              "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/7.7.js"
+              "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/1.1.js",
+              "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/28.28.js",
+              "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/10.10.js"
             ],
             "json": [
               "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all",
               "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_value/test/all",
-              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_referentiel_commentaire/test/all",
-              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_value/test/all",
-              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_referentiel_commentaire/test/all",
-              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all"
+              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_referentiel_commentaire/test/all"
             ],
             "image": [
               "https://territoiresentransitions.fr/img/ademe.jpg",
-              "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=969647&h=11&m=2&s=39&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=20efc2b747ff5c97&_idts=1625216559&_idvc=1&_idn=0&_refts=0&_viewts=1625216559&send_image=1&cookie=1&res=800x600&gt_ms=177&pv_id=PgDEpK",
-              "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=356980&h=11&m=2&s=39&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=20efc2b747ff5c97&_idts=1625216559&_idvc=1&_idn=0&_refts=0&_viewts=1625216559&send_image=1&cookie=1&res=800x600&gt_ms=177&pv_id=lqyR3q"
+              "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=514474&h=11&m=59&s=22&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=dd60386ac80de253&_idts=1626429563&_idvc=1&_idn=0&_refts=0&_viewts=1626429563&send_image=1&cookie=1&res=800x600&gt_ms=301&pv_id=b9OSHZ",
+              "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=299607&h=11&m=59&s=22&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=dd60386ac80de253&_idts=1626429563&_idvc=1&_idn=0&_refts=0&_viewts=1626429563&send_image=1&cookie=1&res=800x600&gt_ms=301&pv_id=KiGChR"
             ],
             "video": [],
             "webfont": [
               "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2",
               "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2"
             ],
-            "other": []
+            "other": [
+              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all",
+              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_value/test/all",
+              "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_referentiel_commentaire/test/all"
+            ]
           }
         }
       },
@@ -21418,7 +21381,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "domains": {
       "value": 4,
@@ -21436,18 +21399,18 @@
         "list": [
           {
             "domain": "app.territoiresentransitions.fr",
-            "requests": 8
+            "requests": 11
           },
           {
             "domain": "territoiresentransitions.osc-fr1.scalingo.io",
             "requests": 6
           },
           {
-            "domain": "territoiresentransitions.fr",
+            "domain": "stats.data.gouv.fr",
             "requests": 3
           },
           {
-            "domain": "stats.data.gouv.fr",
+            "domain": "territoiresentransitions.fr",
             "requests": 3
           }
         ]
@@ -21456,10 +21419,10 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "notFound": {
-      "value": 0,
+      "value": 3,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 1,
@@ -21470,13 +21433,17 @@
         "tool": "phantomas"
       },
       "offendersObj": {
-        "count": 0,
-        "list": []
+        "count": 3,
+        "list": [
+          "https://territoiresentransitions.osc-fr1.scalingo.io/v1/action_status/test/all",
+          "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_value/test/all",
+          "https://territoiresentransitions.osc-fr1.scalingo.io/v1/indicateur_referentiel_commentaire/test/all"
+        ]
       },
-      "bad": false,
-      "abnormal": false,
-      "score": 100,
-      "abnormalityScore": 0,
+      "bad": true,
+      "abnormal": true,
+      "score": 0,
+      "abnormalityScore": -200,
       "globalScoreIfFixed": 89
     },
     "closedConnections": {
@@ -21498,7 +21465,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "identicalFiles": {
       "value": 0,
@@ -21520,7 +21487,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "emptyRequests": {
       "value": 0,
@@ -21541,7 +21508,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "lazyLoadableImagesBelowTheFold": {
       "value": 0,
@@ -21562,7 +21529,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "hiddenImages": {
       "value": 0,
@@ -21583,7 +21550,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "fontsCount": {
       "value": 2,
@@ -21613,7 +21580,7 @@
       "abnormal": false,
       "score": 75,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 90
+      "globalScoreIfFixed": 81
     },
     "heavyFonts": {
       "value": 0,
@@ -21649,7 +21616,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "nonWoff2Fonts": {
       "value": 0,
@@ -21673,7 +21640,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "oldHttpProtocol": {
       "value": 0,
@@ -21690,7 +21657,7 @@
         "message": "<p>HTTP/2 is the latest version of the HTTP protocol. It is designed to optimize load speed. HTTP/3 will come soon and should be even faster!</p><p>When a domain sends more than 4 requests over HTTP/1, this metric counts one point for each new request. Below 5 requests, the benefits of HTTP/2 are generally less significant.</p>",
         "hasOffenders": true
       },
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "oldTlsProtocol": {
       "value": 1,
@@ -21717,7 +21684,7 @@
       "abnormal": false,
       "score": 80,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cachingDisabled": {
       "value": 0,
@@ -21738,7 +21705,7 @@
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cachingNotSpecified": {
       "value": 2,
@@ -21754,18 +21721,18 @@
       "offendersObj": {
         "count": 2,
         "list": [
-          "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=969647&h=11&m=2&s=39&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=20efc2b747ff5c97&_idts=1625216559&_idvc=1&_idn=0&_refts=0&_viewts=1625216559&send_image=1&cookie=1&res=800x600&gt_ms=177&pv_id=PgDEpK",
-          "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=356980&h=11&m=2&s=39&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=20efc2b747ff5c97&_idts=1625216559&_idvc=1&_idn=0&_refts=0&_viewts=1625216559&send_image=1&cookie=1&res=800x600&gt_ms=177&pv_id=lqyR3q"
+          "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=514474&h=11&m=59&s=22&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=dd60386ac80de253&_idts=1626429563&_idvc=1&_idn=0&_refts=0&_viewts=1626429563&send_image=1&cookie=1&res=800x600&gt_ms=301&pv_id=b9OSHZ",
+          "https://stats.data.gouv.fr//piwik.php?action_name=&idsite=180&rec=1&r=299607&h=11&m=59&s=22&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Factions_referentiels%2Fcitergie__1.1.1%2F%3Fepci_id%3Dtest%23citergie__1.1.1&_id=dd60386ac80de253&_idts=1626429563&_idvc=1&_idn=0&_refts=0&_viewts=1626429563&send_image=1&cookie=1&res=800x600&gt_ms=301&pv_id=KiGChR"
         ]
       },
       "bad": false,
       "abnormal": false,
       "score": 100,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     },
     "cachingTooShort": {
-      "value": 9,
+      "value": 12,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 50,
@@ -21776,7 +21743,7 @@
         "tool": "phantomas"
       },
       "offendersObj": {
-        "count": 9,
+        "count": 12,
         "list": [
           {
             "url": "https://stats.data.gouv.fr//piwik.js",
@@ -21809,6 +21776,12 @@
             "unit": "hours"
           },
           {
+            "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/7.7.js",
+            "ttl": 14400,
+            "ttlWithUnit": 4,
+            "unit": "hours"
+          },
+          {
             "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.2.js",
             "ttl": 14400,
             "ttlWithUnit": 4,
@@ -21821,7 +21794,19 @@
             "unit": "hours"
           },
           {
-            "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/7.7.js",
+            "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/1.1.js",
+            "ttl": 14400,
+            "ttlWithUnit": 4,
+            "unit": "hours"
+          },
+          {
+            "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/28.28.js",
+            "ttl": 14400,
+            "ttlWithUnit": 4,
+            "unit": "hours"
+          },
+          {
+            "url": "https://app.territoiresentransitions.fr/client/bea747860c96c07a69f2/10.10.js",
             "ttl": 14400,
             "ttlWithUnit": 4,
             "unit": "hours"
@@ -21836,9 +21821,9 @@
       },
       "bad": true,
       "abnormal": false,
-      "score": 80,
+      "score": 65,
       "abnormalityScore": 0,
-      "globalScoreIfFixed": 89
+      "globalScoreIfFixed": 80
     }
   },
   "scoreProfiles": {
@@ -21857,7 +21842,7 @@
         },
         "requests": {
           "label": "Requests",
-          "categoryScore": 100,
+          "categoryScore": 33,
           "rules": [
             "totalRequests",
             "domains",
@@ -21945,7 +21930,7 @@
         },
         "serverConfig": {
           "label": "Server config",
-          "categoryScore": 93,
+          "categoryScore": 92,
           "rules": [
             "oldHttpProtocol",
             "oldTlsProtocol",
@@ -21956,7 +21941,7 @@
           ]
         }
       },
-      "globalScore": 89
+      "globalScore": 80
     }
   }
 }
