@@ -114,7 +114,7 @@
       "globalScoreIfFixed": 96
     },
     "scriptDuration": {
-      "value": 19,
+      "value": 23,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -132,7 +132,7 @@
       "globalScoreIfFixed": 96
     },
     "DOMaccesses": {
-      "value": 229,
+      "value": 147,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 5000,
@@ -721,360 +721,32 @@
                 "path": "window"
               },
               {
+                "eventType": "online",
+                "path": "window"
+              },
+              {
                 "eventType": "message",
                 "path": "window"
               },
               {
-                "eventType": "click",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__brand.fr-enlarge-link > div.fr-header__service > a[0]"
+                "eventType": "load",
+                "path": "window"
               },
               {
                 "eventType": "click",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[0] > a.fr-link.fr-fi-account-line"
+                "path": "body"
               },
               {
                 "eventType": "mouseup",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[0] > a.fr-link.fr-fi-account-line"
+                "path": "body"
               },
               {
                 "eventType": "mousedown",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[0] > a.fr-link.fr-fi-account-line"
+                "path": "body"
               },
               {
                 "eventType": "contextmenu",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[0] > a.fr-link.fr-fi-account-line"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > section.svelte-1cqwfp2 > div.svelte-1cqwfp2 > a.fr-btn.svelte-1cqwfp2"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > section.svelte-1cqwfp2 > div.svelte-1cqwfp2 > a.fr-btn.svelte-1cqwfp2"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > section.svelte-1cqwfp2 > div.svelte-1cqwfp2 > a.fr-btn.svelte-1cqwfp2"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > section.svelte-1cqwfp2 > div.svelte-1cqwfp2 > a.fr-btn.svelte-1cqwfp2"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > section.svelte-1cqwfp2 > div.svelte-1cqwfp2 > a.fr-btn.fr-btn--secondary.svelte-1cqwfp2"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > section.svelte-1cqwfp2 > div.svelte-1cqwfp2 > a.fr-btn.fr-btn--secondary.svelte-1cqwfp2"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > section.svelte-1cqwfp2 > div.svelte-1cqwfp2 > a.fr-btn.fr-btn--secondary.svelte-1cqwfp2"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > section.svelte-1cqwfp2 > div.svelte-1cqwfp2 > a.fr-btn.fr-btn--secondary.svelte-1cqwfp2"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[0]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[0]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[0]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[0]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[1]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[1]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[1]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[1]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[2]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[2]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[2]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[2]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[3]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[3]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[3]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[3]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[4]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[4]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[4]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[4]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[5]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[5]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[5]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[5]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[6]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[6]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[6]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[6]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[7]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[7]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[7]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[7]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[8]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[8]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[8]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[8]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[9]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[9]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[9]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[9]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[10]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[10]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[10]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > main.svelte-15q2538 > div.hidden.svelte-1cqwfp2 > a[10]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > div[0] > p.fr-footer__content-desc > a[0]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > div[0] > p.fr-footer__content-desc > a[0]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > div[0] > p.fr-footer__content-desc > a[0]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > div[0] > p.fr-footer__content-desc > a[0]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
+                "path": "body"
               }
             ]
           }
@@ -1171,7 +843,7 @@
       "globalScoreIfFixed": 96
     },
     "globalVariables": {
-      "value": 8,
+      "value": 7,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 800,
@@ -1182,10 +854,9 @@
         "tool": "phantomas"
       },
       "offendersObj": {
-        "count": 8,
+        "count": 7,
         "list": [
           "AnalyticsTracker",
-          "JSON_PIWIK",
           "Matomo",
           "Piwik",
           "__SAPPER__",
@@ -1309,7 +980,7 @@
       "globalScoreIfFixed": 96
     },
     "totalWeight": {
-      "value": 205591,
+      "value": 202209,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -1322,14 +993,14 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 205591,
+          "totalWeight": 202209,
           "byType": {
             "html": {
-              "totalWeight": 31440,
+              "totalWeight": 31546,
               "requests": [
                 {
                   "url": "https://app.territoiresentransitions.fr/",
-                  "weight": 31440
+                  "weight": 31546
                 }
               ]
             },
@@ -1338,11 +1009,11 @@
               "requests": []
             },
             "js": {
-              "totalWeight": 134061,
+              "totalWeight": 130956,
               "requests": [
                 {
                   "url": "https://app.territoiresentransitions.fr/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
-                  "weight": 1572
+                  "weight": 1580
                 },
                 {
                   "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/index.23.js",
@@ -1350,15 +1021,15 @@
                 },
                 {
                   "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/main.js",
-                  "weight": 51995
-                },
-                {
-                  "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/main.js",
                   "weight": 51999
                 },
                 {
+                  "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/main.js",
+                  "weight": 51991
+                },
+                {
                   "url": "https://stats.data.gouv.fr//piwik.js",
-                  "weight": 23783
+                  "weight": 20674
                 }
               ]
             },
@@ -1367,15 +1038,11 @@
               "requests": []
             },
             "image": {
-              "totalWeight": 13056,
+              "totalWeight": 12645,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.fr/img/ademe.jpg",
-                  "weight": 12647
-                },
-                {
-                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=464621&h=11&m=59&s=2&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=887347404c74481f&_idts=1626429542&_idvc=1&_idn=0&_refts=0&_viewts=1626429542&send_image=1&cookie=1&res=800x600&gt_ms=129&pv_id=biW9yp",
-                  "weight": 409
+                  "weight": 12645
                 }
               ]
             },
@@ -1384,21 +1051,30 @@
               "requests": []
             },
             "webfont": {
-              "totalWeight": 27034,
+              "totalWeight": 27062,
               "requests": [
                 {
-                  "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2",
-                  "weight": 13594
+                  "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2",
+                  "weight": 13451
                 },
                 {
-                  "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2",
-                  "weight": 13440
+                  "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2",
+                  "weight": 13611
                 }
               ]
             },
             "other": {
               "totalWeight": 0,
-              "requests": []
+              "requests": [
+                {
+                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=117656&h=15&m=22&s=25&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=b61f42fba0b38764&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=nBJOuN&pf_net=75&pf_srv=201&pf_tfr=32&pf_dm1=182",
+                  "weight": 0
+                },
+                {
+                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=775973&h=15&m=22&s=25&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=b61f42fba0b38764&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=Rapzj2&pf_net=75&pf_srv=201&pf_tfr=32&pf_dm1=182",
+                  "weight": 0
+                }
+              ]
             }
           }
         }
@@ -1466,7 +1142,7 @@
       "globalScoreIfFixed": 96
     },
     "compression": {
-      "value": 1055,
+      "value": 987,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -1479,14 +1155,14 @@
       },
       "offendersObj": {
         "list": {
-          "totalGain": 1055,
+          "totalGain": 987,
           "files": [
             {
               "url": "https://stats.data.gouv.fr//piwik.js",
               "wasCompressed": true,
-              "brotlified": 22353,
-              "originalSize": 23408,
-              "gain": 1055
+              "brotlified": 19313,
+              "originalSize": 20300,
+              "gain": 987
             }
           ]
         }
@@ -1498,7 +1174,7 @@
       "globalScoreIfFixed": 96
     },
     "fileMinification": {
-      "value": 3113,
+      "value": 2504,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -1511,17 +1187,17 @@
       },
       "offendersObj": {
         "list": {
-          "totalGain": 3113,
+          "totalGain": 2504,
           "files": [
             {
               "url": "https://stats.data.gouv.fr//piwik.js",
-              "originalWeigth": 23408,
+              "originalWeigth": 20300,
               "isCompressible": true,
               "isCompressed": true,
-              "originalCompressedWeight": 23408,
-              "afterOptimizationAndCompression": 20295,
-              "optimized": 58584,
-              "gain": 3113
+              "originalCompressedWeight": 20300,
+              "afterOptimizationAndCompression": 17796,
+              "optimized": 53228,
+              "gain": 2504
             }
           ]
         }
@@ -1533,7 +1209,7 @@
       "globalScoreIfFixed": 96
     },
     "totalRequests": {
-      "value": 10,
+      "value": 11,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 320,
@@ -1545,7 +1221,7 @@
       },
       "offendersObj": {
         "list": {
-          "total": 10,
+          "total": 11,
           "byType": {
             "html": [
               "https://app.territoiresentransitions.fr/"
@@ -1560,15 +1236,17 @@
             ],
             "json": [],
             "image": [
-              "https://territoiresentransitions.fr/img/ademe.jpg",
-              "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=464621&h=11&m=59&s=2&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=887347404c74481f&_idts=1626429542&_idvc=1&_idn=0&_refts=0&_viewts=1626429542&send_image=1&cookie=1&res=800x600&gt_ms=129&pv_id=biW9yp"
+              "https://territoiresentransitions.fr/img/ademe.jpg"
             ],
             "video": [],
             "webfont": [
-              "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2",
-              "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2"
+              "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2",
+              "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2"
             ],
-            "other": []
+            "other": [
+              "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=117656&h=15&m=22&s=25&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=b61f42fba0b38764&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=nBJOuN&pf_net=75&pf_srv=201&pf_tfr=32&pf_dm1=182",
+              "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=775973&h=15&m=22&s=25&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=b61f42fba0b38764&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=Rapzj2&pf_net=75&pf_srv=201&pf_tfr=32&pf_dm1=182"
+            ]
           }
         }
       },
@@ -1597,12 +1275,12 @@
             "requests": 5
           },
           {
-            "domain": "territoiresentransitions.fr",
+            "domain": "stats.data.gouv.fr",
             "requests": 3
           },
           {
-            "domain": "stats.data.gouv.fr",
-            "requests": 2
+            "domain": "territoiresentransitions.fr",
+            "requests": 3
           }
         ]
       },
@@ -1754,12 +1432,12 @@
         "count": 2,
         "list": [
           {
-            "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2",
-            "size": 12568
-          },
-          {
             "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2",
             "size": 12408
+          },
+          {
+            "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2",
+            "size": 12568
           }
         ]
       },
@@ -1785,16 +1463,16 @@
         "count": 0,
         "fonts": [
           {
-            "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2",
-            "weight": 12568,
-            "numGlyphs": 193,
-            "averageGlyphComplexity": 16.4
-          },
-          {
             "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2",
             "weight": 12408,
             "numGlyphs": 193,
             "averageGlyphComplexity": 16.1
+          },
+          {
+            "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2",
+            "weight": 12568,
+            "numGlyphs": 193,
+            "averageGlyphComplexity": 16.4
           }
         ],
         "totalGain": 0
@@ -1895,7 +1573,7 @@
       "globalScoreIfFixed": 96
     },
     "cachingNotSpecified": {
-      "value": 1,
+      "value": 0,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 40,
@@ -1906,10 +1584,8 @@
         "tool": "phantomas"
       },
       "offendersObj": {
-        "count": 1,
-        "list": [
-          "https://stats.data.gouv.fr//piwik.php?action_name=Territoires%20en%20Transitions&idsite=180&rec=1&r=464621&h=11&m=59&s=2&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2F&_id=887347404c74481f&_idts=1626429542&_idvc=1&_idn=0&_refts=0&_viewts=1626429542&send_image=1&cookie=1&res=800x600&gt_ms=129&pv_id=biW9yp"
-        ]
+        "count": 0,
+        "list": []
       },
       "bad": false,
       "abnormal": false,

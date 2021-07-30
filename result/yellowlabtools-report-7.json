@@ -109,7 +109,7 @@
       "globalScoreIfFixed": 92
     },
     "scriptDuration": {
-      "value": 90,
+      "value": 82,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -127,7 +127,7 @@
       "globalScoreIfFixed": 92
     },
     "DOMaccesses": {
-      "value": 2405,
+      "value": 2363,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 5000,
@@ -616,7 +616,7 @@
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth"
               },
               {
-                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_non_concerne",
+                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_non_concerne",
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth"
               },
               {
@@ -644,7 +644,7 @@
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth"
               },
               {
-                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_programmee",
+                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_programmee",
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth"
               },
               {
@@ -672,7 +672,7 @@
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth"
               },
               {
-                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_pas_faite",
+                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_pas_faite",
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth"
               },
               {
@@ -700,7 +700,7 @@
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth"
               },
               {
-                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_en_cours",
+                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_en_cours",
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth"
               },
               {
@@ -728,7 +728,7 @@
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth"
               },
               {
-                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_faite",
+                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_faite",
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth"
               },
               {
@@ -764,7 +764,7 @@
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > fieldset.svelte-19fkd8k"
               },
               {
-                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > fieldset.svelte-19fkd8k > div.row.svelte-19fkd8k > input#a0276504-768b-41a9-8fad-698b7ed81f00",
+                "append": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > fieldset.svelte-19fkd8k > div.row.svelte-19fkd8k > input#87c91ac4-b1d0-44fc-aa9f-8c09098f4311",
                 "node": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > fieldset.svelte-19fkd8k > div.row.svelte-19fkd8k"
               },
               {
@@ -4978,7 +4978,7 @@
                 "target": "fieldset.svelte-edekth"
               },
               {
-                "node": "input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_non_concerne",
+                "node": "input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_non_concerne",
                 "target": "div.svelte-edekth"
               },
               {
@@ -5006,7 +5006,7 @@
                 "target": "fieldset.svelte-edekth"
               },
               {
-                "node": "input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_programmee",
+                "node": "input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_programmee",
                 "target": "div.svelte-edekth"
               },
               {
@@ -5034,7 +5034,7 @@
                 "target": "fieldset.svelte-edekth"
               },
               {
-                "node": "input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_pas_faite",
+                "node": "input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_pas_faite",
                 "target": "div.svelte-edekth"
               },
               {
@@ -5062,7 +5062,7 @@
                 "target": "fieldset.svelte-edekth"
               },
               {
-                "node": "input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_en_cours",
+                "node": "input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_en_cours",
                 "target": "div.svelte-edekth"
               },
               {
@@ -5090,7 +5090,7 @@
                 "target": "fieldset.svelte-edekth"
               },
               {
-                "node": "input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_faite",
+                "node": "input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_faite",
                 "target": "div.svelte-edekth"
               },
               {
@@ -5126,7 +5126,7 @@
                 "target": "fieldset.svelte-19fkd8k"
               },
               {
-                "node": "input#a0276504-768b-41a9-8fad-698b7ed81f00",
+                "node": "input#87c91ac4-b1d0-44fc-aa9f-8c09098f4311",
                 "target": "div.row.svelte-19fkd8k"
               },
               {
@@ -9392,6 +9392,10 @@
                 "path": "window"
               },
               {
+                "eventType": "online",
+                "path": "window"
+              },
+              {
                 "eventType": "message",
                 "path": "window"
               },
@@ -9437,51 +9441,51 @@
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_non_concerne"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_non_concerne"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_non_concerne"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_non_concerne"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_programmee"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_programmee"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_programmee"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_programmee"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_pas_faite"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_pas_faite"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_pas_faite"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_pas_faite"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_en_cours"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_en_cours"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_en_cours"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_en_cours"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_faite"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_faite"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-3b9edf4b-a598-412a-95ae-49d5b918f22d_faite"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > form[6] > fieldset.svelte-edekth > div.svelte-edekth > input#action-2dbec2f1-b283-4cfc-ac03-2946b7adbeb0_faite"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > fieldset.svelte-19fkd8k > div.row.svelte-19fkd8k > input#a0276504-768b-41a9-8fad-698b7ed81f00"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > fieldset.svelte-19fkd8k > div.row.svelte-19fkd8k > input#87c91ac4-b1d0-44fc-aa9f-8c09098f4311"
               },
               {
                 "eventType": "change",
-                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > fieldset.svelte-19fkd8k > div.row.svelte-19fkd8k > input#a0276504-768b-41a9-8fad-698b7ed81f00"
+                "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > fieldset.svelte-19fkd8k > div.row.svelte-19fkd8k > input#87c91ac4-b1d0-44fc-aa9f-8c09098f4311"
               },
               {
                 "eventType": "input",
@@ -9552,196 +9556,24 @@
                 "path": "body > div#sapper > main.svelte-15q2538 > div[0] > section[1] > form.svelte-x7j5h6 > div.last-button.svelte-x7j5h6 > button.fr-btn"
               },
               {
-                "eventType": "click",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__brand.fr-enlarge-link > div.fr-header__service > a[0]"
+                "eventType": "load",
+                "path": "window"
               },
               {
                 "eventType": "click",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[0] > a.fr-link.fr-fi-account-line"
+                "path": "body"
               },
               {
                 "eventType": "mouseup",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[0] > a.fr-link.fr-fi-account-line"
+                "path": "body"
               },
               {
                 "eventType": "mousedown",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[0] > a.fr-link.fr-fi-account-line"
+                "path": "body"
               },
               {
                 "eventType": "contextmenu",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[0] > a.fr-link.fr-fi-account-line"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[1] > a.fr-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[1] > a.fr-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[1] > a.fr-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[1] > a.fr-link"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[2] > a.fr-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[2] > a.fr-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[2] > a.fr-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[2] > a.fr-link"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[3] > a.fr-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[3] > a.fr-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[3] > a.fr-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > header.header.fr-header.svelte-uy591m > div.fr-container > div.fr-header__body-row.header__row > div.fr-header__tools > div.fr-header__tools-links > ul.fr-links-group > li[3] > a.fr-link"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__brand.fr-enlarge-link > div.fr-header__service > a[0]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > div[0] > p.fr-footer__content-desc > a[0]"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > div[0] > p.fr-footer__content-desc > a[0]"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > div[0] > p.fr-footer__content-desc > a[0]"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > div[0] > p.fr-footer__content-desc > a[0]"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__body > div.fr-footer__content > ul.fr-footer__content-list > li.fr-footer__content-item > a.fr-footer__content-link"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "click",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "mouseup",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "mousedown",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
-              },
-              {
-                "eventType": "contextmenu",
-                "path": "body > div#sapper > footer#footer > div.fr-container > div.fr-footer__bottom > ul.fr-footer__bottom-list > li.fr-footer__bottom-item > a.fr-footer__bottom-link"
+                "path": "body"
               },
               {
                 "eventType": "input",
@@ -9781,7 +9613,7 @@
       },
       "bad": true,
       "abnormal": false,
-      "score": 5,
+      "score": 7,
       "abnormalityScore": 0,
       "globalScoreIfFixed": 95
     },
@@ -9870,7 +9702,7 @@
       "globalScoreIfFixed": 92
     },
     "globalVariables": {
-      "value": 8,
+      "value": 7,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 800,
@@ -9881,10 +9713,9 @@
         "tool": "phantomas"
       },
       "offendersObj": {
-        "count": 8,
+        "count": 7,
         "list": [
           "AnalyticsTracker",
-          "JSON_PIWIK",
           "Matomo",
           "Piwik",
           "__SAPPER__",
@@ -10008,7 +9839,7 @@
       "globalScoreIfFixed": 92
     },
     "totalWeight": {
-      "value": 269444,
+      "value": 266940,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -10021,14 +9852,14 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 269444,
+          "totalWeight": 266940,
           "byType": {
             "html": {
-              "totalWeight": 32813,
+              "totalWeight": 32675,
               "requests": [
                 {
                   "url": "https://app.territoiresentransitions.fr/fiches/creation/?epci_id=test",
-                  "weight": 32813
+                  "weight": 32675
                 }
               ]
             },
@@ -10037,7 +9868,7 @@
               "requests": []
             },
             "js": {
-              "totalWeight": 172889,
+              "totalWeight": 169790,
               "requests": [
                 {
                   "url": "https://app.territoiresentransitions.fr/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
@@ -10045,7 +9876,7 @@
                 },
                 {
                   "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/fiches_creation.21.js",
-                  "weight": 2221
+                  "weight": 2225
                 },
                 {
                   "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/main.js",
@@ -10057,36 +9888,36 @@
                 },
                 {
                   "url": "https://stats.data.gouv.fr//piwik.js",
-                  "weight": 23783
+                  "weight": 20674
                 },
                 {
                   "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
-                  "weight": 11860
-                },
-                {
-                  "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/fiches_creation~fiches_edition~indicateurs.5.js",
-                  "weight": 7069
-                },
-                {
-                  "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/fiches_creation~fiches_edition.8.js",
-                  "weight": 15941
+                  "weight": 11864
                 },
                 {
                   "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.3.js",
                   "weight": 6451
+                },
+                {
+                  "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/fiches_creation~fiches_edition~indicateurs.5.js",
+                  "weight": 7073
+                },
+                {
+                  "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/fiches_creation~fiches_edition.8.js",
+                  "weight": 15939
                 }
               ]
             },
             "json": {
-              "totalWeight": 23235,
+              "totalWeight": 24776,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v2/epci/all",
-                  "weight": 8880
+                  "weight": 9556
                 },
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v2/fiche_action_categorie/test/all",
-                  "weight": 1872
+                  "weight": 1973
                 },
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v2/indicateur_personnalise/test/all",
@@ -10094,32 +9925,24 @@
                 },
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v2/epci/all",
-                  "weight": 8880
+                  "weight": 9538
                 },
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v2/indicateur_personnalise/test/all",
-                  "weight": 863
+                  "weight": 868
                 },
                 {
                   "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v2/fiche_action_categorie/test/all",
-                  "weight": 1872
+                  "weight": 1973
                 }
               ]
             },
             "image": {
-              "totalWeight": 13469,
+              "totalWeight": 12647,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.fr/img/ademe.jpg",
-                  "weight": 12651
-                },
-                {
-                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=Nouvelle%20fiche&idsite=180&rec=1&r=196211&h=11&m=59&s=48&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Ffiches%2Fcreation%2F%3Fepci_id%3Dtest&_id=0ca8494ced65e9b4&_idts=1626429589&_idvc=1&_idn=0&_refts=0&_viewts=1626429589&send_image=1&cookie=1&res=800x600&gt_ms=192&pv_id=DPCKMq",
-                  "weight": 409
-                },
-                {
-                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=Nouvelle%20fiche&idsite=180&rec=1&r=446017&h=11&m=59&s=48&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Ffiches%2Fcreation%2F%3Fepci_id%3Dtest&_id=0ca8494ced65e9b4&_idts=1626429589&_idvc=1&_idn=0&_refts=0&_viewts=1626429589&send_image=1&cookie=1&res=800x600&gt_ms=192&pv_id=SLIyMr",
-                  "weight": 409
+                  "weight": 12647
                 }
               ]
             },
@@ -10128,21 +9951,26 @@
               "requests": []
             },
             "webfont": {
-              "totalWeight": 27038,
+              "totalWeight": 27052,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2",
-                  "weight": 13441
+                  "weight": 13449
                 },
                 {
                   "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2",
-                  "weight": 13597
+                  "weight": 13603
                 }
               ]
             },
             "other": {
               "totalWeight": 0,
-              "requests": []
+              "requests": [
+                {
+                  "url": "https://stats.data.gouv.fr//piwik.php?action_name=Nouvelle%20fiche&idsite=180&rec=1&r=661599&h=15&m=23&s=11&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Ffiches%2Fcreation%2F%3Fepci_id%3Dtest&_id=6fce318f192724d7&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=qYHtkd&pf_net=64&pf_srv=116&pf_tfr=40&pf_dm1=247",
+                  "weight": 0
+                }
+              ]
             }
           }
         }
@@ -10210,7 +10038,7 @@
       "globalScoreIfFixed": 92
     },
     "compression": {
-      "value": 2921,
+      "value": 3065,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -10223,28 +10051,28 @@
       },
       "offendersObj": {
         "list": {
-          "totalGain": 2921,
+          "totalGain": 3065,
           "files": [
             {
               "url": "https://stats.data.gouv.fr//piwik.js",
               "wasCompressed": true,
-              "brotlified": 22353,
-              "originalSize": 23408,
-              "gain": 1055
+              "brotlified": 19313,
+              "originalSize": 20300,
+              "gain": 987
             },
             {
               "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v2/epci/all",
               "wasCompressed": true,
-              "brotlified": 7712,
-              "originalSize": 8645,
-              "gain": 933
+              "brotlified": 8273,
+              "originalSize": 9321,
+              "gain": 1048
             },
             {
               "url": "https://territoiresentransitions.osc-fr1.scalingo.io/v2/epci/all",
               "wasCompressed": true,
-              "brotlified": 7712,
-              "originalSize": 8645,
-              "gain": 933
+              "brotlified": 8273,
+              "originalSize": 9303,
+              "gain": 1030
             }
           ]
         }
@@ -10256,7 +10084,7 @@
       "globalScoreIfFixed": 92
     },
     "fileMinification": {
-      "value": 3113,
+      "value": 2504,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -10269,17 +10097,17 @@
       },
       "offendersObj": {
         "list": {
-          "totalGain": 3113,
+          "totalGain": 2504,
           "files": [
             {
               "url": "https://stats.data.gouv.fr//piwik.js",
-              "originalWeigth": 23408,
+              "originalWeigth": 20300,
               "isCompressible": true,
               "isCompressed": true,
-              "originalCompressedWeight": 23408,
-              "afterOptimizationAndCompression": 20295,
-              "optimized": 58584,
-              "gain": 3113
+              "originalCompressedWeight": 20300,
+              "afterOptimizationAndCompression": 17796,
+              "optimized": 53228,
+              "gain": 2504
             }
           ]
         }
@@ -10291,7 +10119,7 @@
       "globalScoreIfFixed": 92
     },
     "totalRequests": {
-      "value": 21,
+      "value": 20,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 320,
@@ -10303,7 +10131,7 @@
       },
       "offendersObj": {
         "list": {
-          "total": 21,
+          "total": 20,
           "byType": {
             "html": [
               "https://app.territoiresentransitions.fr/fiches/creation/?epci_id=test"
@@ -10316,9 +10144,9 @@
               "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/main.js",
               "https://stats.data.gouv.fr//piwik.js",
               "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/actions_referentiels~actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.1.js",
+              "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.3.js",
               "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/fiches_creation~fiches_edition~indicateurs.5.js",
-              "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/fiches_creation~fiches_edition.8.js",
-              "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.3.js"
+              "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/fiches_creation~fiches_edition.8.js"
             ],
             "json": [
               "https://territoiresentransitions.osc-fr1.scalingo.io/v2/epci/all",
@@ -10329,16 +10157,16 @@
               "https://territoiresentransitions.osc-fr1.scalingo.io/v2/fiche_action_categorie/test/all"
             ],
             "image": [
-              "https://territoiresentransitions.fr/img/ademe.jpg",
-              "https://stats.data.gouv.fr//piwik.php?action_name=Nouvelle%20fiche&idsite=180&rec=1&r=196211&h=11&m=59&s=48&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Ffiches%2Fcreation%2F%3Fepci_id%3Dtest&_id=0ca8494ced65e9b4&_idts=1626429589&_idvc=1&_idn=0&_refts=0&_viewts=1626429589&send_image=1&cookie=1&res=800x600&gt_ms=192&pv_id=DPCKMq",
-              "https://stats.data.gouv.fr//piwik.php?action_name=Nouvelle%20fiche&idsite=180&rec=1&r=446017&h=11&m=59&s=48&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Ffiches%2Fcreation%2F%3Fepci_id%3Dtest&_id=0ca8494ced65e9b4&_idts=1626429589&_idvc=1&_idn=0&_refts=0&_viewts=1626429589&send_image=1&cookie=1&res=800x600&gt_ms=192&pv_id=SLIyMr"
+              "https://territoiresentransitions.fr/img/ademe.jpg"
             ],
             "video": [],
             "webfont": [
               "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2",
               "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2"
             ],
-            "other": []
+            "other": [
+              "https://stats.data.gouv.fr//piwik.php?action_name=Nouvelle%20fiche&idsite=180&rec=1&r=661599&h=15&m=23&s=11&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Ffiches%2Fcreation%2F%3Fepci_id%3Dtest&_id=6fce318f192724d7&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=qYHtkd&pf_net=64&pf_srv=116&pf_tfr=40&pf_dm1=247"
+            ]
           }
         }
       },
@@ -10371,12 +10199,12 @@
             "requests": 6
           },
           {
-            "domain": "stats.data.gouv.fr",
+            "domain": "territoiresentransitions.fr",
             "requests": 3
           },
           {
-            "domain": "territoiresentransitions.fr",
-            "requests": 3
+            "domain": "stats.data.gouv.fr",
+            "requests": 2
           }
         ]
       },
@@ -10669,7 +10497,7 @@
       "globalScoreIfFixed": 92
     },
     "cachingNotSpecified": {
-      "value": 2,
+      "value": 0,
       "policy": {
         "hasOffenders": true,
         "isAbnormalThreshold": 40,
@@ -10680,11 +10508,8 @@
         "tool": "phantomas"
       },
       "offendersObj": {
-        "count": 2,
-        "list": [
-          "https://stats.data.gouv.fr//piwik.php?action_name=Nouvelle%20fiche&idsite=180&rec=1&r=196211&h=11&m=59&s=48&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Ffiches%2Fcreation%2F%3Fepci_id%3Dtest&_id=0ca8494ced65e9b4&_idts=1626429589&_idvc=1&_idn=0&_refts=0&_viewts=1626429589&send_image=1&cookie=1&res=800x600&gt_ms=192&pv_id=DPCKMq",
-          "https://stats.data.gouv.fr//piwik.php?action_name=Nouvelle%20fiche&idsite=180&rec=1&r=446017&h=11&m=59&s=48&url=https%3A%2F%2Fapp.territoiresentransitions.fr%2Ffiches%2Fcreation%2F%3Fepci_id%3Dtest&_id=0ca8494ced65e9b4&_idts=1626429589&_idvc=1&_idn=0&_refts=0&_viewts=1626429589&send_image=1&cookie=1&res=800x600&gt_ms=192&pv_id=SLIyMr"
-        ]
+        "count": 0,
+        "list": []
       },
       "bad": false,
       "abnormal": false,
@@ -10743,6 +10568,12 @@
             "unit": "hours"
           },
           {
+            "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.3.js",
+            "ttl": 14400,
+            "ttlWithUnit": 4,
+            "unit": "hours"
+          },
+          {
             "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/fiches_creation~fiches_edition~indicateurs.5.js",
             "ttl": 14400,
             "ttlWithUnit": 4,
@@ -10750,12 +10581,6 @@
           },
           {
             "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/fiches_creation~fiches_edition.8.js",
-            "ttl": 14400,
-            "ttlWithUnit": 4,
-            "unit": "hours"
-          },
-          {
-            "url": "https://app.territoiresentransitions.fr/client/4826e9b5e36744466edc/actions_referentiels_$id~fiches_creation~fiches_edition~indicateurs.3.js",
             "ttl": 14400,
             "ttlWithUnit": 4,
             "unit": "hours"
