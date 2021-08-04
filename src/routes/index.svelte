@@ -54,7 +54,7 @@
   <title>Indicateurs du projet LTE</title>
 </svelte:head>
 
-<h1>Metrics du projet LTE</h1>
+<h1>Outil de mesure et de suivi de Territoires en Transition</h1>
 
 <hr />
 <h2>Sélectionner les indicateurs :</h2>
