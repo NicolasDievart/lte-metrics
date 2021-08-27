@@ -50,13 +50,6 @@
   }
 </script>
 
-<svelte:head>
-  <title>Indicateurs du projet LTE</title>
-</svelte:head>
-
-<h1>Outil de mesure et de suivi de Territoires en Transition</h1>
-
-<hr />
 <h2>Sélectionner les indicateurs :</h2>
 <input
   type="checkbox"
@@ -95,71 +88,18 @@
 </ul>
 
 <style>
-
-body {
- font-family:Arial , -apple-system, system-ui, BlinkMacSystemFont, Helvetica, sans-serif;;
- font-weight:400;
- font-size:15px;
- line-height:25px;
-}
-
-h2 {
-  font-weight:bold;
-}
-
-h3 {
-  font-size:21px;
-  font-weight:bold;
-  margin-bottom: 0.5rem;
-}
-
-h4 {
-  font-weight: bold;
-  color:hsl(0,0%,45%);
-}
-
-b {
-  font-weight: bold;
-}
-
-a:link {
-  text-decoration: underline;
-}
-a[href^="top"] {
-  text-decoration: none;
-}
-a[href^="http"]:after {
-  content:"\2197";
-  display: inline-block;
-  position: relative;
-  margin-left: .2em;
-}
-
 [id] {
   scroll-margin-top: 2rem;
 }
 
-button {
- cursor:pointer;
- display:inline-block;
- border:none;
- color:hsl(0,0%,45%);
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus,
+a:active:hover {
+  cursor: pointer;
+  font-style: inherit;
+  color: inherit;
 }
-button:hover {
- color:hsl(0,0%,85%);
-}
-
-/*
-  a,
-  a:visited,
-  a:hover,
-  a:active,
-  a:focus,
-  a:active:hover {
-    cursor: pointer;
-    font-style: inherit;
-    color: inherit;
-  }
-*/
-
 </style>
