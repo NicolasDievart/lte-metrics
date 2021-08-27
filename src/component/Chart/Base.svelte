@@ -1,28 +1,59 @@
 <script>
   import { onMount, afterUpdate, onDestroy } from 'svelte';
-  import Chart from 'chart.js';
   import { clean } from '../../utils/utils';
+  import {
+    Chart,
+    LineController,
+    LineElement,
+    PointElement,
+    LinearScale,
+    RadialLinearScale,
+    TimeScale,
+    TimeSeriesScale,
+    CategoryScale,
+    Decimation,
+    Filler,
+    Legend,
+    Title,
+    Tooltip,
+    SubTitle
+  } from 'chart.js/dist/chart.esm';
+
+  Chart.register(
+    LineController,
+    LineElement,
+    PointElement,
+    LinearScale,
+    RadialLinearScale,
+    TimeScale,
+    TimeSeriesScale,
+    CategoryScale,
+    Decimation,
+    Filler,
+    Legend,
+    Title,
+    Tooltip,
+    SubTitle
+  );
 
   export let data = {
     labels: [],
-    datasets: [{ values: [] }],
+    datasets: [{ data: [] }],
     yMarkers: {},
     yRegions: []
   };
   export let type = 'line';
   export let options = {};
-  export let plugins = {};
 
   let chart = null;
   let chartRef;
-  let props = clean($$props, ['data', 'type', 'options', 'plugins']);
+  let props = clean($$props, ['data', 'type', 'options']);
 
   onMount(() => {
     chart = new Chart(chartRef, {
       type,
       data,
-      options,
-      plugins
+      options
     });
   });
 

@@ -65,7 +65,9 @@
       pointHighlightStroke: fileTypeColorMapping[type].stroke,
       borderColor: fileTypeColorMapping[type].stroke,
       data: [],
-      fill: true
+      fill: true,
+      tension: 0.2,
+      stack: 'combined'
     };
   }
 </script>
@@ -82,7 +84,8 @@
             yAxisID: 'performance',
             borderColor: 'rgb(65,144,0)',
             data: firstMeaningfulPaints,
-            fill: true
+            fill: true,
+            tension: 0.2
           },
           {
             label: 'Time to interactive (en secondes)',
@@ -90,32 +93,32 @@
             yAxisID: 'performance',
             borderColor: 'rgb(201,0,0)',
             data: timeToInteractives,
-            fill: true
+            fill: true,
+            tension: 0.2
           }
         ]
       }}
       width={500}
       height={250}
       options={{
-        title: {
-          display: true,
-          text: 'La performance au chargement'
+        plugins: {
+          title: {
+            display: true,
+            text: 'La performance au chargement'
+          },
         },
         responsive: false,
         maintainAspectRatio: true,
         scales: {
-          yAxes: [
-            {
-              id: 'performance',
-              name: 'performance',
-              type: 'linear',
-              position: 'left',
-              scalePositionLeft: true,
-              ticks: {
-                beginAtZero: true
-              }
+          performance: {
+            name: 'performance',
+            type: 'linear',
+            position: 'left',
+            scalePositionLeft: true,
+            ticks: {
+              beginAtZero: true
             }
-          ]
+          }
         }
       }}
     />
@@ -131,26 +134,25 @@
       width={500}
       height={250}
       options={{
-        title: {
-          display: true,
-          text: 'La décomposition du poids des éléments'
+        plugins: {
+          title: {
+            display: true,
+            text: 'La décomposition du poids des éléments'
+          },
         },
         responsive: false,
         maintainAspectRatio: true,
         scales: {
-          yAxes: [
-            {
-              id: 'weight',
-              name: 'weight',
-              type: 'linear',
-              position: 'left',
-              stacked: true,
-              scalePositionLeft: true,
-              ticks: {
-                beginAtZero: true
-              }
+          weight: {
+            name: 'weight',
+            type: 'linear',
+            position: 'left',
+            stacked: true,
+            scalePositionLeft: true,
+            ticks: {
+              beginAtZero: true
             }
-          ]
+          }
         }
       }}
     />
@@ -167,49 +169,49 @@
             yAxisID: 'dom',
             borderColor: 'rgb(0,94,144)',
             data: domElementsCounts,
-            fill: true
+            fill: true,
+            tension: 0.2
           },
           {
             label: 'Nombre de requête',
             yAxisID: 'request',
             borderColor: 'rgb(0,0,0)',
             data: totalRequests,
-            fill: true
+            fill: true,
+            tension: 0.2
           }
         ]
       }}
       width={500}
       height={250}
       options={{
-        title: {
-          display: true,
-          text: 'Le DOM et les requêtes'
+        plugins: {
+          title: {
+            display: true,
+            text: 'Le DOM et les requêtes'
+          },
         },
         responsive: false,
         maintainAspectRatio: true,
         scales: {
-          yAxes: [
-            {
-              id: 'dom',
-              name: 'dom',
-              type: 'linear',
-              position: 'left',
-              scalePositionLeft: true,
-              ticks: {
-                beginAtZero: true
-              }
-            },
-            {
-              id: 'request',
-              name: 'request',
-              type: 'linear',
-              position: 'right',
-              scalePositionLeft: true,
-              ticks: {
-                beginAtZero: true
-              }
+          dom: {
+            name: 'dom',
+            type: 'linear',
+            position: 'left',
+            scalePositionLeft: true,
+            ticks: {
+              beginAtZero: true
             }
-          ]
+          },
+          request: {
+            name: 'request',
+            type: 'linear',
+            position: 'right',
+            scalePositionLeft: true,
+            ticks: {
+              beginAtZero: true
+            }
+          }
         }
       }}
     />
