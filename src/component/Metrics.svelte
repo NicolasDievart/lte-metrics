@@ -115,9 +115,7 @@
             type: 'linear',
             position: 'left',
             scalePositionLeft: true,
-            ticks: {
-              beginAtZero: true
-            }
+            beginAtZero: true
           }
         }
       }}
@@ -149,9 +147,7 @@
             position: 'left',
             stacked: true,
             scalePositionLeft: true,
-            ticks: {
-              beginAtZero: true
-            }
+            beginAtZero: true
           }
         }
       }}
@@ -208,9 +204,7 @@
             type: 'linear',
             position: 'right',
             scalePositionLeft: true,
-            ticks: {
-              beginAtZero: true
-            }
+            beginAtZero: true
           }
         }
       }}
