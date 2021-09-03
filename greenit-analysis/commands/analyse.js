@@ -3,7 +3,6 @@ const YAML = require('yaml');
 const path = require('path');
 const puppeteer = require('puppeteer');
 const createJsonReports = require('../cli-core/analyis.js').createJsonReports;
-const login = require('../cli-core/analyis.js').login;
 const create_global_report = require('../cli-core/report.js').create_global_report;
 
 //launch core
@@ -32,18 +31,6 @@ async function analyse_core(options) {
     //handle analyse
     let reports;
     try {
-        //handle login
-        if (options.login){
-            const LOGIN_YAML_FILE = path.resolve(options.login);
-            let loginInfos;
-            try {
-                loginInfos = YAML.parse(fs.readFileSync(LOGIN_YAML_FILE).toString());
-            } catch (error) {
-                throw ` --login : "${LOGIN_YAML_FILE}" is not a valid YAML file.`
-            }
-            console.log(loginInfos)
-            await login(browser, loginInfos)
-        }
         //analyse
         reports = await createJsonReports(browser, urlTable, options);
     } finally {

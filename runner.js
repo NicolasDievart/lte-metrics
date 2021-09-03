@@ -88,6 +88,7 @@ function extractYellowLabToolsMetrics() {
     extractLighthouseMetrics();
   }
 
+  /**
   try {
     await yellowlabtools();
   } catch (err) {
@@ -95,6 +96,7 @@ function extractYellowLabToolsMetrics() {
   } finally {
     extractYellowLabToolsMetrics();
   }
+   */
 
   try {
     await greenit();

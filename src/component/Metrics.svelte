@@ -105,7 +105,7 @@
           title: {
             display: true,
             text: 'La performance au chargement'
-          },
+          }
         },
         responsive: false,
         maintainAspectRatio: true,
@@ -136,7 +136,7 @@
           title: {
             display: true,
             text: 'La décomposition du poids des éléments'
-          },
+          }
         },
         responsive: false,
         maintainAspectRatio: true,
@@ -185,7 +185,7 @@
           title: {
             display: true,
             text: 'Le DOM et les requêtes'
-          },
+          }
         },
         responsive: false,
         maintainAspectRatio: true,

@@ -88,18 +88,18 @@
 </ul>
 
 <style>
-[id] {
-  scroll-margin-top: 2rem;
-}
+  [id] {
+    scroll-margin-top: 2rem;
+  }
 
-a,
-a:visited,
-a:hover,
-a:active,
-a:focus,
-a:active:hover {
-  cursor: pointer;
-  font-style: inherit;
-  color: inherit;
-}
+  a,
+  a:visited,
+  a:hover,
+  a:active,
+  a:focus,
+  a:active:hover {
+    cursor: pointer;
+    font-style: inherit;
+    color: inherit;
+  }
 </style>

@@ -2,7 +2,7 @@
   "name": "ademe-lte-metrics",
   "version": "0.0.1",
   "scripts": {
-    "metrics": "node runner.js",
+    "metrics": "node --experimental-json-modules  runner.js",
     "greenit": "node -e 'require(\"./greenit\")()'",
     "yellowlabtools": "node -e 'require(\"./yellowlabtools\")()'",
     "lighthouse": "node -e 'require(\"./lighthouse\")()'",
