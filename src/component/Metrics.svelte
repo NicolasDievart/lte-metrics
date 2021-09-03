@@ -15,6 +15,7 @@
     json: { fill: 'rgba(192,163,255,0.61)', stroke: 'rgb(140,91,255)' },
     image: { fill: 'rgba(246,107,255,0.62)', stroke: 'rgb(238,0,255)' },
     video: { fill: 'rgba(255,255,255,0.61)', stroke: 'rgb(255,255,255)' },
+    media: { fill: 'rgba(255,255,255,0.61)', stroke: 'rgb(255,255,255)' },
     webfont: { fill: 'rgba(255,153,104,0.62)', stroke: 'rgb(255,83,0)' },
     other: { fill: 'rgba(203,203,203,0.6)', stroke: 'rgb(151,151,151)' }
   };

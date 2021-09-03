@@ -1,4 +1,3 @@
-import yellowlabtools from './yellowlabtools.js';
 import lighthouse from './lighthouse.js';
 import greenit from './greenit.js';
 import fs from 'fs';
@@ -34,6 +33,49 @@ function extractLighthouseMetrics() {
     report.timeToInteractive = parseMilliseconds(data['audits']['interactive']['numericValue']);
     report.domElementsCount = data['audits']['dom-size']['numericValue'];
     report.domElementsCountScore = data['audits']['dom-size']['score'] * 100;
+
+    report.totalRequest = data['audits']['network-requests']['details']['items'].length;
+
+    let totalWeightInBytes = 0;
+    const excludedResourceType = ['Preflight'];
+    const resourceTypeMapping = {
+      Font: 'webfont',
+      Document: 'html',
+      Image: 'image',
+      Media: 'media',
+      Stylesheet: 'css',
+      Script: 'js',
+      Fetch: 'json'
+    };
+
+    let weightByMimeTypes = {
+      webfont: 0,
+      media: 0,
+      html: 0,
+      image: 0,
+      css: 0,
+      js: 0,
+      json: 0,
+      other: 0
+    };
+
+    for (const request of data['audits']['network-requests']['details']['items']) {
+      if (excludedResourceType.includes(request.resourceType)) {
+        continue;
+      }
+
+      let resourceType = resourceTypeMapping[request.resourceType];
+      if (typeof resourceType === 'undefined') {
+        resourceType = 'other';
+      }
+      weightByMimeTypes[resourceType] = weightByMimeTypes[resourceType] + request.transferSize;
+    }
+
+    for (const mimeType in weightByMimeTypes) {
+      totalWeightInBytes += weightByMimeTypes[mimeType];
+      report.addMimeTypeWeight(new WeightByMimeType(mimeType, weightByMimeTypes[mimeType]));
+    }
+    report.totalWeightInBytes = totalWeightInBytes;
   });
 }
 
@@ -58,27 +100,6 @@ function extractGreenITMetrics() {
   }
 }
 
-function extractYellowLabToolsMetrics() {
-  reports.forEach((report) => {
-    const reportJson = fs.readFileSync('result/yellowlabtools-report-' + report.index + '.json');
-    const data = JSON.parse(reportJson);
-
-    report.totalRequest = data['rules']['totalRequests']['value'];
-    report.totalWeightInBytes = data['rules']['totalWeight']['value'];
-
-    const weightByMimeTypes = data['rules']['totalWeight']['offendersObj']['list']['byType'];
-    for (const mimeType in weightByMimeTypes) {
-      report.addMimeTypeWeight(
-        new WeightByMimeType(mimeType, weightByMimeTypes[mimeType]['totalWeight'])
-      );
-    }
-
-    report.cachingNotSpecified = data['rules']['cachingNotSpecified']['value'];
-    report.cachingDisabled = data['rules']['cachingDisabled']['value'];
-    report.cachingTooShort = data['rules']['cachingTooShort']['value'];
-  });
-}
-
 (async () => {
   console.time('metrics');
 
@@ -86,14 +107,6 @@ function extractYellowLabToolsMetrics() {
     await lighthouse();
   } finally {
     extractLighthouseMetrics();
-  }
-
-  try {
-    await yellowlabtools();
-  } catch (err) {
-    console.error(err);
-  } finally {
-    extractYellowLabToolsMetrics();
   }
 
   try {
