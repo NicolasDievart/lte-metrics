@@ -107,7 +107,7 @@
       "globalScoreIfFixed": 98
     },
     "scriptDuration": {
-      "value": 31,
+      "value": 20,
       "policy": {
         "unit": "ms",
         "hasOffenders": false,
@@ -340,12 +340,12 @@
             "value": 4
           },
           {
-            "url": "https://territoiresentransitions.fr/_app/assets/Link-0f73719d.css",
-            "value": 2
-          },
-          {
             "url": "https://territoiresentransitions.fr/_app/assets/pages/__layout.svelte-dbe1d1c6.css",
             "value": 366
+          },
+          {
+            "url": "https://territoiresentransitions.fr/_app/assets/Link-0f73719d.css",
+            "value": 2
           }
         ]
       },
@@ -1435,7 +1435,7 @@
       "globalScoreIfFixed": 98
     },
     "totalWeight": {
-      "value": 68766,
+      "value": 68924,
       "policy": {
         "unit": "bytes",
         "hasOffenders": true,
@@ -1448,40 +1448,40 @@
       },
       "offendersObj": {
         "list": {
-          "totalWeight": 68766,
+          "totalWeight": 68924,
           "byType": {
             "html": {
-              "totalWeight": 3649,
+              "totalWeight": 3658,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.fr/",
-                  "weight": 3649
+                  "weight": 3658
                 }
               ]
             },
             "css": {
-              "totalWeight": 18792,
+              "totalWeight": 18856,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.fr/_app/assets/pages/index.svelte-a5c57ac0.css",
-                  "weight": 1211
-                },
-                {
-                  "url": "https://territoiresentransitions.fr/_app/assets/Link-0f73719d.css",
-                  "weight": 1124
+                  "weight": 1233
                 },
                 {
                   "url": "https://territoiresentransitions.fr/_app/assets/pages/__layout.svelte-dbe1d1c6.css",
-                  "weight": 16457
+                  "weight": 16471
+                },
+                {
+                  "url": "https://territoiresentransitions.fr/_app/assets/Link-0f73719d.css",
+                  "weight": 1152
                 }
               ]
             },
             "js": {
-              "totalWeight": 1574,
+              "totalWeight": 1544,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.fr/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
-                  "weight": 1574
+                  "weight": 1544
                 }
               ]
             },
@@ -1490,23 +1490,23 @@
               "requests": []
             },
             "image": {
-              "totalWeight": 17703,
+              "totalWeight": 17778,
               "requests": [
                 {
-                  "url": "https://territoiresentransitions.fr/img/picto-2.svg",
-                  "weight": 1525
+                  "url": "https://territoiresentransitions.fr/img/picto-1.svg",
+                  "weight": 1823
                 },
                 {
                   "url": "https://territoiresentransitions.fr/img/picto-4.svg",
-                  "weight": 1728
+                  "weight": 1744
                 },
                 {
-                  "url": "https://territoiresentransitions.fr/img/picto-1.svg",
-                  "weight": 1797
+                  "url": "https://territoiresentransitions.fr/img/picto-2.svg",
+                  "weight": 1541
                 },
                 {
                   "url": "https://territoiresentransitions.fr/img/ademe.jpg",
-                  "weight": 12653
+                  "weight": 12670
                 }
               ]
             },
@@ -1515,15 +1515,15 @@
               "requests": []
             },
             "webfont": {
-              "totalWeight": 27048,
+              "totalWeight": 27088,
               "requests": [
                 {
                   "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2",
-                  "weight": 13607
+                  "weight": 13625
                 },
                 {
                   "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2",
-                  "weight": 13441
+                  "weight": 13463
                 }
               ]
             },
@@ -1674,17 +1674,17 @@
             ],
             "css": [
               "https://territoiresentransitions.fr/_app/assets/pages/index.svelte-a5c57ac0.css",
-              "https://territoiresentransitions.fr/_app/assets/Link-0f73719d.css",
-              "https://territoiresentransitions.fr/_app/assets/pages/__layout.svelte-dbe1d1c6.css"
+              "https://territoiresentransitions.fr/_app/assets/pages/__layout.svelte-dbe1d1c6.css",
+              "https://territoiresentransitions.fr/_app/assets/Link-0f73719d.css"
             ],
             "js": [
               "https://territoiresentransitions.fr/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
             ],
             "json": [],
             "image": [
-              "https://territoiresentransitions.fr/img/picto-2.svg",
-              "https://territoiresentransitions.fr/img/picto-4.svg",
               "https://territoiresentransitions.fr/img/picto-1.svg",
+              "https://territoiresentransitions.fr/img/picto-4.svg",
+              "https://territoiresentransitions.fr/img/picto-2.svg",
               "https://territoiresentransitions.fr/img/ademe.jpg"
             ],
             "video": [],
@@ -1901,12 +1901,6 @@
         "count": 0,
         "fonts": [
           {
-            "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Regular.woff2",
-            "weight": 12568,
-            "numGlyphs": 193,
-            "averageGlyphComplexity": 16.4
-          },
-          {
             "url": "https://territoiresentransitions.fr/_app/assets/fonts/Marianne-Bold.woff2",
             "weight": 12408,
             "numGlyphs": 193,
@@ -2046,19 +2040,13 @@
             "unit": "hours"
           },
           {
-            "url": "https://territoiresentransitions.fr/img/picto-2.svg",
-            "ttl": 14400,
-            "ttlWithUnit": 4,
-            "unit": "hours"
-          },
-          {
-            "url": "https://territoiresentransitions.fr/img/picto-4.svg",
-            "ttl": 14400,
-            "ttlWithUnit": 4,
-            "unit": "hours"
-          },
-          {
             "url": "https://territoiresentransitions.fr/img/picto-1.svg",
+            "ttl": 14400,
+            "ttlWithUnit": 4,
+            "unit": "hours"
+          },
+          {
+            "url": "https://territoiresentransitions.fr/_app/assets/pages/__layout.svelte-dbe1d1c6.css",
             "ttl": 14400,
             "ttlWithUnit": 4,
             "unit": "hours"
@@ -2070,7 +2058,13 @@
             "unit": "hours"
           },
           {
-            "url": "https://territoiresentransitions.fr/_app/assets/pages/__layout.svelte-dbe1d1c6.css",
+            "url": "https://territoiresentransitions.fr/img/picto-4.svg",
+            "ttl": 14400,
+            "ttlWithUnit": 4,
+            "unit": "hours"
+          },
+          {
+            "url": "https://territoiresentransitions.fr/img/picto-2.svg",
             "ttl": 14400,
             "ttlWithUnit": 4,
             "unit": "hours"

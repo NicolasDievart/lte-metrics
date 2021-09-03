@@ -17,10 +17,12 @@ async function analyseURL(browser, url, options) {
     const TAB_ID = options.tabId
     const TRY_NB =  options.tryNb || 1
     const DEVICE = options.device || "desktop"
+    const HEADER = options.headers;
 
     try {
         const page = await browser.newPage();
         await page.setViewport(sizes[DEVICE]);
+        await page.setExtraHTTPHeaders(HEADER);
         //get har file
         const pptrHar = new PuppeteerHar(page);
         await pptrHar.start();

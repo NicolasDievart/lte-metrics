@@ -1,4 +1,5 @@
 import analysis from './greenit-analysis/commands/analyse.js';
+import headers from './auth_header.json';
 
 export default async () => {
   return await analysis({
@@ -8,6 +9,7 @@ export default async () => {
     max_tab: 40,
     worst_pages: 5,
     worst_rules: 5,
-    device: 'desktop'
+    device: 'desktop',
+    headers: headers
   });
 };

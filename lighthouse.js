@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import yaml from 'yaml';
 import chromeLauncher from 'chrome-launcher';
+import headers from './auth_header.json';
 
 export default async () => {
   const URL_YAML_FILE = path.resolve('urls.yaml');
@@ -14,17 +15,13 @@ export default async () => {
     throw ` yaml_input_file : "${URL_YAML_FILE}" is not a valid YAML file.`;
   }
 
-  const chrome = await chromeLauncher.launch({ chromeFlags: ['--headless'] });
+  const chrome = await chromeLauncher.launch({ chromeFlags: ['--headless', '--'] });
   const options = {
+    flags: {
+      extraHeaders: headers
+    },
     logLevel: 'info',
     output: 'json',
-    onlyAudits: [
-      'first-meaningful-paint',
-      'speed-index',
-      'first-cpu-idle',
-      'interactive',
-      'dom-size'
-    ],
     port: chrome.port
   };
 
