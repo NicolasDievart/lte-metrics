@@ -109,19 +109,16 @@
           },
           annotation: {
             annotations: {
-              fmp: {
-                type: 'line',
-                yMin: 1.5,
-                yMax: 1.5,
-                borderColor: 'rgb(65,144,0)',
-                yScaleID: 'performance',
-              },
               tti: {
                 type: 'line',
                 yMin: 2,
                 yMax: 2,
                 borderColor: 'rgb(201,0,0)',
                 yScaleID: 'performance',
+                label: {
+                  content: '2 secondes',
+                  enabled: true
+                }
               }
             }
           }
@@ -163,6 +160,10 @@
                 yMin: 300,
                 yMax: 300,
                 yScaleID: 'weight',
+                label: {
+                  content: '300kb',
+                  enabled: true
+                }
               },
             }
           }
@@ -222,6 +223,11 @@
                 yMin: 15,
                 yMax: 15,
                 yScaleID: 'request',
+                borderColor: 'black',
+                label: {
+                  content: '15 requêtes',
+                  enabled: true
+                }
               },
             }
           }
