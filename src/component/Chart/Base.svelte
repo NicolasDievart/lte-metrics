@@ -1,6 +1,7 @@
 <script>
   import { onMount, afterUpdate, onDestroy } from 'svelte';
   import { clean } from '../../utils/utils';
+  import annotation from 'chartjs-plugin-annotation';
   import {
     Chart,
     LineController,
@@ -33,7 +34,8 @@
     Legend,
     Title,
     Tooltip,
-    SubTitle
+    SubTitle,
+    annotation
   );
 
   export let data = {

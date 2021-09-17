@@ -106,6 +106,24 @@
           title: {
             display: true,
             text: 'La performance au chargement'
+          },
+          annotation: {
+            annotations: {
+              fmp: {
+                type: 'line',
+                yMin: 1.5,
+                yMax: 1.5,
+                borderColor: 'rgb(65,144,0)',
+                yScaleID: 'performance',
+              },
+              tti: {
+                type: 'line',
+                yMin: 2,
+                yMax: 2,
+                borderColor: 'rgb(201,0,0)',
+                yScaleID: 'performance',
+              }
+            }
           }
         },
         responsive: false,
@@ -137,6 +155,16 @@
           title: {
             display: true,
             text: 'La décomposition du poids des éléments'
+          },
+          annotation: {
+            annotations: {
+              weight: {
+                type: 'line',
+                yMin: 300,
+                yMax: 300,
+                yScaleID: 'weight',
+              },
+            }
           }
         },
         responsive: false,
@@ -186,6 +214,16 @@
           title: {
             display: true,
             text: 'Le DOM et les requêtes'
+          },
+          annotation: {
+            annotations: {
+              request: {
+                type: 'line',
+                yMin: 15,
+                yMax: 15,
+                yScaleID: 'request',
+              },
+            }
           }
         },
         responsive: false,
