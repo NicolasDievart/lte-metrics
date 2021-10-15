@@ -86,7 +86,7 @@
             borderColor: 'rgb(65,144,0)',
             data: firstMeaningfulPaints,
             fill: true,
-            tension: 0.2,
+            tension: 0.2
           },
           {
             label: 'Time to interactive (en secondes)',
@@ -95,14 +95,14 @@
             borderColor: 'rgb(201,0,0)',
             data: timeToInteractives,
             fill: true,
-            tension: 0.2,
+            tension: 0.2
           }
         ]
       }}
       width={500}
       height={250}
       options={{
-        animation: {duration: 1},
+        animation: { duration: 1 },
         spanGaps: true,
         normalized: true,
         plugins: {
@@ -151,7 +151,7 @@
       width={500}
       height={250}
       options={{
-        animation: {duration: 1},
+        animation: { duration: 1 },
         spanGaps: true,
         normalized: true,
         plugins: {
@@ -170,7 +170,7 @@
                   content: '300kb',
                   enabled: true
                 }
-              },
+              }
             }
           }
         },
@@ -217,7 +217,7 @@
       width={500}
       height={250}
       options={{
-        animation: {duration: 1},
+        animation: { duration: 1 },
         spanGaps: true,
         normalized: true,
         plugins: {
@@ -237,7 +237,7 @@
                   content: '15 requêtes',
                   enabled: true
                 }
-              },
+              }
             }
           }
         },
