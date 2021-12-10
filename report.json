@@ -2993,5 +2993,161 @@
       "domElementsCount": 251,
       "domElementsCountScore": 100
     }
+  ],
+  "1639147804741": [
+    {
+      "url": "https://territoiresentransitions.fr/",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 1,
+      "firstMeaningfulPaint": 1.21,
+      "timeToInteractive": 1.39,
+      "totalWeightInBytes": 87952,
+      "weightByMimeTypes": [
+        { "mimeType": "webfont", "weight": 32785 },
+        { "mimeType": "media", "weight": 0 },
+        { "mimeType": "html", "weight": 3300 },
+        { "mimeType": "image", "weight": 34226 },
+        { "mimeType": "css", "weight": 16539 },
+        { "mimeType": "js", "weight": 1102 },
+        { "mimeType": "json", "weight": 0 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 15,
+      "domElementsCount": 111,
+      "domElementsCountScore": 100
+    },
+    {
+      "url": "https://app.territoiresentransitions.fr/",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 2,
+      "firstMeaningfulPaint": 5.15,
+      "timeToInteractive": 5.23,
+      "totalWeightInBytes": 611964,
+      "weightByMimeTypes": [
+        { "mimeType": "webfont", "weight": 0 },
+        { "mimeType": "media", "weight": 0 },
+        { "mimeType": "html", "weight": 2482 },
+        { "mimeType": "image", "weight": 12043 },
+        { "mimeType": "css", "weight": 29915 },
+        { "mimeType": "js", "weight": 567524 },
+        { "mimeType": "json", "weight": 0 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 13,
+      "domElementsCount": 79,
+      "domElementsCountScore": 100
+    },
+    {
+      "url": "https://app.territoiresentransitions.fr/collectivite/test/referentiels",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 3,
+      "firstMeaningfulPaint": 4.89,
+      "timeToInteractive": 6.56,
+      "totalWeightInBytes": 705430,
+      "weightByMimeTypes": [
+        { "mimeType": "webfont", "weight": 48330 },
+        { "mimeType": "media", "weight": 0 },
+        { "mimeType": "html", "weight": 2607 },
+        { "mimeType": "image", "weight": 26690 },
+        { "mimeType": "css", "weight": 30823 },
+        { "mimeType": "js", "weight": 578559 },
+        { "mimeType": "json", "weight": 18421 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 23,
+      "domElementsCount": 237,
+      "domElementsCountScore": 100
+    },
+    {
+      "url": "https://app.territoiresentransitions.fr/collectivite/test/action/cae/citergie__1.1.1",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 4,
+      "firstMeaningfulPaint": 5.25,
+      "timeToInteractive": 5.96,
+      "totalWeightInBytes": 662043,
+      "weightByMimeTypes": [
+        { "mimeType": "webfont", "weight": 6292 },
+        { "mimeType": "media", "weight": 0 },
+        { "mimeType": "html", "weight": 2388 },
+        { "mimeType": "image", "weight": 11941 },
+        { "mimeType": "css", "weight": 29926 },
+        { "mimeType": "js", "weight": 584505 },
+        { "mimeType": "json", "weight": 26991 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 28,
+      "domElementsCount": 1791,
+      "domElementsCountScore": 28.000000000000004
+    },
+    {
+      "url": "https://app.territoiresentransitions.fr/collectivite/test/indicateurs",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 5,
+      "firstMeaningfulPaint": 5.16,
+      "timeToInteractive": 5.92,
+      "totalWeightInBytes": 711540,
+      "weightByMimeTypes": [
+        { "mimeType": "webfont", "weight": 48325 },
+        { "mimeType": "media", "weight": 0 },
+        { "mimeType": "html", "weight": 2465 },
+        { "mimeType": "image", "weight": 12076 },
+        { "mimeType": "css", "weight": 29918 },
+        { "mimeType": "js", "weight": 599976 },
+        { "mimeType": "json", "weight": 18780 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 21,
+      "domElementsCount": 1273,
+      "domElementsCountScore": 59
+    },
+    {
+      "url": "https://app.territoiresentransitions.fr/collectivite/test/plan_actions",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 6,
+      "firstMeaningfulPaint": 5.12,
+      "timeToInteractive": 5.26,
+      "totalWeightInBytes": 650287,
+      "weightByMimeTypes": [
+        { "mimeType": "webfont", "weight": 6292 },
+        { "mimeType": "media", "weight": 0 },
+        { "mimeType": "html", "weight": 2610 },
+        { "mimeType": "image", "weight": 11964 },
+        { "mimeType": "css", "weight": 29932 },
+        { "mimeType": "js", "weight": 573625 },
+        { "mimeType": "json", "weight": 25864 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 20,
+      "domElementsCount": 380,
+      "domElementsCountScore": 100
+    },
+    {
+      "url": "https://app.territoiresentransitions.fr/collectivite/test/nouvelle_fiche",
+      "previousUrl": null,
+      "refactoringDoneAt": null,
+      "index": 7,
+      "firstMeaningfulPaint": 5.13,
+      "timeToInteractive": 5.69,
+      "totalWeightInBytes": 698796,
+      "weightByMimeTypes": [
+        { "mimeType": "webfont", "weight": 6292 },
+        { "mimeType": "media", "weight": 0 },
+        { "mimeType": "html", "weight": 2383 },
+        { "mimeType": "image", "weight": 11964 },
+        { "mimeType": "css", "weight": 29915 },
+        { "mimeType": "js", "weight": 626790 },
+        { "mimeType": "json", "weight": 21452 },
+        { "mimeType": "other", "weight": 0 }
+      ],
+      "totalRequest": 24,
+      "domElementsCount": 251,
+      "domElementsCountScore": 100
+    }
   ]
 }
