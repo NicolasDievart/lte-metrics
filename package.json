@@ -33,7 +33,11 @@
   },
   "type": "module",
   "dependencies": {
+    "axios": "^0.25.0",
     "chart.js": "^3.5.1",
-    "chartjs-plugin-annotation": "^1.0.2"
+    "chartjs-plugin-annotation": "^1.0.2",
+    "exceljs": "^4.3.0",
+    "puppeteer": "^13.1.1",
+    "puppeteer-har": "^1.1.2"
   }
 }
