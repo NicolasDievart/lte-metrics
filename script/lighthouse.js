@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import yaml from 'yaml';
 import chromeLauncher from 'chrome-launcher';
-import headers from './auth_header.json';
+import headers from './../auth_header.json';
 
 export default async () => {
   const URL_YAML_FILE = path.resolve('urls.yaml');

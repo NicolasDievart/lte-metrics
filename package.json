@@ -1,11 +1,10 @@
 {
   "name": "ademe-lte-metrics",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
-    "metrics": "node --experimental-json-modules  runner.js",
-    "greenit": "node -e 'require(\"./greenit\")()'",
-    "yellowlabtools": "node -e 'require(\"./yellowlabtools\")()'",
-    "lighthouse": "node -e 'require(\"./lighthouse\")()'",
+    "metrics": "node --experimental-json-modules ./script/runner.js",
+    "greenit": "node -e 'require(\"./script/greenit\")()'",
+    "lighthouse": "node -e 'require(\"./script/lighthouse\")()'",
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",

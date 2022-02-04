@@ -3,8 +3,8 @@ import greenit from './greenit.js';
 import fs from 'fs';
 import path from 'path';
 import YAML from 'yaml';
-import Report from './report/report.js';
-import WeightByMimeType from './report/weightByMimeType.js';
+import Report from './../report/report.js';
+import WeightByMimeType from './../report/weightByMimeType.js';
 
 const URL_YAML_FILE = path.resolve('urls.yaml');
 

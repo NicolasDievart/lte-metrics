@@ -27,7 +27,6 @@ Les metrics sont ensuite disponible dans le document [report.json](report.json),
 
 Ce projet se base sur les outils :
 
-- [Yellow Lab Tools](https://github.com/YellowLabTools/YellowLabTools)
 - [Lighthouse](https://github.com/GoogleChrome/lighthouse)
 - [GreenIT Analysis](https://github.com/cnumr/GreenIT-Analysis-cli)
 

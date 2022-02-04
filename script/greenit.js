@@ -1,5 +1,5 @@
-import analysis from './greenit-analysis/commands/analyse.js';
-import headers from './auth_header.json';
+import analysis from './../greenit-analysis/commands/analyse.js';
+import headers from './../auth_header.json';
 
 export default async () => {
   return await analysis({
