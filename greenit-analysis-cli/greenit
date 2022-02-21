@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+"use strict";
+const analyse = require('./commands/analyse');
+
+analyse({
+  url_input_file: 'url.yaml',
+  device: 'desktop',
+  timeout: 180000,
+  retry: 2,
+  max_tab: 40,
+  worst_pages: 5,
+  worst_rules: 5
+});

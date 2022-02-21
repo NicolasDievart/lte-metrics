@@ -1,0 +1,9 @@
+.idea
+.scannerwork
+.vscode
+node_modules/
+dist/
+results/
+results_test/
+*.xlsx
+*.yaml
