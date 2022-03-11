@@ -1,21 +1,13 @@
 import lighthouse from './lighthouse.js';
 import greenit from './greenit.js';
 import fs from 'fs';
-import path from 'path';
-import YAML from 'yaml';
 import Report from './../report/report.js';
 import WeightByMimeType from './../report/weightByMimeType.js';
-
-const URL_YAML_FILE = path.resolve('urls.yaml');
+import urlsFile from './../urls.json' assert { type: 'json' };
 
 //Get list of url
-let urls = [];
+let urls = urlsFile.urls;
 let reports = new Map();
-try {
-  urls = YAML.parse(fs.readFileSync(URL_YAML_FILE).toString());
-} catch (error) {
-  throw ` urls yaml file : "${URL_YAML_FILE}" is not a valid YAML file.`;
-}
 
 let index = 1;
 for (let url of urls) {
@@ -87,7 +79,7 @@ function extractGreenITMetrics() {
   // Greenit does not use the same index as the yaml file.
   let index = 1;
   for (let url in urls) {
-    const reportJson = fs.readFileSync('greenit-analysis/results/' + index + '.json');
+    const reportJson = fs.readFileSync('greenit-analysis-cli/results/' + index + '.json');
     const data = JSON.parse(reportJson);
 
     let report = reports.get(data['url']);

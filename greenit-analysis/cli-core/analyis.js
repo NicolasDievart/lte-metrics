@@ -56,25 +56,6 @@ async function analyseURL(browser, url, options) {
     return result;
 }
 
-//handle login
-async function login(browser,loginInformations) {
-    //use the tab that opens with the browser
-    const page = (await browser.pages())[0];
-    //go to login page
-    await page.goto(loginInformations.url)
-    //ensure page is loaded
-    await page.waitForSelector(loginInformations.loginButtonSelector);
-    //complete fields
-    for (let index = 0; index < loginInformations.fields.length; index++) {
-        let field = loginInformations.fields[index]
-        await page.type(field.selector, field.value)  
-    }
-    //click login button
-    await page.click(loginInformations.loginButtonSelector);
-    //make sure to not wait for the full authentification procedure
-    await page.waitForNavigation();
-}
-
 //Core
 async function createJsonReports(browser, urlTable, options) {
     //Timeout for an analysis
@@ -178,6 +159,5 @@ async function createJsonReports(browser, urlTable, options) {
 }
 
 module.exports = {
-    createJsonReports,
-    login
+    createJsonReports
 }

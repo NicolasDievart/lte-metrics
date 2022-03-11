@@ -4,6 +4,7 @@
   export let performanceReport = true;
   export let domRequestReport = false;
   export let weightReport = false;
+  export let greenITReport = false;
 
   const fileTypeColorMapping = {
     js: {
@@ -27,6 +28,8 @@
   let firstMeaningfulPaints = [];
   let timeToInteractives = [];
   let weightByTypesReport = new Map();
+  let ecoIndex = [];
+  let waterConsumption = [];
 
   for (let report of reportAggregate.reports) {
     labels.push(report.time.toLocaleDateString('fr-FR'));
@@ -35,6 +38,8 @@
     totalWeightInBytes.push(report.totalWeightInBytes);
     firstMeaningfulPaints.push(report.firstMeaningfulPaint);
     timeToInteractives.push(report.timeToInteractive);
+    ecoIndex.push(report.ecoIndex);
+    waterConsumption.push(report.waterConsumption);
 
     for (let weightByMimeType of report.weightByMimeTypes) {
       if (!weightByTypesReport.has(weightByMimeType.mimeType)) {
@@ -255,6 +260,67 @@
           },
           request: {
             name: 'request',
+            type: 'linear',
+            position: 'right',
+            scalePositionLeft: true,
+            beginAtZero: true
+          }
+        }
+      }}
+    />
+  {/if}
+
+  {#if greenITReport}
+    <Base
+      type="line"
+      data={{
+        labels: labels,
+        datasets: [
+          {
+            label: "EcoIndex",
+            yAxisID: 'ecoindex',
+            borderColor: 'rgb(53,144,0)',
+            data: ecoIndex,
+            fill: true,
+            tension: 0.2
+          },
+          {
+            label: 'Consommation d\'eau',
+            yAxisID: 'waterConsumption',
+            borderColor: 'rgb(0,86,180)',
+            data: waterConsumption,
+            fill: true,
+            tension: 0.2
+          }
+        ]
+      }}
+      width={500}
+      height={250}
+      options={{
+        animation: { duration: 1 },
+        spanGaps: true,
+        normalized: true,
+        plugins: {
+          title: {
+            display: true,
+            text: 'Eco index et consommation d\'eau'
+          },
+          annotation: {
+          }
+        },
+        responsive: false,
+        maintainAspectRatio: true,
+        scales: {
+          ecoindex: {
+            name: 'ecoindex',
+            type: 'linear',
+            position: 'left',
+            scalePositionLeft: true,
+            stacked: true,
+            beginAtZero: true
+          },
+          waterConsumption: {
+            name: 'waterConsumption',
             type: 'linear',
             position: 'right',
             scalePositionLeft: true,

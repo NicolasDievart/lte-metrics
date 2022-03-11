@@ -1,5 +1,5 @@
 module.exports = {
-  desktop:{
+  desktop: {
     width: 1920,
     height: 1080,
     isMobile: false
@@ -34,4 +34,4 @@ module.exports = {
     height: 1024,
     isMobile: false
   }
-}
+};

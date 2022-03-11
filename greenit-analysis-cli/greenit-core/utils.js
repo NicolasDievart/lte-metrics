@@ -1,6 +1,6 @@
 /*
  *  Copyright (C) 2016  The EcoMeter authors (https://gitlab.com/ecoconceptionweb/ecometer)
- *  Copyright (C) 2019  didierfred@gmail.com 
+ *  Copyright (C) 2019  didierfred@gmail.com
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU Affero General Public License as published
@@ -15,7 +15,6 @@
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
 
 const DEBUG = true;
 /*
@@ -33,30 +32,25 @@ const compressibleImage = [
   /^image\/bmp(;|$)/i,
   /^image\/svg\+xml(;|$)/i,
   /^image\/vnd\.microsoft\.icon(;|$)/i,
-  /^image\/x-icon(;|$)/i,
+  /^image\/x-icon(;|$)/i
 ];
 
 const image = [
   /^image\/gif(;|$)/i,
   /^image\/jpeg(;|$)/i,
   /^image\/png(;|$)/i,
-  /^image\/tiff(;|$)/i,
+  /^image\/tiff(;|$)/i
 ].concat(compressibleImage);
 
-const css = [
-  /^text\/css(;|$)/i,
-];
+const css = [/^text\/css(;|$)/i];
 
 const javascript = [
   /^text\/javascript(;|$)/i,
   /^application\/javascript(;|$)/i,
-  /^application\/x-javascript(;|$)/i,
+  /^application\/x-javascript(;|$)/i
 ];
 
-const compressibleFont = [
-  /^font\/eot(;|$)/i,
-  /^font\/opentype(;|$)/i,
-];
+const compressibleFont = [/^font\/eot(;|$)/i, /^font\/opentype(;|$)/i];
 
 const font = [
   /^application\/x-font-ttf(;|$)/i,
@@ -66,13 +60,13 @@ const font = [
   /^application\/font-woff2(;|$)/i,
   /^application\/vnd.ms-fontobject(;|$)/i,
   /^application\/font-sfnt(;|$)/i,
-  /^font\/woff2(;|$)/i,
+  /^font\/woff2(;|$)/i
 ].concat(compressibleFont);
 
 const manifest = [
   /^text\/cache-manifest(;|$)/i,
   /^application\/x-web-app-manifest\+json(;|$)/i,
-  /^application\/manifest\+json(;|$)/i,
+  /^application\/manifest\+json(;|$)/i
 ];
 
 // Mime types from H5B project recommendations
@@ -95,7 +89,7 @@ const compressible = [
   /^text\/vnd\.rim\.location\.xloc(;|$)/i,
   /^text\/vtt(;|$)/i,
   /^text\/x-component(;|$)/i,
-  /^text\/x-cross-domain-policy(;|$)/i,
+  /^text\/x-cross-domain-policy(;|$)/i
 ].concat(javascript, css, compressibleImage, compressibleFont, manifest);
 
 const audio = [
@@ -103,7 +97,7 @@ const audio = [
   /^audio\/x-ms-wma(;|$)/i,
   /^audio\/vnd.rn-realaudio(;|$)/i,
   /^audio\/x-wav(;|$)/i,
-  /^application\/ogg(;|$)/i,
+  /^application\/ogg(;|$)/i
 ];
 
 const video = [
@@ -113,53 +107,50 @@ const video = [
   /^video\/x-ms-wmv(;|$)/i,
   /^video\/x-msvideo(;|$)/i,
   /^video\/x-flv(;|$)/i,
-  /^video\/webm(;|$)/i,
+  /^video\/webm(;|$)/i
 ];
 
 const others = [
   /^application\/x-shockwave-flash(;|$)/i,
   /^application\/octet-stream(;|$)/i,
   /^application\/pdf(;|$)/i,
-  /^application\/zip(;|$)/i,
+  /^application\/zip(;|$)/i
 ];
 
 const staticResources = [].concat(image, javascript, font, css, audio, video, manifest, others);
 
-
-const httpCompressionTokens = [
-  'br',
-  'compress',
-  'deflate',
-  'gzip',
-  'pack200-gzip',
-];
+const httpCompressionTokens = ['br', 'compress', 'deflate', 'gzip', 'pack200-gzip'];
 
 const httpRedirectCodes = [301, 302, 303, 307];
 
-// utils for cache rule 
+// utils for cache rule
 function isStaticRessource(resource) {
-  const contentType = getResponseHeaderFromResource(resource, "content-type");
-  return staticResources.some(value => value.test(contentType));
+  const contentType = getResponseHeaderFromResource(resource, 'content-type');
+  return staticResources.some((value) => value.test(contentType));
 }
 
 function isFontResource(resource) {
-  const contentType = getResponseHeaderFromResource(resource, "content-type");
-  if (font.some(value => value.test(contentType))) return true;
-  // if not check url , because sometimes content-type is set to text/plain 
-  if (contentType === "text/plain" || contentType==="" || contentType =="application/octet-stream") {
+  const contentType = getResponseHeaderFromResource(resource, 'content-type');
+  if (font.some((value) => value.test(contentType))) return true;
+  // if not check url , because sometimes content-type is set to text/plain
+  if (
+    contentType === 'text/plain' ||
+    contentType === '' ||
+    contentType == 'application/octet-stream'
+  ) {
     const url = resource.request.url;
-    if (url.endsWith(".woff")) return true;
-    if (url.endsWith(".woff2")) return true;
-    if (url.includes(".woff?")) return true;
-    if (url.includes(".woff2?")) return true;
-    if (url.includes(".woff2.json")) return true;
+    if (url.endsWith('.woff')) return true;
+    if (url.endsWith('.woff2')) return true;
+    if (url.includes('.woff?')) return true;
+    if (url.includes('.woff2?')) return true;
+    if (url.includes('.woff2.json')) return true;
   }
   return false;
 }
 
 function getHeaderWithName(headers, headerName) {
-  let headerValue = "";
-  headers.forEach(header => {
+  let headerValue = '';
+  headers.forEach((header) => {
     if (header.name.toLowerCase() === headerName.toLowerCase()) headerValue = header.value;
   });
   return headerValue;
@@ -170,19 +161,17 @@ function getResponseHeaderFromResource(resource, headerName) {
 }
 
 function getCookiesLength(resource) {
-  let cookies = getHeaderWithName(resource.request.headers, "cookie");
+  let cookies = getHeaderWithName(resource.request.headers, 'cookie');
   if (cookies) return cookies.length;
   else return 0;
 }
 
-
 function hasValidCacheHeaders(resource) {
-
   const headers = resource.response.headers;
   let cache = {};
   let isValid = false;
 
-  headers.forEach(header => {
+  headers.forEach((header) => {
     if (header.name.toLowerCase() === 'cache-control') cache.CacheControl = header.value;
     if (header.name.toLowerCase() === 'expires') cache.Expires = header.value;
     if (header.name.toLowerCase() === 'date') cache.Date = header.value;
@@ -191,7 +180,7 @@ function hasValidCacheHeaders(resource) {
   // debug(() => `Cache headers gathered: ${JSON.stringify(cache)}`);
 
   if (cache.CacheControl) {
-    if (!(/(no-cache)|(no-store)|(max-age\s*=\s*0)/i).test(cache.CacheControl)) isValid = true;
+    if (!/(no-cache)|(no-store)|(max-age\s*=\s*0)/i.test(cache.CacheControl)) isValid = true;
   }
 
   if (cache.Expires) {
@@ -207,42 +196,44 @@ function hasValidCacheHeaders(resource) {
   return isValid;
 }
 
-
-// utils for compress rule 
+// utils for compress rule
 function isCompressibleResource(resource) {
   if (resource.response.content.size <= 150) return false;
-  const contentType = getResponseHeaderFromResource(resource, "content-type");
-  return compressible.some(value => value.test(contentType));
+  const contentType = getResponseHeaderFromResource(resource, 'content-type');
+  return compressible.some((value) => value.test(contentType));
 }
 
 function isResourceCompressed(resource) {
-  const contentEncoding = getResponseHeaderFromResource(resource, "content-encoding");
-  return ((contentEncoding.length > 0) && (httpCompressionTokens.indexOf(contentEncoding.toLocaleLowerCase()) !== -1));
+  const contentEncoding = getResponseHeaderFromResource(resource, 'content-encoding');
+  return (
+    contentEncoding.length > 0 &&
+    httpCompressionTokens.indexOf(contentEncoding.toLocaleLowerCase()) !== -1
+  );
 }
 
-// utils for ETags rule 
+// utils for ETags rule
 function isRessourceUsingETag(resource) {
-  const eTag = getResponseHeaderFromResource(resource, "ETag");
-  if (eTag === "") return false;
+  const eTag = getResponseHeaderFromResource(resource, 'ETag');
+  if (eTag === '') return false;
   return true;
 }
 
 function getDomainFromUrl(url) {
-  var elements = url.split("//");
-  if (elements[1] === undefined) return "";
+  var elements = url.split('//');
+  if (elements[1] === undefined) return '';
   else {
     elements = elements[1].split('/'); // get domain with port
-    elements = elements[0].split(':'); // get domain without port 
+    elements = elements[0].split(':'); // get domain without port
   }
   return elements[0];
 }
 
 /**
-* Count character occurences in the given string
-*/
+ * Count character occurences in the given string
+ */
 function countChar(char, str) {
   let total = 0;
-  str.split("").forEach(curr => {
+  str.split('').forEach((curr) => {
     if (curr === char) total++;
   });
   return total;
@@ -252,7 +243,6 @@ function countChar(char, str) {
  * Detect minification for Javascript and CSS files
  */
 function isMinified(scriptContent) {
-
   if (!scriptContent) return true;
   if (scriptContent.length === 0) return true;
   const total = scriptContent.length - 1;
@@ -265,7 +255,6 @@ function isMinified(scriptContent) {
   //  - there is more than one semicolon by line
   //  - and there are more than 100 characters by line
   return semicolons / linebreaks > 1 && linebreaks / total < 0.01;
-
 }
 
 /**
@@ -273,7 +262,7 @@ function isMinified(scriptContent) {
  *  Test with request.url as  request.httpVersion === "data"  does not work with old chrome version (example v55)
  */
 function isNetworkResource(harEntry) {
-  return !(harEntry.request.url.startsWith("data"));
+  return !harEntry.request.url.startsWith('data');
 }
 
 /**
@@ -281,13 +270,17 @@ function isNetworkResource(harEntry) {
  *  Test with request.url as  request.httpVersion === "data"  does not work with old chrome version (example v55)
  */
 function isDataResource(harEntry) {
-  return (harEntry.request.url.startsWith("data"));
+  return harEntry.request.url.startsWith('data');
 }
 
 function computeNumberOfErrorsInJSCode(code, url) {
   let errorNumber = 0;
   try {
-    const syntax = require("esprima").parse(code, { tolerant: true, sourceType: 'script', loc: true });
+    const syntax = require('esprima').parse(code, {
+      tolerant: true,
+      sourceType: 'script',
+      loc: true
+    });
     if (syntax.errors) {
       if (syntax.errors.length > 0) {
         errorNumber += syntax.errors.length;
@@ -302,61 +295,58 @@ function computeNumberOfErrorsInJSCode(code, url) {
 }
 
 function isHttpRedirectCode(code) {
-  return httpRedirectCodes.some(value => value === code);
+  return httpRedirectCodes.some((value) => value === code);
 }
-
 
 function getImageTypeFromResource(resource) {
-  const contentType = getResponseHeaderFromResource(resource, "content-type");
-  if (contentType === "image/png") return "png";
-  if (contentType === "image/jpeg") return "jpeg";
-  if (contentType === "image/gif") return "gif";
-  if (contentType === "image/bmp") return "bmp";
-  if (contentType === "image/tiff") return "tiff";
-  return "";
+  const contentType = getResponseHeaderFromResource(resource, 'content-type');
+  if (contentType === 'image/png') return 'png';
+  if (contentType === 'image/jpeg') return 'jpeg';
+  if (contentType === 'image/gif') return 'gif';
+  if (contentType === 'image/bmp') return 'bmp';
+  if (contentType === 'image/tiff') return 'tiff';
+  return '';
 }
 
-
 function getMinOptimisationGainsForImage(pixelsNumber, imageSize, imageType) {
-
   // difficult to get good compression when image is small , images less than 10Kb are considered optimized
   if (imageSize < 10000) return 0;
 
   // image png or gif < 50Kb  are considered optimized (used for transparency not supported in jpeg format)
-  if ((imageSize < 50000) && ((imageType === 'png') || (imageType === 'gif'))) return 0;
+  if (imageSize < 50000 && (imageType === 'png' || imageType === 'gif')) return 0;
 
-  let imgMaxSize = Math.max(pixelsNumber / 5, 10000); //  difficult to get under 10Kb 
+  let imgMaxSize = Math.max(pixelsNumber / 5, 10000); //  difficult to get under 10Kb
 
-  // image > 500Kb are too big for web site , there are considered never optimized 
+  // image > 500Kb are too big for web site , there are considered never optimized
   if (imageSize > 500000) return Math.max(imageSize - 500000, imageSize - imgMaxSize);
 
   return Math.max(0, imageSize - imgMaxSize);
 }
 
 function isSvgUrl(url) {
-  if (url.endsWith(".svg")) return true;
-  if (url.includes(".svg?")) return true;
+  if (url.endsWith('.svg')) return true;
+  if (url.includes('.svg?')) return true;
   return false;
 }
 
 function isSvgOptimized(svgImage) {
-  if (svgImage.length < 1000) return true; // do not consider image < 1KB 
-  if (svgImage.search(" <") === -1) return true;
+  if (svgImage.length < 1000) return true; // do not consider image < 1KB
+  if (svgImage.search(' <') === -1) return true;
   return false;
 }
 
-
-
-function getOfficialSocialButtonFormUrl(url)
-{
-  if (url.includes("platform.twitter.com/widgets.js")) return "tweeter";
-  if (url.includes("platform.linkedin.com/in.js")) return "linkedin"; 
-  if (url.includes("assets.pinterest.com/js/pinit.js")) return "pinterest";
-  if (url.includes("connect.facebook.net") && url.includes("sdk.js")) return "facebook"; 
-  if (url.includes("platform-api.sharethis.com/js/sharethis.js")) return "sharethis.com (mutliple social network) ";
-  if (url.includes("s7.addthis.com/js/300/addthis_widget.js")) return "addthis.com (mutliple social network) ";
-  if (url.includes("static.addtoany.com/menu/page.js")) return "addtoany.com (mutliple social network) ";
-  return "";
+function getOfficialSocialButtonFormUrl(url) {
+  if (url.includes('platform.twitter.com/widgets.js')) return 'tweeter';
+  if (url.includes('platform.linkedin.com/in.js')) return 'linkedin';
+  if (url.includes('assets.pinterest.com/js/pinit.js')) return 'pinterest';
+  if (url.includes('connect.facebook.net') && url.includes('sdk.js')) return 'facebook';
+  if (url.includes('platform-api.sharethis.com/js/sharethis.js'))
+    return 'sharethis.com (mutliple social network) ';
+  if (url.includes('s7.addthis.com/js/300/addthis_widget.js'))
+    return 'addthis.com (mutliple social network) ';
+  if (url.includes('static.addtoany.com/menu/page.js'))
+    return 'addtoany.com (mutliple social network) ';
+  return '';
 }
 
 function debug(lazyString) {
