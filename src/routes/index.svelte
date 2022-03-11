@@ -1,28 +1,38 @@
 <script>
+  import urlsFile from './../../urls.json';
   import data from './../../report.json';
   import Metrics from '../component/Metrics.svelte';
 
   let map = new Map();
+  let mapArchive = new Map();
   let performanceReport = true;
   let domRequestReport = false;
+  let greenITReport = false;
   let weightReport = false;
+  const urls = urlsFile.urls;
 
   for (const [timestamp, reports] of Object.entries(data)) {
     reports.forEach((report) => {
       const url = report['url'];
-      let aggregateReport = map.get(url);
 
-      if (!aggregateReport) {
-        map.set(url, {
-          url: url,
-          reports: [createAggregateFromReport(report, timestamp)]
-        });
-
-        return;
-      }
-
-      aggregateReport.reports.push(createAggregateFromReport(report, timestamp));
+      let mapToUse = !urls.includes(url) ? mapArchive : map;
+      setMapData(mapToUse, url, timestamp, report);
     });
+  }
+
+  function setMapData(map, url, timestamp, report) {
+    let aggregateReport = map.get(url);
+
+    if (!aggregateReport) {
+      map.set(url, {
+        url: url,
+        reports: [createAggregateFromReport(report, timestamp)]
+      });
+
+      return;
+    }
+
+    aggregateReport.reports.push(createAggregateFromReport(report, timestamp));
   }
 
   function createAggregateFromReport(report, timestamp) {
@@ -30,12 +40,13 @@
       time: new Date(parseInt(timestamp, 10)),
       url: report['url'],
       ecoIndex: report['ecoIndex'],
+      waterConsumption: report['waterConsumption'],
       domElementsCount: report['domElementsCount'],
       weightByMimeTypes: report['weightByMimeTypes'],
       totalWeightInBytes: report['totalWeightInBytes'],
       timeToInteractive: report['timeToInteractive'],
       firstMeaningfulPaint: report['firstMeaningfulPaint'],
-      totalRequest: report['totalRequest']
+      totalRequest: report['totalRequest'],
     };
   }
 
@@ -47,6 +58,9 @@
   }
   function switchWeightReport() {
     weightReport = !weightReport;
+  }
+  function switchGreenITReport() {
+    greenITReport = !greenITReport;
   }
 </script>
 
@@ -76,13 +90,34 @@
 />
 <label for="indicator-dom-request">Le DOM et les requêtes</label>
 
+<input
+  type="checkbox"
+  name="indicator-greenit"
+  id="indicator-greenit"
+  on:change={switchGreenITReport}
+/>
+
+<label for="indicator-greenit">Ecoindex et Consommation d'eau</label>
+
 <hr />
 
 <ul>
   {#each Array.from(map.values()) as reportAggregate}
     <li>
       <h2><a href={reportAggregate.url} target="_blank">{reportAggregate.url}</a></h2>
-      <Metrics {reportAggregate} {performanceReport} {domRequestReport} {weightReport} />
+      <Metrics {reportAggregate} {performanceReport} {domRequestReport} {weightReport} {greenITReport} />
+    </li>
+  {/each}
+</ul>
+
+<hr />
+<h3>Archives</h3>
+
+<ul>
+  {#each Array.from(mapArchive.values()) as reportAggregate}
+    <li>
+      <h2><a href={reportAggregate.url} target="_blank">{reportAggregate.url}</a></h2>
+      <Metrics {reportAggregate} {performanceReport} {domRequestReport} {weightReport} {greenITReport} />
     </li>
   {/each}
 </ul>

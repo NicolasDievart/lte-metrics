@@ -12,9 +12,13 @@ export default {
     // You can create optimized builds for different platforms by
     // specifying a different adapter
     adapter: node(),
-
-    // hydrate the <div id="svelte"> element in src/app.html
-    target: '#svelte',
-    vite: {}
+    vite: {
+      server: {
+        fs: {
+          // Allow serving files from one level up to the project root
+          allow: ['..']
+        }
+      }
+    }
   }
 };
