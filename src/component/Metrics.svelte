@@ -28,8 +28,8 @@
   let firstMeaningfulPaints = [];
   let timeToInteractives = [];
   let weightByTypesReport = new Map();
-  let ecoIndex = [];
   let waterConsumption = [];
+  let greenhouseGasesEmission = [];
 
   for (let report of reportAggregate.reports) {
     labels.push(report.time.toLocaleDateString('fr-FR'));
@@ -38,8 +38,8 @@
     totalWeightInBytes.push(report.totalWeightInBytes);
     firstMeaningfulPaints.push(report.firstMeaningfulPaint);
     timeToInteractives.push(report.timeToInteractive);
-    ecoIndex.push(report.ecoIndex);
     waterConsumption.push(report.waterConsumption);
+    greenhouseGasesEmission.push(report.greenhouseGasesEmission);
 
     for (let weightByMimeType of report.weightByMimeTypes) {
       if (!weightByTypesReport.has(weightByMimeType.mimeType)) {
@@ -277,15 +277,15 @@
         labels: labels,
         datasets: [
           {
-            label: "EcoIndex",
-            yAxisID: 'ecoindex',
+            label: "Emission de gaz à effet de serre (geqCO2)",
+            yAxisID: 'greenhouseGasesEmission',
             borderColor: 'rgb(53,144,0)',
-            data: ecoIndex,
+            data: greenhouseGasesEmission,
             fill: true,
             tension: 0.2
           },
           {
-            label: 'Consommation d\'eau',
+            label: 'Consommation d\'eau (cl)',
             yAxisID: 'waterConsumption',
             borderColor: 'rgb(0,86,180)',
             data: waterConsumption,
@@ -303,7 +303,7 @@
         plugins: {
           title: {
             display: true,
-            text: 'Eco index et consommation d\'eau'
+            text: 'Emission de gaz à effet de serre et consommation d\'eau'
           },
           annotation: {
           }
@@ -311,8 +311,8 @@
         responsive: false,
         maintainAspectRatio: true,
         scales: {
-          ecoindex: {
-            name: 'ecoindex',
+          greenhouseGasesEmission: {
+            name: 'greenhouseGasesEmission',
             type: 'linear',
             position: 'left',
             scalePositionLeft: true,

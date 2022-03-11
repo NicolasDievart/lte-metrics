@@ -41,6 +41,7 @@
       url: report['url'],
       ecoIndex: report['ecoIndex'],
       waterConsumption: report['waterConsumption'],
+      greenhouseGasesEmission: report['greenhouseGasesEmission'],
       domElementsCount: report['domElementsCount'],
       weightByMimeTypes: report['weightByMimeTypes'],
       totalWeightInBytes: report['totalWeightInBytes'],
@@ -97,7 +98,7 @@
   on:change={switchGreenITReport}
 />
 
-<label for="indicator-greenit">Ecoindex et Consommation d'eau</label>
+<label for="indicator-greenit">Emission de gaz à effet de serre et Consommation d'eau</label>
 
 <hr />
 
