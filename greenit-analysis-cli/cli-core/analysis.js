@@ -272,7 +272,6 @@ async function createJsonReports(browser, pagesInformations, options, proxy, hea
   fs.mkdirSync(SUBRESULTS_DIRECTORY);
   //Asynchronous analysis with MAX_TAB open simultaneously to json
   for (let i = 0; i < MAX_TAB && index < pagesInformations.length; i++) {
-    console.log(pagesInformations[index], headers);
     asyncFunctions.push(
       analyseURL(browser, pagesInformations[index], {
         device: DEVICE,
