@@ -9,11 +9,7 @@ export default async () => {
   let urls = urlsFile.urls;
 
   const chrome = await chromeLauncher.launch({
-    chromeFlags: [
-      '--headless',
-      '',
-      '--'
-    ]
+    chromeFlags: ['--headless', '', '--']
   });
   const options = {
     disableStorageReset: true,

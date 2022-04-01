@@ -47,7 +47,7 @@
       totalWeightInBytes: report['totalWeightInBytes'],
       timeToInteractive: report['timeToInteractive'],
       firstMeaningfulPaint: report['firstMeaningfulPaint'],
-      totalRequest: report['totalRequest'],
+      totalRequest: report['totalRequest']
     };
   }
 
@@ -106,7 +106,13 @@
   {#each Array.from(map.values()) as reportAggregate}
     <li>
       <h2><a href={reportAggregate.url} target="_blank">{reportAggregate.url}</a></h2>
-      <Metrics {reportAggregate} {performanceReport} {domRequestReport} {weightReport} {greenITReport} />
+      <Metrics
+        {reportAggregate}
+        {performanceReport}
+        {domRequestReport}
+        {weightReport}
+        {greenITReport}
+      />
     </li>
   {/each}
 </ul>
@@ -118,7 +124,13 @@
   {#each Array.from(mapArchive.values()) as reportAggregate}
     <li>
       <h2><a href={reportAggregate.url} target="_blank">{reportAggregate.url}</a></h2>
-      <Metrics {reportAggregate} {performanceReport} {domRequestReport} {weightReport} {greenITReport} />
+      <Metrics
+        {reportAggregate}
+        {performanceReport}
+        {domRequestReport}
+        {weightReport}
+        {greenITReport}
+      />
     </li>
   {/each}
 </ul>

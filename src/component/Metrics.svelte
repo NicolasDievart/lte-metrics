@@ -277,7 +277,7 @@
         labels: labels,
         datasets: [
           {
-            label: "Emission de gaz à effet de serre (geqCO2)",
+            label: 'Emission de gaz à effet de serre (geqCO2)',
             yAxisID: 'greenhouseGasesEmission',
             borderColor: 'rgb(53,144,0)',
             data: greenhouseGasesEmission,
@@ -285,7 +285,7 @@
             tension: 0.2
           },
           {
-            label: 'Consommation d\'eau (cl)',
+            label: "Consommation d'eau (cl)",
             yAxisID: 'waterConsumption',
             borderColor: 'rgb(0,86,180)',
             data: waterConsumption,
@@ -303,10 +303,9 @@
         plugins: {
           title: {
             display: true,
-            text: 'Emission de gaz à effet de serre et consommation d\'eau'
+            text: "Emission de gaz à effet de serre et consommation d'eau"
           },
-          annotation: {
-          }
+          annotation: {}
         },
         responsive: false,
         maintainAspectRatio: true,
